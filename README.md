@@ -16,7 +16,7 @@ Into the [`analysis`](analysis/) folder, you find the three datasets used in thi
 - a corpus of thirty-two texts in verse, which contains the 10 plays written by Seneca the Younger, the 6 *Satires* by Persius, *Bellum Civile* by Lucan and *Achilleid* and *Silvae* by Statius (i.e., [`corpus`](analysis/corpus))
 - a dataset that contains only the ten plays of Seneca the Younger (i.e., [`corpus_seneca`](analysis/corpus_seneca))
 
-Moreover, someone can find the *Hercules Oetaeus* split into two parts inside the folder [`h_o_chunks`](analysis/h_o_chuncke). By replacing these two chunks with the *Hercules Oetaeus* —under the name `sene_hero3.txt`— text in [`corpus_kestemont`](analysis/corpus_kestemont), someone can re-run the *General Imposters* with the size of all the Senecan plays similar to each other.
+Moreover, someone can find the *Hercules Oetaeus* split into two parts inside the folder [`h_o_chunks`](analysis/h_o_chuncks). By replacing these two chunks with the *Hercules Oetaeus* —under the name `sene_hero3.txt`— text in [`corpus_kestemont`](analysis/corpus_kestemont), someone can re-run the *General Imposters* with the size of all the Senecan plays similar to each other.
 
 ## Experiments
 To run the experiments conducted for this study someoene has to run the following R notebooks in the following order from the [`analysis`](analysis/) folder:
