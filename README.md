@@ -12,7 +12,7 @@ The question we are trying to answer is whether Seneca the Younger can be verifi
 
 ## Datasets
 Into the [`analysis`](analysis/) folder, you find the three datasets used in this study:
-- [the Latin corpus of Kestemont](https://github.com/mikekestemont/ruzicka) ([`corpus_kestemont`](analysis/corpus_kestemont)) containing 1782 text samples of a plethora of authors.
+- [the Latin corpus of Kestemont](https://github.com/mikekestemont/ruzicka/tree/master/data/latin/caesar_dev) saved in the folder ([`corpus_kestemont`](analysis/corpus_kestemont)).
 - a corpus of thirty-two texts in verse, which contains the 10 plays written by Seneca the Younger, the 6 *Satires* by Persius, *Bellum Civile* by Lucan and *Achilleid* and *Silvae* by Statius (i.e., [`corpus`](analysis/corpus))
 - a dataset that contains only the ten plays of Seneca the Younger (i.e., [`corpus_seneca`](analysis/corpus_seneca))
 
