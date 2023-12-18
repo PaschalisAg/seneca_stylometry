@@ -1,0 +1,195 @@
+---
+title: "`imposters() method using word features"
+author: Paschalis Agapitos
+---
+# Introduction
+Aim of this notebook is to apply `imposters()` method using word features (i.e., word 1-grams (aka simple words (aka tokens))).
+
+Our dataset includes the following authors and texts (we have removed the disputed plays by Seneca since these will part of the main analysis and not of the validation of the methods used):
+
+* Marcus Annaeus Lucanus (i.e., Lucan):
+  + *Pharsalia* (each book splitted into a separate txt file (10 in total))
+  
+* Marcus Manilius (i.e., Manilius):
+  + *Astronomica* (each book splitted into a separate txt file (5 in total))
+  
+* Publius Ovidius Naso (i.e., Ovid):
+  + *Amores*
+  + *Ars Amatoria*
+  + *Epistulae*
+  + *Fasti*
+  + *Ibis*
+  + *Medicamina faciei femineae*
+  + *Ex Ponto*
+  + *Remedia Amoris*
+  + *Tristia*
+  
+* Aulus Persius Flaccus (i.e., Persius):
+  + *Satires* (each satire splitted into a separate txt file (6 in total))
+  
+* Gaius Julius Phaedrus (i.e., Phaedrus):
+  + *Fabulae* (each book splitted into a separate txt file (6 in total))
+  
+* Lucius Annaeus Seneca Minor (i.e., Seneca the Younger):
+  + *Agamemnon*
+  + *Hercules Furens*
+  + *Medea*
+  + *Oedipus*
+  + *Phaedra*
+  + *Phoenissae*
+  + *Thyestes*
+  + *Troades*
+  
+* Silius Italicus (i.e., Silius):
+  + *Punica* (each book splitted into a separate txt file (17 in total))
+  
+* Publius Papinius Statius (i.e., Statius):
+  + *Achilleid*
+  + *Silvae* (each book splitted into a separate txt file (5 in total))
+  + *Thebaid* (each book splitted into a separate txt file (12 in total))
+  
+* Valerius Flaccus:
+  + *Argonautica* (each book splitted into a separate txt file (8 in total))
+
+We are going to use the `imposters()` framework to verify the authorship of two disputed plays, `Octavia` and `Hercules Oetaeus` that have been erroneously(?) attributed to Seneca the Younger. As mentioned earlier, the features that are going to be used are word 1-grams and as distance metric we are going to use Eder's Delta.
+
+```{r}
+set.seed(100) # random seed for reproducibility
+```
+
+# Importing the libraries
+
+```{r}
+library(stylo)
+```
+# Setting working directory
+
+The first step that we need to take is to set the working directory to the folder where this notebook and our dataset are saved. In our case `Analysis` is our working directory.
+
+```{r}
+setwd("../word_features/") # this is the directory where everything (code and data) are saved
+getwd()
+```
+
+# Preparation of the dataset
+
+The "preparation of the dataset" step consists of six steps.
+
+1)  importing the corpus; at this step we need to make sure that we point out to the correct directory.
+2)  tokenizing the corpus, lowering the case of the letters and removing punctuation marks. A very crucial detail on which we should pay attention is the the aspect of the language. Our dataset is written in Latin, so we could either use the `Latin` or `Latin.corr` in the parameter `lang`. Since a lot of manuscripts in Latin do not distinguish the letter `v` from the letter `u`, the second option suits better in this case.
+3)  removing the pronouns; this step is optional but since some studies have shown that pronouns are related to the genre or content of a text, it was decided for them to be removed.
+4)  extracting the features that we want to use; in our case character tetra-grams and penta-grams will be used.
+5)  creating the frequency list
+6)  creating the table with frequencies using the frequency list that was created in the previous step.
+
+```{r}
+# step 1
+raw.corpus <- load.corpus(
+  files = "all",
+  corpus.dir = "../verse_corpus_imposters/",
+  encoding = "UTF-8"
+)
+```
+
+```{r}
+# step 2
+tokenized.corpus <- txt.to.words.ext(raw.corpus,
+                                     corpus.lang = "Latin.corr",
+                                     preserve.case = F)
+
+# slice the corpus into two random samples of 3000 words
+# this will allow us to make the texts more comparable
+# especially in the case of Hercules Oetaeus which is almost double the size of an average Senecan play
+sliced.corpus <- make.samples(tokenized.corpus,
+                              sample.size = 3000,
+                              number.of.samples = 2)
+```
+
+```{r}
+# step 3
+help("delete.stop.words")
+corpus.no.pronouns <- delete.stop.words(sliced.corpus,
+                                        stop.words = stylo.pronouns(corpus.lang = "Latin.corr"))
+```
+
+
+```{r}
+# step 4
+help("txt.to.features")
+corpus.words.no.pronouns <- txt.to.features(corpus.no.pronouns,
+                                            features = "w",
+                                            ngram.size = 1)
+```
+
+```{r}
+# step 5
+help("make.frequency.list")
+features.words <- make.frequency.list(data = corpus.words.no.pronouns,
+                                      head = 3000)
+```
+
+```{r}
+# step 6
+data = make.table.of.frequencies(
+  corpus = corpus.words,
+  features = features.words,
+  relative = T
+)
+```
+
+# Implementation of `imposters` method
+In order to implement `imposters` to the data that we have prepared in the previous steps we first need to find in which rows the disputed texts are. This will help us when we need to split the dataset into reference and test set; we could do that just by referring to the number of the row where the texts under investigation are.
+
+```{r}
+options(max.print=100)
+rownames(data)
+```
+# Optimize
+
+The `imposters` method comes with an in-built function that optimizes the hyperparameters used in the General Imposters method. In other words it tries to define the grey area where these result could be valid or not.
+
+```{r}
+# help("imposters.optimize")
+imposters.optimize(data)
+```
+
+```{r}
+# create an empty dataframe where we are going to save the results
+results.imposters <- data.frame()
+
+# define the reference set as all rows except for the current row
+# define the test text as the current row
+# apply the imposters method to compare the test text against the reference set
+# every time imposters is applied to a different text in the corpus
+# the disputed Senecan plays (i.e., Octavia and Hercules Oetaeus have been manually removed)
+for (n in 1:nrow(data)) {
+  reference.set <- data[-n, 1:1500]
+  test <- data[n, 1:1500]
+  results <- imposters(reference.set = reference.set,
+                       test = test,
+                       iterations = 100,
+                       distance = 'eder')
+  
+  # check if the length of results is zero
+  if (length(results) == 0) {
+    print(paste("Error at row", n, "- no results"))
+  } else {
+    # if there are results, append them to the dataframe
+    results.imposters <- rbind(results.imposters, 
+                               data.frame(document = rownames(data), 
+                                          result = max(summary(results))))
+  }
+}
+
+# check if the dataframe is empty
+if (nrow(results.imposters) == 0) {
+  print("No results found.")
+} else {
+  # view the results data frame
+  print(results.imposters)
+}
+
+# write the data frame into an excel spreadsheet
+# write_xlsx(results.imposters, "../validation_imposters/results_imposters.xlsx")
+```
+

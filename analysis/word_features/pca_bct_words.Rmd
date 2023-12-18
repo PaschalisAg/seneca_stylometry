@@ -1,0 +1,158 @@
+---
+title: "Applying PCA, BCT and Imposters using word features"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+# Introduction
+In this notebook we will apply Principal Component Analysis, Bootstrap Consensus Tree and the `imposters()` method to make the results a little bit more interpretable. This is a supplement material to the main analysis which will be conducted with character 4-grams and character 5-grams.
+
+```{r}
+# import the neccessary libraries
+# if a library is not installed run the following command: `install.packages(package to install)`
+library(stylo)
+# library(gplots)
+# library(pheatmap)
+```
+
+# Setting the working directory
+
+```{r}
+setwd("../../analysis/word_features/")
+getwd()
+```
+# Preparation of the data
+## Importing the corpus and tokenisation
+
+In this step we import the corpus that we are going to use and consequently we tokenize it. The tokenisation follows the rules of the parameter `Latin.corr`. This is done because a lot of texts do not distinguish "u/v" and by setting this parameter to `Latin.corr` we take care of this variation in the letters. Moreover, we change uppercase letters to lowercase.
+
+We should clarify that since applying PCA and BCT to a dataset with a big number of authors and works might cause some overlapping and might make the interpretation of the plots impossible; we decided to shrink the dataset to authors that lived very close to Seneca's the Younger time, such as Lucan. To test Ferri's hypothesis that *Silvae* by Statius might work as a terminus ante quem for *Octavia*, we have also included Statius works. Due to their small size, *Satires* by Persius are excluded from the dataset; this will allow us to extract some samples from the texts to balance very large texts with "normal" size texts.
+
+```{r}
+raw.corpus <- load.corpus(files = "all", corpus.dir = "../verse_corpus_pca_bct/",
+                          encoding = "UTF-8")
+
+tokenized.corpus <- txt.to.words.ext(raw.corpus, corpus.lang = "Latin.corr", 
+                                     preserve.case = FALSE)
+
+# make samples
+sliced.corpus <- make.samples(tokenized.corpus, 
+                              sampling = "random.sampling",
+                              number.of.samples = 2,
+                              sample.size = 3000)
+
+set.seed(76) # seed for reproducibility
+
+help("make.samples")
+```
+
+## Remove the pronouns
+It was decided to remove the pronouns, since some pronouns are connected to the genre of the text.
+```{r}
+corpus.no.pronouns <- delete.stop.words(sliced.corpus,
+                                        stop.words = stylo.pronouns(corpus.lang = "Latin.corr"))
+```
+## Extracting the features
+The final step before proceeding to the method per se is to extract the features that we want to use and add them to a table with frequencies. In our case, we want to extract word 1grams (i.e., simple words (aka tokens)).
+```{r}
+corpus.w.grams <- txt.to.features(corpus.no.pronouns,
+                                  ngram.size = 1,
+                                  features = "w")
+
+freq.features.word.grams <- make.frequency.list(corpus.w.grams,
+                                                head = 3000)
+
+freqs.word.grams <- make.table.of.frequencies(corpus.w.grams,
+                                              features = freq.features.word.grams,
+                                              relative = T)
+```
+# Methods
+## Principal Component Analysis
+We will run two separate experiments with PCA; one will be using a correlation plot to visualize the results and on will be using a covariance plot.
+```{r}
+# PCA 100 | no culling to obtain a sufficient number of features
+results_pca_4grams_cor = stylo(frequencies = freqs.word.grams, 
+                               analysis.type = "PCR",
+                               mfw.min = 100, mfw.max = 100, #look at this small number of words because of the flavour
+                               distance.measure = "eder", 
+                               custom.graph.title = "Seneca | Statius| Lucan", 
+                               write.png.file = T,
+                               pca.visual.flavour = "loadings", # too many words if set to 1000 or more, graph impossible to read
+                               gui = T)
+
+```
+
+```{r}
+# same visualisation without the words, only with the filename
+# include a bigger range of MFW to show the robustness of the results
+# PCA 100-1500 MFW | no culling to obtain a sufficient number of features
+results_pca_4grams_cor = stylo(frequencies = freqs.word.grams, 
+                               analysis.type = "PCR",
+                               mfw.min = 100, mfw.max = 1500, increment = 100,
+                               distance.measure = "eder", 
+                               custom.graph.title = "Seneca | Statius| Lucan", 
+                               write.png.file = T,
+                               pca.visual.flavour = "classic",
+                               gui = T)
+
+```
+
+```{r}
+# apply the same technique but this time using a covariance plot instead of a correlation
+# first one will be technical, the second one will be without the words
+# using a broader range of words to test the robustness of the results
+results_pca_4grams_cov_1 = stylo(frequencies = freqs.word.grams, 
+                                 analysis.type = "PCR",
+                                 mfw.min = 100, mfw.max = 100,
+                                 distance.measure = "eder", 
+                                 custom.graph.title = "Seneca | Statius| Lucan", 
+                                 write.png.file = T,
+                                 pca.visual.flavour = "loadings",
+                                 gui = T)
+```
+
+```{r}
+# same visualization without the words, only with the filename
+# include a bigger range of MFW to show the robustness of the results
+# PCA 100-1500 MFW | no culling to obtain a sufficient number of features
+results_pca_4grams_cov_2 = stylo(frequencies = freqs.word.grams, 
+                                 analysis.type = "PCR",
+                                 mfw.min = 100, mfw.max = 1500, increment = 100,
+                                 distance.measure = "eder", 
+                                 custom.graph.title = "Seneca | Statius| Lucan", 
+                                 write.png.file = T,
+                                 pca.visual.flavour = "classic",
+                                 gui = T)
+
+```
+# Apply BCT
+For this method, we won't use the the sliced corpus (i.e., the corpus with the random samples of the texts) because the plot get very populated, it looks like a moving fidget spinner, and it very hard to read.
+```{r}
+corpus.no.pronouns <- delete.stop.words(tokenized.corpus, # if you want the sliced corpus change `tokenize.corpus` to `sliced.corpus`
+                                        stop.words = stylo.pronouns(corpus.lang = "Latin.corr"))
+
+corpus.w.grams <- txt.to.features(corpus.no.pronouns,
+                                  ngram.size = 1,
+                                  features = "w")
+
+freq.features.word.grams <- make.frequency.list(corpus.w.grams,
+                                                head = 3000)
+
+freqs.word.grams <- make.table.of.frequencies(corpus.w.grams,
+                                              features = freq.features.word.grams,
+                                              relative = T)
+
+bct.results.words = stylo(frequencies = freqs.word.grams, 
+                          distance.measure = "eder",
+                          analysis.type = "BCT", 
+                          mfw.min = 100, mfw.max = 1500, increment = 100,
+                          consensus.strength = 0.5,
+                          write.png.file = T,
+                          gui = T)
+```
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Disputed Sentence Index,Senecan Sentence Index,Similarity,Disputed Sentence,Senecan Sentence
+15,654,0.8413715338001735,inveniam viam.,mortis inveniam viam.
+144,107,0.6559876036923213,quid hoc?,quid?
+144,235,0.6559876036923213,quid hoc?,quid?
+144,469,0.8134508330957262,quid hoc?,— sed quid hoc?
+144,494,1.0,quid hoc?,Quid hoc?
+144,618,1.0,quid hoc?,quid hoc?
+380,585,0.8427731459135722,Nescio quod animus grande praesagit malum.,"nescio quod mihi,
+nescio quod animus grande praesagit malum,
+ubi es, parens?"
+455,636,1.0,"sic, sic agendum est.","sic, sic agendum est:"
+510,515,0.8694894023530699,"misera, pergis?",Quo misera pergis?
+586,469,0.6232801777196758,"scelus est amoris, sed quid hoc?",— sed quid hoc?
+815,107,0.6559876036923213,Quid hoc?,quid?
+815,235,0.6559876036923213,Quid hoc?,quid?
+815,469,0.8134508330957262,Quid hoc?,— sed quid hoc?
+815,494,1.0,Quid hoc?,Quid hoc?
+815,618,1.0,Quid hoc?,quid hoc?
+824,107,0.6559876036923213,quid hoc?,quid?
+824,235,0.6559876036923213,quid hoc?,quid?
+824,469,0.8134508330957262,quid hoc?,— sed quid hoc?
+824,494,1.0,quid hoc?,Quid hoc?
+824,618,1.0,quid hoc?,quid hoc?
+910,494,0.6531243147196368,Heu quid hoc?,Quid hoc?
+910,618,0.6531243147196368,Heu quid hoc?,quid hoc?
+1014,324,0.8573647070521292,quid diem questu tero?,cur diem questu tero?
+1030,574,0.6016430253195948,"quis me locus, quae regio, quae mundi plaga
+defendet aut quas mater in latebras agar
+ubique per te nota?","Quis hic locus, quae regio, quae mundi plaga?"
+1114,699,0.650333558339451,parce:,"Iam parce, genitor, parce, iam revoca manum."

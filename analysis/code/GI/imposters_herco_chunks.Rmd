@@ -1,0 +1,180 @@
+---
+title: "R Notebook"
+author: "Paschalis Agapitos"
+output:
+  # pdf_document: default
+  # html_notebook: default
+---
+# Introduction
+In this notebook we will run the imposters method having character 4 grams and character 5 grams (a range of 1 to 1500 MFCs) but *Hercules Oetaeus* will be split into half (i.e., every chunk will have 5705 tokens). This is half the size of the text after the removal of punctuation and numbers (if any) within the text. The text was tokenized using CLTK's `WordTokenizer()` for latin and then it was split into the chunks.
+
+# Importing the libraries
+
+```{r}
+library(stylo)
+set.seed(0)
+```
+
+# Setting working directory
+
+The first step that we need to take is to set the working directory to the folder where this notebook and our dataset are saved. In our case `Analysis` is our working directory.
+
+```{r}
+setwd("../analysis/")
+getwd()
+```
+
+# Preparation of the dataset
+
+The "preparation of the dataset" step consists of six steps.
+
+1)  importing the corpus; at this step we need to make sure that we point out to the correct directory.
+2)  tokenizing the corpus, lowering the case of the letters and removing punctuation marks. A very crucial detail on which we should pay attention is the the aspect of the language. Our dataset is written in Latin, so we could either use the `Latin` or `Latin.corr` in the parameter `lang`. Since a lot of manuscripts in Latin do not distinguish the letter `v` from the letter `u`, the second option suits better in this case.
+3)  removing the pronouns; this step is optional but since some studies have shown that pronouns are related to the genre or content of a text, it was decided for them to be removed.
+4)  extracting the features that we want to use; in our case character tetra-grams and penta-grams will be used.
+5)  creating the frequency list
+6)  creating the table with frequencies using the frequency list that was created in the previous step.
+
+Before running the cell below make sure that you have found the Hercules Oetaeus text (i.e., `sen_her_o.txt`) in the `verse_corpus_imposters` and you have replaced it with the two chunks in the `analysis` folder (i.e., `sen_her_o_chunk1.txt`, `sen_her_o_chunk1.txt`).
+
+```{r}
+# step 1
+raw.corpus <- load.corpus(
+  files = "all",
+  corpus.dir = "verse_corpus_imposters/",
+  encoding = "UTF-8"
+)
+```
+
+```{r}
+# step 2
+tokenized.corpus <- txt.to.words.ext(
+    raw.corpus,
+    corpus.lang = "Latin.corr",
+    preserve.case = F,
+)
+```
+
+```{r}
+# step 3
+corpus.no.pronouns <- delete.stop.words(
+  tokenized.corpus,
+  stop.words = stylo.pronouns(corpus.lang = "Latin.corr")
+)
+
+summary(corpus.no.pronouns)
+```
+
+```{r}
+# step 4
+corpus.char.tetragrams <- txt.to.features(
+  tokenized.text = corpus.no.pronouns,
+  features = "c",
+  ngram.size = 4
+)
+```
+
+```{r}
+# step 5
+features_char_tetragrams <- make.frequency.list(
+  corpus.char.tetragrams,
+  head = 3000
+)
+```
+
+```{r}
+# step 6
+data = make.table.of.frequencies(
+  corpus = corpus.char.tetragrams,
+  features = features_char_tetragrams,
+  relative = T
+)
+```
+
+# Implementation of `imposters` method
+In order to implement `imposters` to the data that we have prepared in the previous steps we first need to find in which rows the disputed texts are. This will help us when we need to split the dataset into reference and test set; we could do that just by referring to the number of the row where the texts under investigation are.
+
+```{r}
+options(max.print=100)
+rownames(data)
+```
+Our chunks are in the 40th and the 41th row of our tables.
+```{r}
+imposters.hercoet.chunk1 <- imposters(
+  reference.set = data[-c(40), 1:1500],
+  test = data[40, 1:1500],
+  iterations = 100,
+  distance = 'eder'
+)
+```
+```{r}
+imposters.hercoet.chunk2 <- imposters(
+  reference.set = data[-c(41), 1:1500],
+  test = data[41, 1:1500],
+  distance = 'eder',
+  iterations = 100
+)
+```
+```{r}
+print("Hercules Oetaeus(chunk 1) (1-1500 MFCs 4-grams):")
+print(imposters.hercoet.chunk1)
+```
+```{r}
+print("Hercules Oetaeus(chunk 2) (1-1500 MFCs 4-grams):")
+print(imposters.hercoet.chunk2)
+```
+Let's do the same with character 5-grams this time. The same steps of preprocessing are going to be used. We will only change the features now, thus start from step 4:
+```{r}
+# step 4
+corpus.char.pentagrams <- txt.to.features(
+  tokenized.text = corpus.no.pronouns,
+  features = "c",
+  ngram.size = 5
+)
+```
+
+```{r}
+# step 5
+features.char.pentagrams <- make.frequency.list(
+  corpus.char.pentagrams,
+  head = 3000
+)
+```
+
+```{r}
+# step 6
+data = make.table.of.frequencies(
+  corpus = corpus.char.pentagrams,
+  features = features.char.pentagrams,
+  relative = T
+)
+```
+
+```{r}
+imposters.hercoet.chunk1 <- imposters(
+  reference.set = data[-c(40), 1:1500],
+  test = data[40, 1:1500],
+  iterations = 100,
+  distance = 'eder'
+)
+```
+
+```{r}
+imposters.hercoet.chunk2 <- imposters(
+  reference.set = data[-c(41), 1:1500],
+  test = data[41, 1:1500],
+  iterations = 100,
+  distance = 'eder'
+)
+```
+
+
+```{r}
+print("Hercules Oetaeus(chunk 1) (1-1500 MFCs 5-grams):")
+print(imposters.hercoet.chunk1)
+```
+
+```{r}
+print("Hercules Oetaeus(chunk 2) (1-1500 MFCs 5-grams):")
+print(imposters.hercoet.chunk2)
+```
