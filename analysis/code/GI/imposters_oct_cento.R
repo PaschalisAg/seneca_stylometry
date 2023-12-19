@@ -1,13 +1,13 @@
 library(stylo)
 
 # change the working directory
-setwd("../analysis/")
+# setwd("")
 getwd()
 
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "../analysis/corpora/corpus_imposters/",
+  corpus.dir = "corpora/corpus_imposters_cento/",
   encoding = "UTF-8"
 )
 
@@ -80,4 +80,4 @@ imposters.octavia <- imposters(
   iterations = 100,
   distance = "wurzburg") # cosine delta distance
 
-imposters.optimize(data)
+imposters.optimize(data, distance="wurzburg")
