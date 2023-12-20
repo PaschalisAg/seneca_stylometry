@@ -1,7 +1,7 @@
-library(stylo)
+library(stylo) 
 
 # change the working directory
-setwd("../analysis/")
+setwd("../../../analysis/")
 getwd()
 
 # load the corpus
@@ -57,7 +57,7 @@ rownames(data)
 rownames(data)[42]
 
 # imposters method
-# help("imposters") 
+help("imposters") 
 # indicating the text to be tested (i.e., Octavia - 42th row)
 # after the comma the range of the columns to be selected is being given
 # the same applies for the code snippets below
@@ -77,7 +77,8 @@ imposters.octavia <- imposters(
   reference.set = imposters.set,
   test = oct,
   candidate.set = candidate.author.seneca,
-  iterations = 100,
+  iterations = 1000,
+  imposters = 0.1,
   distance = "wurzburg") # cosine delta distance
 
 imposters.optimize(data)

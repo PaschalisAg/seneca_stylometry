@@ -75,7 +75,7 @@ rownames(imposters.set)
 
 imposters.octavia <- imposters(
   reference.set = imposters.set,
-  test = oct,
+  test = oct
   candidate.set = candidate.author.seneca,
   iterations = 100,
   distance = "wurzburg") # cosine delta distance

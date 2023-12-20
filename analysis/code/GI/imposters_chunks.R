@@ -10,7 +10,7 @@ library(patchwork)
 # display.brewer.all(colorblindFriendly=TRUE)
 
 # change the working director
-setwd("Documents/seneca_paper/seneca_stylometry/analysis/")
+setwd("../../../analysis/")
 getwd()
 
 # load the corpus
@@ -78,7 +78,7 @@ for (n in 740:750) {
     reference.set = reference.set,
     test = test,
     candidate.set = candidate.set.seneca,
-    iterations = 100,
+    iterations = 1000,
     distance = "wurzburg"
   )))
   octavia_results[[n]] <- octavia_result
@@ -120,7 +120,7 @@ for (n in 704:727) {
     reference.set = reference.set,
     test = test,
     candidate.set = candidate.set.seneca,
-    iterations = 100,
+    iterations = 1000,
     distance = "wurzburg"
   )))
   ho_results[[n]] <- ho_result
@@ -146,8 +146,9 @@ p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
   annotate("text", x = Inf, y = mean(ho_df$score), label = "Mean", hjust = 1, vjust = 0.5)
 
+ho_df
 p2
 # plot the two plots next to each other sharing the same x-axis
-jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
-combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))
-dev.off()
+# jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
+# combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))
+# dev.off()
