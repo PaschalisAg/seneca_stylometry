@@ -21,14 +21,6 @@ Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by 
     - [`corpus_pca_bct`](analysis/corpora/corpus_pca_bct/): the corpus used for the experiments of PCA and BCT with a sample of impostors used.
     - [`corpus_sen_hero_chunks`](analysis/corpora/corpus_sen_hero_chunks): the corpus of the Senecan plays but Herc.Oetaeus is split into two halves.
     - [`corpus_seneca`](analysis/corpora/corpus_seneca): the corpus of Senecan plays used for the first experiment in the main analysis phase.
- 
-## Experiments
-To run the experiments conducted for this study someoene has to run the following R notebooks in the following order from the [`analysis`](analysis/) folder:
-+ For the Bootstrap Consenus Tree (BCA) and the Principal Components Analysis:
-    - [`bct_pca.Rmd`](analysis/bct_pca.Rmd)
-+ For the Imposters method:
-    - using character tetra-grams run: [`imposters_sene_corpus_keste_4grams.Rmd`](analysis/imposters_sene_corpus_keste_4grams.Rmd)
-    - using character penta-grams run: [`imposters_sene_corpus_keste_5grams.Rmd`](analysis/imposters_sene_corpus_keste_5grams.Rmd)
 
 ## Dependencies
 To run this code, you need to have a version of Jupyter notebooks (either *Jupyter Notebook* or *Jupyter Lab*) installed in your computer and several third-party Python libraries. In addition to that you need to have installed RStudio in your computer.
