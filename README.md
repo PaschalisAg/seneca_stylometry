@@ -9,11 +9,13 @@ Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by 
 ```
 
 ## Datasets
-In the [corpora](analysis/corpora/) there are multiple datasets. Each one of these datasets corresponds to variations of the experiments presented in the paper. The order below follows the order on Github:
-+ `corpus_chunks`: the entire corpus of impostors (including the Senecan plays) split into chunks of 500 tokens
-+ `corpus_imp_hero_chunks`: the entire corpus of impostors (including the Senecan plays) but only Herc. Oetaeus is split exactly in the middle.
-+ `corpus_imposters`: the entire corpus of impostors (including the Senecan plays) with the texts untouched.
-+ `corpus_imposters_cento`: the entire corpus of impostors (including the Senecan plays) but from the disputed plays we have removed lines that returned similarity score above 0.6 (see [line similarity code](analysis/code/lines-similarity/cosine_simil.ipynb)).
++ For the **main analysis** phase
+    - [`corpus_chunks`](analysis/corpora/corpus_chunks): the entire corpus of impostors (including the Senecan plays) split into chunks of 500 tokens
+    - [`corpus_imp_hero_chunks`](analysis/corpora/corpus_imp_hero_chunks): the entire corpus of impostors (including the Senecan plays) but only Herc. Oetaeus is split exactly in the middle.
+    - [`corpus_imposters`](analysis/corpora/corpus_imposters): the entire corpus of impostors (including the Senecan plays) with the texts untouched.
+    - [`corpus_imposters_cento`](analysis/corpora/corpus_imposters_cento): the entire corpus of impostors (including the Senecan plays) but from the disputed plays we have removed lines that returned similarity score above 0.6 (see [line similarity code](analysis/code/lines-similarity/cosine_simil.ipynb)).
+    - [`corpus_seneca`](analysis/corpora/corpus_seneca): the corpus of Senecan plays used for the first experiment in the main analysis phase.
+    - [`corpus_sen_hero_chunks`](analysis/corpora/corpus_sen_hero_chunks): the corpus of the Senecan plays but Herc.Oetaues is split into two halves.
 
 ## Experiments
 To run the experiments conducted for this study someoene has to run the following R notebooks in the following order from the [`analysis`](analysis/) folder:
