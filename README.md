@@ -13,7 +13,7 @@ In the [corpora](analysis/corpora/) there are multiple datasets. Each one of the
 + `corpus_chunks`: the entire corpus of impostors (including the Senecan plays) split into chunks of 500 tokens
 + `corpus_imp_hero_chunks`: the entire corpus of impostors (including the Senecan plays) but only Herc. Oetaeus is split exactly in the middle.
 + `corpus_imposters`: the entire corpus of impostors (including the Senecan plays) with the texts untouched.
-+ `corpus_imposters_cento`: the entire corpus of impostors (including the Senecan plays) but from the disputed plays we have removed lines that returned similarity score above 0.6 (see [line similarity code](analysis/code/lines-similarity/results_line_sim_cosine/cosine_simil.ipynb)).
++ `corpus_imposters_cento`: the entire corpus of impostors (including the Senecan plays) but from the disputed plays we have removed lines that returned similarity score above 0.6 (see [line similarity code](analysis/code/lines-similarity/cosine_simil.ipynb)).
 
 ## Experiments
 To run the experiments conducted for this study someoene has to run the following R notebooks in the following order from the [`analysis`](analysis/) folder:
