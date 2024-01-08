@@ -9,7 +9,7 @@ Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by 
 ```
 
 ## Datasets
-+ For the validation phase (the order follows how GitHub presents the datasets):
++ For the **validation phase** (the order follows how GitHub presents the datasets):
     - [`validation_corpus_PCA`](validation/validation_PCA_BCT/validation_corpus_PCA): the dataset used to validate the PCA method (does not contain Seneca' s plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Amores* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`.
     - [`validation_corpus_BCT`](validation/validation_PCA_BCT/validation_corpus_BCT): the dataset used to validate the BCT method (does not contain Seneca' s plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Medicamina Faciei Femineae* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`.
     - [`validation_imposter_corpus`](validation/validation_imposters/validation_imp_corpus): the corpus used to validate the GI method. It contains all the the texts of impostors plus Seneca (excluding the two disputed plays under investigation).
