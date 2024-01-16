@@ -50,7 +50,6 @@ library(stylo)
 Our working directory is set to `validation_PCA_BCT`. This directory holds the data and the code to validate the PCA method and the BCT method.
 
 ```{r}
-setwd("../../validation/validation_PCA_BCT/validation_corpus_PCA/")
 getwd()
 ```
 
@@ -60,7 +59,7 @@ In this step we import the corpus that we are going to use and consequently we t
 
 ```{r}
 # load the corpus for the validation of PCA
-raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpus_PCA/",
+raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpora/validation_corpus_BCT/",
                           encoding = "UTF-8")
 
 tokenized.corpus <- txt.to.words.ext(raw.corpus, corpus.lang = "Latin.corr", 
@@ -92,7 +91,7 @@ corpus.char.4.grams <- txt.to.features(corpus.no.pronouns,
                                        ngram.size = 4) # break the text into character 4-grams
 
 frequent.features.4grams <- make.frequency.list(corpus.char.4.grams, 
-                                                head = 5000) # extract the features
+                                                head = 2000) # extract the features
 
 freqs.4grams <- make.table.of.frequencies(corpus.char.4.grams,
                                           features = frequent.features.4grams, 
@@ -120,32 +119,15 @@ results_pca_4grams_cor = stylo(frequencies = freqs.4grams,
                                write.pdf.file=T, # write the results into png files
                                gui = T) # gui = True to double-check the parameters
 ```
-
-### Principal Component Analysis - Covariance matrix (MFCs 4grams)
-
-The same as before will be applied here. In this case we will use a covariance matrix, but using the same range of MFC and the same amount of increment in each iteration. Moreover, the same distance metric will be used as before (i.e., Eder's Delta)
-
-```{r}
-# PCA covariance - top 2000 incr.100 MFCs 4-grams
-results_pca_4grams_cov = stylo(frequencies = freqs.4grams, 
-                               analysis.type = "PCR",
-                               mfw.min = 100, mfw.max = 2000, increment=100, # range of MFC
-                               distance.measure = "wurzburg", # Cosine Delta
-                               custom.graph.title = "Who is the author?", # title of the plot
-                               pca.visual.flavour="classic", # flavour of the plot
-                               write.png.file=T, # write the results into png files
-                               gui = T) # gui=T to double-check the parameters set
-```
-
 ## Apply Bootstrap Consensus Tree - MFC 4-grams
 
-### Load and prepare corpus for the validatioin of BCT
+### Load and prepare corpus for the validation of BCT
 
 Since a different corpus is used for the validation of BCT we need to load the correct one and prepare it for the analysis. The same preprocessing steps will be followed for the analysis.
 
 ```{r}
 # load the corpus for the validation of BCT
-raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpus_BCT/",
+raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpora/validation_corpus_BCT/",
                           encoding = "UTF-8")
 
 tokenized.corpus <- txt.to.words.ext(raw.corpus, corpus.lang = "Latin.corr", 
@@ -186,10 +168,10 @@ freqs.4grams <- make.table.of.frequencies(corpus.char.4.grams,
 
 ```{r}
 # BCT 4grams - top 100-2000-100 MFC 4 grams - consensus strength 0.5
-bct.results.4grams_100_1500MFC = stylo(frequencies = freqs.4grams, # MFCs char 4grams
+bct.results.4grams_100_2000MFC = stylo(frequencies = freqs.4grams, # MFCs char 4grams
                                        distance.measure="wurzburg", # Cosine Delta
                                        analysis.type = "BCT", # Bootstrap Consensus Tree
-                                       mfw.min = 100, mfw.max = 2000, increment = 10, # frequency band used
+                                       mfw.min = 100, mfw.max = 2000, increment = 100, # frequency band used
                                        custom.graph.title="Who is the author?", # title of the graph
                                        write.pdf.file=T, # write results into png files
                                        gui = TRUE) # graphic user interface

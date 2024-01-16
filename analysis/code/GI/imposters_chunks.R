@@ -16,7 +16,7 @@ getwd()
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "corpora/corpus_chunks/",
+  corpus.dir = "../analysis/corpora/corpus_chunks/",
   encoding = "UTF-8"
 )
 
@@ -43,7 +43,7 @@ corpus.char.tetragrams <- txt.to.features(
 # create a list with the features generated
 features.char.tetragrams <-make.frequency.list(
   corpus.char.tetragrams,
-  head = 2000,
+  head = 5000,
   relative = T
 )
 
@@ -63,7 +63,6 @@ rownames(data)[740:750]
 # rows for Hercules Oetaeus
 rownames(data)[704:727]
 
-data[-c(1763:1999, 2000:2104, 2105:2192), 1:2000]
 
 # Octavia
 
@@ -73,13 +72,13 @@ octavia_results <- list()
 # Octavia's chunks start from the 740th row and go up to the 750th row
 for (n in 740:750) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+  reference.set <- data[-c(n, 676:703, 728:739, 751:814), 1:2000]
+  candidate.set.seneca <- data[c(676:703, 728:739, 751:814), 1:2000]
   octavia_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
     candidate.set = candidate.set.seneca,
-    iterations = 100,
+    iterations = 1000,
     distance = "wurzburg"
   )))
   octavia_results[[n]] <- octavia_result
@@ -97,14 +96,13 @@ octavia_df <- data.frame(
 p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = score)) +
   geom_point(aes(color = score < mean(score)), size = 2) +
   scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"),
-                     labels = c("Below mean", "Above mean")) +
+                     labels = c("Below mean", "Above mean")) +  #
   geom_hline(yintercept = mean(octavia_df$score), linetype="dashed") +
   theme_minimal() + 
   labs(x = "Chunk", y = "GI method score") +
   ggtitle("Octavia Imposter Scores for each chunk") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = mean(octavia_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
-  scale_y_continuous(limits = c(0, 1))
+  annotate("text", x = Inf, y = mean(octavia_df$score), label = "Mean", hjust = 1, vjust = 0.5)
 
 p1
 octavia_df
@@ -116,13 +114,13 @@ ho_results <- list()
 # apply GI to each chunk of HO
 for (n in 704:727) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+  reference.set <- data[-c(n, 676:703, 728:739, 751:814), 1:2000] 
+  candidate.set.seneca <- data[c(676:703, 728:739, 751:814), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
     candidate.set = candidate.set.seneca,
-    iterations = 100,
+    iterations = 1000,
     distance = "wurzburg"
   )))
   ho_results[[n]] <- ho_result
@@ -144,9 +142,13 @@ p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
   theme_minimal() + 
   labs(x = "Chunk") +  # Removed the y-axis label
   ggtitle("Hercules Oetaeus Imposter Scores for each chunk") +
+  scale_fill_brewer(palette = "Reds") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = mean(ho_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
-  scale_y_continuous(limits = c(0, 1))
+  annotate("text", x = Inf, y = mean(ho_df$score), label = "Mean", hjust = 1, vjust = 0.5)
 
-p2
 ho_df
+p2
+# plot the two plots next to each other sharing the same x-axis
+# jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
+# combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))
+# dev.off()

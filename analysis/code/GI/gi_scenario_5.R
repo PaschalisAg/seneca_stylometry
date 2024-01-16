@@ -1,5 +1,3 @@
-# devtools::install_github("thomasp85/patchwork")
-
 library(stylo)
 library(ggplot2)
 library(RColorBrewer)
@@ -16,7 +14,7 @@ getwd()
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "corpora/corpus_chunks/",
+  corpus.dir = "../analysis/corpora/corpus_kestemont/",
   encoding = "UTF-8"
 )
 
@@ -57,31 +55,32 @@ data <- make.table.of.frequencies(
 # print the name of the rows of the table
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
-options(max.print = 1300)
+options(max.print = 3061)
+rownames(data)
 # rows for Octavia
-rownames(data)[740:750]
+rownames(data)[2095:2105]
 # rows for Hercules Oetaeus
-rownames(data)[704:727]
+rownames(data)[1990:2013]
 
-data[-c(1763:1999, 2000:2104, 2105:2192), 1:2000]
 
 # Octavia
-
 # initialize empty lists for the results
 octavia_results <- list()
-
+# help("imposters")
 # Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 740:750) {
-  test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+for (n in 2095:2105) {
+  test <- data[n, 1:2000] # octavia's chunks
+  # all the texts of seneca (verse & prose) excluding the two disputed plays
+  candidate.set.seneca <- data[c(1753:1989, 2014:2094, 2106:2182), 1:2000]
+  # all the texts of all the impostors
+  reference.set <- data[-c(1753:2182), 1:2000]
   octavia_result <- max(summary(imposters(
-    reference.set = reference.set,
     test = test,
+    reference.set = reference.set,
     candidate.set = candidate.set.seneca,
     iterations = 100,
     distance = "wurzburg"
-  )))
+    )))
   octavia_results[[n]] <- octavia_result
   print(paste("Octavia rowname", n , ": ", octavia_result))
 }
@@ -101,7 +100,7 @@ p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = score)) +
   geom_hline(yintercept = mean(octavia_df$score), linetype="dashed") +
   theme_minimal() + 
   labs(x = "Chunk", y = "GI method score") +
-  ggtitle("Octavia Imposter Scores for each chunk") +
+  ggtitle("Octavia Imposter Scores for each chunk using in-prose and in-verse texts") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
   annotate("text", x = Inf, y = mean(octavia_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
   scale_y_continuous(limits = c(0, 1))
@@ -114,10 +113,12 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 704:727) {
-  test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+for (n in 1990:2013) {
+  test <- data[n, 1:2000] # hercules oetaeus's chunks
+  # all the texts of seneca (verse & prose) excluding the two disputed plays
+  candidate.set.seneca <- data[c(1763:1999, 2024:2104, 2115:2192), 1:2000]
+  # all the texts of all the impostors
+  reference.set <- data[-c(1753:2182), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -143,10 +144,15 @@ p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
   geom_hline(yintercept = mean(ho_df$score), linetype = "dashed") +
   theme_minimal() + 
   labs(x = "Chunk") +  # Removed the y-axis label
-  ggtitle("Hercules Oetaeus Imposter Scores for each chunk") +
+  ggtitle("Hercules Oetaeus Imposter Scores for each chunk using in-prose and in-verse texts") +
+  scale_fill_brewer(palette = "Reds") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
   annotate("text", x = Inf, y = mean(ho_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
-  scale_y_continuous(limits = c(0, 1))
+  scale_y_continuous(limits = c(0,1))
 
-p2
 ho_df
+p2
+# plot the two plots next to each other sharing the same x-axis
+# jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
+# combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))
+# dev.off()
