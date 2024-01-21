@@ -94,15 +94,15 @@ octavia_df <- data.frame(
 
 # create a dot plot
 p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = score)) +
-  geom_point(aes(color = score < mean(score)), size = 2) +
+  geom_point(aes(color = score < 0.9), size = 2.5) +
   scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"),
-                     labels = c("Below mean", "Above mean")) +
-  geom_hline(yintercept = mean(octavia_df$score), linetype="dashed") +
+                     labels = c("Above threshold", "Below threshold")) +
+  geom_hline(yintercept = 0.9, linetype="dashed", color="blue") +
   theme_minimal() + 
   labs(x = "Chunk", y = "GI method score") +
   ggtitle("Octavia Imposter Scores for each chunk using in-prose and in-verse texts") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = mean(octavia_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
+  annotate("text", x = Inf, y = 0.9, label = "0.9", hjust =1, vjust = 0.5, color="black") +
   scale_y_continuous(limits = c(0, 1))
 
 p1
@@ -116,7 +116,7 @@ ho_results <- list()
 for (n in 1990:2013) {
   test <- data[n, 1:2000] # hercules oetaeus's chunks
   # all the texts of seneca (verse & prose) excluding the two disputed plays
-  candidate.set.seneca <- data[c(1763:1999, 2024:2104, 2115:2192), 1:2000]
+  candidate.set.seneca <- data[c(1753:1989, 2014:2094, 2106:2182), 1:2000]
   # all the texts of all the impostors
   reference.set <- data[-c(1753:2182), 1:2000]
   ho_result <- max(summary(imposters(
@@ -138,16 +138,16 @@ ho_df <- data.frame(
 
 # create a dot plot
 p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
-  geom_point(aes(color = score < mean(score)), size = 2) +
+  geom_point(aes(color = score < 0.9), size = 2.5) +
   scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"),
-                     labels = c("Below mean", "Above mean")) +
-  geom_hline(yintercept = mean(ho_df$score), linetype = "dashed") +
+                     labels = c("Above threshold", "Below threshold")) +
+  geom_hline(yintercept = 0.9, linetype="dashed", color="blue") +
   theme_minimal() + 
-  labs(x = "Chunk") +  # Removed the y-axis label
+  labs(x = "Chunk", y = "GI method score") +
   ggtitle("Hercules Oetaeus Imposter Scores for each chunk using in-prose and in-verse texts") +
   scale_fill_brewer(palette = "Reds") +
   guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = mean(ho_df$score), label = "Mean", hjust = 1, vjust = 0.5) +
+  annotate("text", x = Inf, y = 0.9, label = "0.9", hjust =1, vjust = 0.5, color="black") +
   scale_y_continuous(limits = c(0,1))
 
 ho_df
