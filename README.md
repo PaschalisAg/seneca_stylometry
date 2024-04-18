@@ -1,12 +1,15 @@
 # A Stylometric Analysis of Seneca’s disputed plays: Authorship Verification of Octavia and Hercules Oetaeus
 
 ## Description
-This project delves into the authorship verification of Lucius Annaeus Seneca Minor's disputed plays, specifically Octavia and Hercules Oetaeus. Scholars contest their attribution to Seneca the Younger based on close reading approaches.
+This project delves into the authorship verification of Lucius Annaeus Seneca Minor's disputed plays, specifically *Octavia* and *Hercules Oetaeus*.
 To address this, we employ computational methods like Principal Component Analysis, Bootstrap Consensus Network, and the Imposters method (o2 verification system) as outlined in:
 
 ```
 Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by the same author’, Journal of the Association for Information Science and Technology, 65(1), pp. 178–187. Available at: https://doi.org/10.1002/asi.22954 (accessed 31 October 2022).
 ```
+Throughout the study we use several datasets to test different scenarios. Most of the variations are centered around the dataset [`verse_corpus`][https://github.com/PaschalisAg/seneca_stylometry/tree/main/verse_corpus]. However, in one of the scenarios we also augment the aforementioned corpus with the corpus used by Kestemont *et al.* (2016), *Authenticating the writings of Julius Caesar*, Expert Systems with Applications, 63, pp. 86-96.
+
+
 
 ## Datasets
 + For the **validation phase** (the order follows how GitHub presents the datasets):
@@ -36,3 +39,6 @@ A list of the dependencies is provided below:
 
 
 All the experiments were run in a macOS Ventura 13.0 with an M1 2020 chip.
+
+
+[def]: https://github.com/PaschalisAg/seneca_stylometry/tree/main/verse_corpus
