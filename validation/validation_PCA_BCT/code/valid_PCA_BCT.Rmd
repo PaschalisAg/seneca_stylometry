@@ -50,6 +50,7 @@ library(stylo)
 Our working directory is set to `validation_PCA_BCT`. This directory holds the data and the code to validate the PCA method and the BCT method.
 
 ```{r}
+setwd('../../validation_PCA_BCT/')
 getwd()
 ```
 
@@ -59,7 +60,7 @@ In this step we import the corpus that we are going to use and consequently we t
 
 ```{r}
 # load the corpus for the validation of PCA
-raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpora/validation_corpus_BCT/",
+raw.corpus <- load.corpus(files = "all", corpus.dir = "../../validation_corpora/validation_corpus_PCA/",
                           encoding = "UTF-8")
 
 tokenized.corpus <- txt.to.words.ext(raw.corpus, corpus.lang = "Latin.corr", 
@@ -127,7 +128,7 @@ Since a different corpus is used for the validation of BCT we need to load the c
 
 ```{r}
 # load the corpus for the validation of BCT
-raw.corpus <- load.corpus(files = "all", corpus.dir = "validation_corpora/validation_corpus_BCT/",
+raw.corpus <- load.corpus(files = "all", corpus.dir = "../../../validation/validation_corpora/validation_corpus_BCT/",
                           encoding = "UTF-8")
 
 tokenized.corpus <- txt.to.words.ext(raw.corpus, corpus.lang = "Latin.corr", 
