@@ -14,13 +14,16 @@ Throughout the study we use several datasets to test different scenarios. Most o
 ## Datasets
 The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
-| **Validation phase** | | | |
+| **Validation phase** | | | | | |
 |----------------------|-------------------|-------------------|-------------------|
-| **Name**             | **Description**   | **Number of distinct authors** | **Number of texts** |
-|----------------------|-------------------|-------------------|-------------------|
+| **Name**             | **Description**   | **Number of distinct authors** | **Number of texts** | **Name of distinct authors**| **Name of distinct work**| 
+|----------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
 | [`validation_corpus_PCA`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_corpora/validation_corpus_PCA) | the dataset used to validate the PCA method (does not contain Seneca's plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Amores* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`. The code can be found in [`valid_PCA_BCT.Rmd`](https://github.com/PaschalisAg/seneca_stylometry/blob/main/validation/validation_PCA_BCT/code/valid_PCA_BCT.Rmd)| 4 | 44|
 | [`validation_corpus_BCT`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_corpora/validation_corpus_BCT)|  the dataset used to validate the BCT method (does not contain Seneca' s plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Medicamina Faciei Femineae* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`. The code can be found in [`valid_PCA_BCT.Rmd`](https://github.com/PaschalisAg/seneca_stylometry/blob/main/validation/validation_PCA_BCT/code/valid_PCA_BCT.Rmd)| 4 | 44 |
 | [`validation_imp_corpus`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_corpora/validation_imp_corpus)| the corpus used to validate the GI method. It contains all the the texts of impostors plus Seneca (excluding the two disputed plays under investigation). Each text becomes the test set and it is compared agains the others. Code can be found in [`valid_imposters_4grams_char.Rmd`](https://github.com/PaschalisAg/seneca_stylometry/blob/main/validation/validation_imposters/code/valid_imposters_4grams_char.Rmd)| 9| 88|
+| **Main analysis phase** | | | |
+|----------------------|-------------------|-------------------|-------------------|
+| | | | |
 
 + For the **main analysis** phase (the order follows how GitHub presents the datasets):
     - [`corpus_chunks`](analysis/corpora/corpus_chunks): the entire corpus of impostors (including the Senecan plays) split into chunks of 500 tokens
