@@ -14,7 +14,7 @@ Throughout the study we use several datasets to test different scenarios. Most o
 ## Datasets
 The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
-| Validation phase|
+| Validation phase| | | |
 | Name | Description | Number of authors| Number of texts|
 |------------|-----|--------|--------|
 | | | | |
