@@ -12,7 +12,13 @@ Throughout the study we use several datasets to test different scenarios. Most o
 
 
 ## Datasets
-The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase. 
+The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
+
+| Validation phase|
+| Name | Description | Number of authors| Number of texts|
+|------------|-----|--------|--------|
+| | | | |
+
 + For the **validation phase** (the order follows how GitHub presents the datasets):
     - [`validation_corpus_PCA`](validation/validation_PCA_BCT/validation_corpus_PCA): the dataset used to validate the PCA method (does not contain Seneca' s plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Amores* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`.
     - [`validation_corpus_BCT`](validation/validation_PCA_BCT/validation_corpus_BCT): the dataset used to validate the BCT method (does not contain Seneca' s plays). It is a subset of the works of Lucan, Ovid, Persius, and Statius. The filenames for *Medicamina Faciei Femineae* by Ovid, the fourth *Satire* by Persius, and the first book of *Thebaid* by Statius are being renamed using the following format: `unknown_{work}.txt`.
