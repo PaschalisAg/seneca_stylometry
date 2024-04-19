@@ -26,7 +26,7 @@ For the main analysis:
 
 | **Directory name** | **Description**   | **Number of distinct authors** | **Number of texts** | **Name of distinct authors**| **Name of distinct work**| **Results** |
 |----------------------|-------------------|-------------------|-------------------|-------------------|-------------------|-------------------|
-| | | | | | | |
+| [`corpus_pca_bct`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/corpora/corpus_pca_bct)| The corpus used for the experiments of PCA and BCT with a sample of impostors used.| 3| 33| Lucan, Seneca, Statius| *Pharsalia*, *Agamemnon*, *Hercules Furens*, *Medea*, *Oedipus*, *Phaedra*, *Phoenissae*, *Thyestes*, *Troades*, *Hercules Oetaeus*, *Octavia*| [`pca_sen_luc_stat`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/results/pca_bct_results/pca_sen_luc_stat)|
 
 + For the **main analysis** phase (the order follows how GitHub presents the datasets):
     - [`corpus_chunks`](analysis/corpora/corpus_chunks): the entire corpus of impostors (including the Senecan plays) split into chunks of 500 tokens
