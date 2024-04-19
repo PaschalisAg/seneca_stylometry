@@ -30,7 +30,16 @@ results_pca_4grams_cor = stylo(frequencies = freqs.4grams,
                                analysis.type = "PCR",
                                mfw.min = 100, mfw.max = 2000, increment=100, 
                                distance.measure = "wurzburg", # Cosine Delta
-                               custom.graph.title = "PCA Seneca (plays) versus Lucan, Ovid, and Statius", # title of the plot
+                               custom.graph.title = "PCA Seneca (plays) versus Lucan, and Statius", # title of the plot
                                pca.visual.flavour="classic", # flavour of the PCA plot
                                write.pdf.file=T, # write the results into png files
                                gui = T) # gui = True to double-check the parameters
+
+# BCT 4grams - top 100-2000-100 MFC 4 grams - consensus strength 0.5
+bct.results.4grams_100_2000MFC = stylo(frequencies = freqs.4grams, # MFCs char 4grams
+                                       distance.measure="wurzburg", # Cosine Delta
+                                       analysis.type = "BCT", # Bootstrap Consensus Tree
+                                       mfw.min = 100, mfw.max = 2000, increment = 100, # frequency band used
+                                       custom.graph.title="BCT Seneca (plays), versus Lucan and Statius", # title of the graph
+                                       write.pdf.file=T, # write results into png files
+                                       gui = T) # graphic user interface
