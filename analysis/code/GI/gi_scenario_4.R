@@ -7,7 +7,7 @@ library(patchwork)
 
 
 # uncomment and run for the colorblind-friendle palettes of colours
-# display.brewer.all(colorblindFriendly=TRUE)
+display.brewer.all(colorblindFriendly=TRUE)
 
 # change the working director
 setwd("../../../analysis/")
@@ -58,10 +58,13 @@ data <- make.table.of.frequencies(
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
 options(max.print = 1300)
+rownames(data)
 # rows for Octavia
-rownames(data)[740:750]
+rownames(data)[704:714]
 # rows for Hercules Oetaeus
-rownames(data)[704:727]
+rownames(data)[669:691]
+candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
+rownames(candidate.set.seneca)
 
 # Octavia
 
@@ -69,10 +72,10 @@ rownames(data)[704:727]
 octavia_results <- list()
 
 # Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 740:750) {
+for (n in 704:714) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+  reference.set <- data[-c(641:778), 1:2000]
+  candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
   octavia_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -113,10 +116,10 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 704:727) {
+for (n in 669:691) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(676:815), 1:2000]
-  candidate.set.seneca <- data[c(676:703, 728:739, 751:815), 1:2000]
+  reference.set <- data[-c(641:778), 1:2000]
+  candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -130,7 +133,7 @@ for (n in 704:727) {
 
 # create a data frame of the results
 ho_df <- data.frame(
-  chunk = 1:24,
+  chunk = 1:23,
   score = unlist(ho_results)
 )
 
