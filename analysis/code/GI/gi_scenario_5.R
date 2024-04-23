@@ -55,12 +55,12 @@ data <- make.table.of.frequencies(
 # print the name of the rows of the table
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
-options(max.print = 3061)
+options(max.print = 3060)
 rownames(data)
 # rows for Octavia
-rownames(data)[2095:2105]
+rownames(data)[2059:2069]
 # rows for Hercules Oetaeus
-rownames(data)[1990:2013]
+rownames(data)[1954:1977]
 
 
 # Octavia
@@ -68,12 +68,12 @@ rownames(data)[1990:2013]
 octavia_results <- list()
 # help("imposters")
 # Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 2095:2105) {
+for (n in 2059:2069) {
   test <- data[n, 1:2000] # octavia's chunks
   # all the texts of seneca (verse & prose) excluding the two disputed plays
-  candidate.set.seneca <- data[c(1753:1989, 2014:2094, 2106:2182), 1:2000]
+  candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
   # all the texts of all the impostors
-  reference.set <- data[-c(1753:2182), 1:2000]
+  reference.set <- data[-c(1717:2146), 1:2000]
   octavia_result <- max(summary(imposters(
     test = test,
     reference.set = reference.set,
@@ -113,12 +113,12 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 1990:2013) {
+for (n in 1954:1977) {
   test <- data[n, 1:2000] # hercules oetaeus's chunks
   # all the texts of seneca (verse & prose) excluding the two disputed plays
-  candidate.set.seneca <- data[c(1753:1989, 2014:2094, 2106:2182), 1:2000]
+  candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
   # all the texts of all the impostors
-  reference.set <- data[-c(1753:2182), 1:2000]
+  reference.set <- data[-c(1717:2146), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
