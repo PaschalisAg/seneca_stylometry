@@ -1,7 +1,7 @@
 library(stylo)
 
 # change the working directory
-# setwd("")
+setwd("../../../analysis/")
 getwd()
 
 # load the corpus
@@ -55,6 +55,7 @@ rownames(data)
 # Octavia = 42th row
 # double-check
 rownames(data)[42]
+rownames(data)[40]
 
 # imposters method
 # help("imposters") 
@@ -62,6 +63,7 @@ rownames(data)[42]
 # after the comma the range of the columns to be selected is being given
 # the same applies for the code snippets below
 oct <- data[42, 1:2000]
+hero <- data[40, 1:2000]
 
 # indicating the text that belongs to the possible candidate (i.e., Seneca)
 # use c for non-contiguous rows in order to concatenate them
@@ -70,14 +72,21 @@ rownames(candidate.author.seneca)
 
 
 # building the reference set that includes the imposters by excluding the texts by Seneca and the disputed play
-imposters.set <- data[-c(42, 38:47),1:2000]
+imposters.set <- data[-c(38:47),1:2000]
 rownames(imposters.set)
 
 imposters.octavia <- imposters(
   reference.set = imposters.set,
-  test = oct
+  test = oct,
   candidate.set = candidate.author.seneca,
-  iterations = 100,
+  iterations = 1000,
+  distance = "wurzburg") # cosine delta distance
+
+imposters.hero <- imposters(
+  reference.set = imposters.set,
+  test = hero,
+  candidate.set = candidate.author.seneca,
+  iterations = 1000,
   distance = "wurzburg") # cosine delta distance
 
 imposters.optimize(data, distance="wurzburg")
