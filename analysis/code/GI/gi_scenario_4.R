@@ -60,10 +60,10 @@ data <- make.table.of.frequencies(
 options(max.print = 1300)
 rownames(data)
 # rows for Octavia
-rownames(data)[704:714]
+rownames(data)[705:715]
 # rows for Hercules Oetaeus
-rownames(data)[669:691]
-candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
+rownames(data)[669:692]
+candidate.set.seneca <- data[c(641:668, 693:704, 715:779), 1:2000]
 rownames(candidate.set.seneca)
 
 # Octavia
@@ -72,10 +72,10 @@ rownames(candidate.set.seneca)
 octavia_results <- list()
 
 # Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 704:714) {
+for (n in 705:715) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(641:778), 1:2000]
-  candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
+  reference.set <- data[-c(641:779), 1:2000]
+  candidate.set.seneca <- data[c(641:668, 692:703, 715:779), 1:2000]
   octavia_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -116,10 +116,10 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 669:691) {
+for (n in 669:692) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(641:778), 1:2000]
-  candidate.set.seneca <- data[c(641:668, 692:703, 715:778), 1:2000]
+  reference.set <- data[-c(641:779), 1:2000]
+  candidate.set.seneca <- data[c(641:668, 692:703, 715:779), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -133,7 +133,7 @@ for (n in 669:691) {
 
 # create a data frame of the results
 ho_df <- data.frame(
-  chunk = 1:23,
+  chunk = 1:24,
   score = unlist(ho_results)
 )
 
