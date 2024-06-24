@@ -88,7 +88,7 @@ imposters.hero <- imposters(
   reference.set = imposters.set,
   test = hero,
   candidate.set = candidate.author.seneca,
-  iterations = 1000,
+  iterations = 100,
   imposters = 0.1,
   distance = "wurzburg") # cosine delta distance
 
