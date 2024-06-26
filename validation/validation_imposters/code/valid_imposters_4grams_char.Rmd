@@ -6,7 +6,7 @@ output: pdf_document
 # Introduction
 Aim of this notebook is to validate the methods used in the paper *A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus*.
 
-Our dataset includes the following authors and texts (we have removed the disputed plays by Seneca since these will part of the main analysis and not of the validation of the methods used):
+The validation dataset for the GI method includes the following authors and texts (we have removed the disputed plays by Seneca since these will part of the main analysis and not of the validation of the methods used):
 
 * Marcus Annaeus Lucanus (i.e., Lucan):
   + *Pharsalia* (each book splitted into a separate txt file (10 in total))
@@ -70,7 +70,8 @@ library(writexl)
 The first step that we need to take is to set the working directory to the folder where this notebook and our dataset are saved. In our case `Analysis` is our working directory.
 
 ```{r}
-setwd("../validation_imposters/")
+# Knit (click) > Knit Directory (click) > Current Working Directory [only if `setwd()` does not work] > run `setwd()`
+setwd("../../../validation/validation_imposters")
 getwd()
 ```
 
@@ -81,7 +82,7 @@ The "preparation of the dataset" step consists of six steps.
 1)  importing the corpus; at this step we need to make sure that we point out to the correct directory.
 2)  tokenizing the corpus, lowering the case of the letters and removing punctuation marks. A very crucial detail on which we should pay attention is the the aspect of the language. Our dataset is written in Latin, so we could either use the `Latin` or `Latin.corr` in the parameter `lang`. Since a lot of manuscripts in Latin do not distinguish the letter `v` from the letter `u`, the second option suits better in this case.
 3)  removing the pronouns; this step is optional but since some studies have shown that pronouns are related to the genre or content of a text, it was decided for them to be removed.
-4)  extracting the features that we want to use; in our case character tetra-grams and penta-grams will be used.
+4)  extracting the features that we want to use; in our case character 4-grams.
 5)  creating the frequency list
 6)  creating the table with frequencies using the frequency list that was created in the previous step.
 
@@ -89,7 +90,7 @@ The "preparation of the dataset" step consists of six steps.
 # step 1
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "validation_imp_corpus/",
+  corpus.dir = "../../validation_corpora/validation_imp_corpus/",
   encoding = "UTF-8"
 )
 ```
@@ -146,6 +147,19 @@ Since are our dataset contains more than 999 rows we need to set the option for 
 options(max.print=100)
 rownames(data)
 ```
+# Optimize
+
+The `imposters` method comes with an in-built function that optimizes the hyperparameters used in the General Imposters method. In other words it tries to define the grey area where these result could be valid or not.
+
+```{r}
+help("imposters.optimize")
+optimized_parameters <- imposters.optimize(data)
+```
+```{r}
+# the results come back in a vector, thus access by indexing
+p1 <- optimized_parameters[1]
+p2 <- optimized_parameters[2]
+```
 
 ```{r}
 # create an empty dataframe where we are going to save the results
@@ -162,20 +176,31 @@ for (n in 1:nrow(data)) {
   # define the reference set as all rows except for the current row
   reference.set <- data[-n, 1:2000]
   
+  # extract the real author from the filename
+  filename <- rownames(data)[n]
+  real_author <- strsplit(filename, "_")[[1]][1]
+  
   # set a random seed
   set.seed(n)
   
   # apply the imposters method to compare the test text against the reference set
-  # and extract the maximum result for the current test text
-  result <- max(summary(imposters(reference.set = reference.set,
-                                   test = test,
-                                   iterations = 100,
-                                   distance = 'wurzburg')))
+  results <- imposters(reference.set = reference.set,
+                       test = test,
+                       iterations = 100,
+                       distance = 'wurzburg')
+  
+  # find the attributed author (the one with the highest score)
+  max_score <- max(results)
+  attributed_author <- names(results)[which.max(results)]
   
   # append the result to the results dataframe
   results.imposters <- rbind(results.imposters,
-                             data.frame(document = rownames(data)[n],
-                                        result = result))
+                             data.frame(document = filename,
+                                        real_author = real_author,
+                                        attributed_author = attributed_author,
+                                        score = max_score,
+                                        p1_value = p1,
+                                        p2_value = p2))
 }
 
 # check if the dataframe is empty
@@ -187,14 +212,5 @@ if (nrow(results.imposters) == 0) {
 }
 
 # write the data frame into an excel spreadsheet
-write_xlsx(results.imposters, "../validation_imposters/results_imposters_valid_cosine.xlsx")
-```
-
-# Optimize
-
-The `imposters` method comes with an in-built function that optimizes the hyperparameters used in the General Imposters method. In other words it tries to define the grey area where these result could be valid or not.
-
-```{r}
-# help("imposters.optimize")
-imposters.optimize(data)
+write_xlsx(results.imposters, "../results/results_imposters_valid_cosine.xlsx")
 ```

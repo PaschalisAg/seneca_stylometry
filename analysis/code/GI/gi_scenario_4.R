@@ -9,7 +9,7 @@ library(patchwork)
 # uncomment and run for the colorblind-friendle palettes of colours
 display.brewer.all(colorblindFriendly=TRUE)
 
-# change the working director
+# change the working directory
 setwd("../../../analysis/")
 getwd()
 
