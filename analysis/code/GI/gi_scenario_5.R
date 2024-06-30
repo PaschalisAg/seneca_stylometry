@@ -1,3 +1,9 @@
+# Scenario 5: GI on Kestemont's corpus augmented with our main dataset
+install.packages("stylo")
+install.packages("ggplot2")
+install.packages("RColorBrewer")
+install.packages("patchwork")
+
 library(stylo)
 library(ggplot2)
 library(RColorBrewer)
@@ -14,7 +20,7 @@ getwd()
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "../analysis/corpora/corpus_kestemont/",
+  corpus.dir = "corpora/corpus_kestemont/",
   encoding = "UTF-8"
 )
 
@@ -52,15 +58,29 @@ data <- make.table.of.frequencies(
   relative = T
 )
 
+
+# ----------------------------------------
+# the following lines are simply to double-check whether we are focusing on the correct texts
+
 # print the name of the rows of the table
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
 options(max.print = 3060)
 rownames(data)
+
 # rows for Octavia
 rownames(data)[2059:2069]
 # rows for Hercules Oetaeus
 rownames(data)[1954:1977]
+
+# candidate author: Seneca
+candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
+rownames(candidate.set.seneca)
+
+# impostors
+reference.set <- data[-c(1717:2146), 1:2000]
+rownames(reference_set)
+# ------------------------------------------
 
 
 # Octavia
@@ -107,6 +127,8 @@ p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = score)) +
 
 p1
 octavia_df
+
+
 # Hercules Oetaeus
 
 # create an empty list to save the results from the GI
@@ -152,6 +174,8 @@ p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
 
 ho_df
 p2
+
+
 # plot the two plots next to each other sharing the same x-axis
 # jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
 # combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))

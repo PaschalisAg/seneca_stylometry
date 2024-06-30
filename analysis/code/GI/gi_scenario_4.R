@@ -1,9 +1,11 @@
+# Scenario 4: GI applied on the main corpus split into 500-tokens chunks
+# ----------------------------------------------------------------------
 # devtools::install_github("thomasp85/patchwork")
 
 library(stylo)
 library(ggplot2)
 library(RColorBrewer)
-library(patchwork)
+# library(patchwork)
 
 
 # uncomment and run for the colorblind-friendle palettes of colours
@@ -59,15 +61,24 @@ data <- make.table.of.frequencies(
 # of the disputed text(s) is/are.
 options(max.print = 1300)
 rownames(data)
+
+# -------------
+# simply to double-check whether we are focusing on the correct texts
 # rows for Octavia
 rownames(data)[705:715]
 # rows for Hercules Oetaeus
 rownames(data)[669:692]
+
+# Senecan plays excluding the disputed ones
 candidate.set.seneca <- data[c(641:668, 693:704, 715:779), 1:2000]
 rownames(candidate.set.seneca)
 
-# Octavia
 
+reference.set <- data[-c(641:779), 1:2000]
+rownames(reference.set)
+# -------------
+
+# Octavia
 # initialize empty lists for the results
 octavia_results <- list()
 
