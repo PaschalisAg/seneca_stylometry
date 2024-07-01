@@ -1,7 +1,6 @@
 ---
 title: 'Validation: PCA and BCT'
 author: "Paschalis Agapitos"
-output: pdf_document
 ---
 
 ```{r, echo=FALSE}
@@ -35,7 +34,7 @@ To validate the methods, we selected one text from each author (i.e., in total t
 
 The first two texts were randomly chosen to be tested. However, the last one is the trickiest one because it consists of only 342 tokens.
 
-In this notebook, we will apply Principal Component Analysis (PCA) and Bootstrap Consensus Tree (BCT); for the former we will use a covariance and a correlation matrix to visualize the results. The same preprocessing step will be applied to every text used here, and the results will be generated using Most Frequent Characters (MFCs) tetragrams and pentagrams; these n-grams will be applied to each one of the aforementioned methods and their variations.
+In this notebook, we will apply Principal Component Analysis (PCA) and Bootstrap Consensus Tree (BCT). The same preprocessing step will be applied to every text used here, and the results will be generated using Most Frequent Characters (MFCs) 4-grams; these n-grams will be applied to each one of the aforementioned methods and their variations.
 
 ```{r}
 library(stylo)
