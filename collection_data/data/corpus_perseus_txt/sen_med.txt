@@ -2,9 +2,7 @@
 I
 Medea  II
 Iason       creo  III
-Nutrix       Nuntius        Chorus Corinthiorum       Hyllus      	  Medea 	
-
-	Di coniugales tuque genialis tori,
+Nutrix       Nuntius        Chorus Corinthiorum       Hyllus      	  Medea 	Di coniugales tuque genialis tori,
 	Lucina, custos quaeque domituram freta
 	Tiphyn novam frenare docuisti ratem,
 	et tu, profundi saeve dominator maris,
@@ -119,7 +117,7 @@ Nutrix       Nuntius        Chorus Corinthiorum       Hyllus      	  Medea
 	festa dicax fundat convicia fescenninus.
 	solvat turba iocos— tacitis eat illa tenebris,
 	si qua peregrino nubit fugitiva marito. 
-Medea Nvtrix 	Occidimus, aures pepulit hymenaeus meas.
+	 Medea Nvtrix 	Occidimus, aures pepulit hymenaeus meas.
 	vix ipsa tantum, vix adnue credo malum,
 	hoc facere Iason potuit, erepto patre
 	patria atque regno sedibus solam exteris
@@ -158,37 +156,37 @@ Nvtr. Sile, obsecro, questusque secreto abditos
 	patiente et aequo mutus animo pertulit,
 	referre potuit: ira quae tegitur nocet;
 	professa perdunt odia vindictae locum.
-Med. 	Levis est dolor qui capere consilium potest 
+Med. Levis est dolor qui capere consilium potest 
 	et clepere sese: magna non latitant mala.
 	libet ire contra,
-Nvtr.	Siste furialem impetum,
+Nvtr.Siste furialem impetum,
 	alumna: vix te tacita defendit quies.
-Med. 	Fortuna fortes metuit, ignavos premit.
-Nvtr. 	Tunc est probanda, si locum virtus habet. 
-Med. 	Numquam potest non esse virtuti locus.
-Nvtr. 	Spes nulla rebus monstrat adflictis viam.
-Med. 	Qui nil potest sperare, desperet nihil.
-Nvtr. 	Abiere Colchi, coniugis nulla est fides
+Med. Fortuna fortes metuit, ignavos premit.
+Nvtr. Tunc est probanda, si locum virtus habet. 
+Med. Numquam potest non esse virtuti locus.
+Nvtr. Spes nulla rebus monstrat adflictis viam.
+Med. Qui nil potest sperare, desperet nihil.
+Nvtr. Abiere Colchi, coniugis nulla est fides
 	nihilque superest opibus e tantis tibi. 
-Med. 	Medea superest, hic mare et terras vides
+Med. Medea superest, hic mare et terras vides
 	ferrumque et ignes et deos et fulmina.
-Nvtr. 	Rex est timendus,
+	 Nvtr. 	Rex est timendus,
 	Med.Rex meus fuerat pater.
 Nvtr. 	Non metuis arma?
 	Med.Sint licet terra edita.
 Nvtr. 	Moriere, MED. Cupio. NVTR. Profuge.
 	Med.Paenituit fugae. 
-Nvtr. 	Medea— MED. Fiam. NVTR. Mater es.
-Med.	Cui
+	 Nvtr. 	Medea— MED. Fiam. NVTR. Mater es.
+Med.Cui
 	sim vides.
 Nvtr. 	Profugere dubitas?
-Med.	Fugiam, ut ulciscar
+Med.Fugiam, ut ulciscar
 	prius.
 Nvtr. 	Vindex sequetur,
-Med.	Forsan inveniam moras.
+Med.Forsan inveniam moras.
 Nvtr. Compesce verba, parce iam, demens, minis
 	animosque minue: tempori aptari decet. 
-Med. 	Fortuna opes auferre, non animum potest,
+Med. Fortuna opes auferre, non animum potest,
 	sed cuius ictu regius cardo strepit?
 	ipse' est Pelasgo tumidus imperio Creo.
 Creo Medea 	Medea, Colchi noxium Aeetae genus,
@@ -209,14 +207,14 @@ Cr. Quae causa pellat, innocens mulier rogat.
 Med. Si iudicas, cognosce, si regnas, iube.
 Cr. Aequum atque iniquum regis imperium feras. 
 Med. Iniqua numquam regna perpetuo manent.
-Cr. 	I, querere Colchis,
-Med.	Redeo: qui advexit, ferat.
-Cr. 	Vox constitute sera decreto venit.
-Med. 	Qui statuit aliquid parte inaudita altera,
+	 Cr. 	I, querere Colchis,
+Med.Redeo: qui advexit, ferat.
+Cr. Vox constitute sera decreto venit.
+Med. Qui statuit aliquid parte inaudita altera,
 	aequum licet statuerit, haud aequus fuit. 
 	C R. Auditus a te Pelia supplicium tulit?
 	sed fare, causae detur egregiae locus.
-Med. 	Difficile quam sit animum ab ira flectere
+Med. Difficile quam sit animum ab ira flectere
 	iam concitatum quamque regale hoc putet
 	sceptris superbas quisquis admovit manus, 
 	qua coepit ire, regia didici mea.
@@ -265,7 +263,7 @@ Med. 	Difficile quam sit animum ab ira flectere
 	terra hac miseriis angulum ac sedem rogo
 	latebrasque viles: urbe si pelli placet, 
 	detur remotus aliquis in regnis locus.
-Cr. 	Non esse me qui sceptra violentus geram
+	 Cr. Non esse me qui sceptra violentus geram
 	nec qui superbo miserias calcem pede,
 	testatus equidem videor haud clare parum
 	generum exulem legendo et adflictum et gravi 
@@ -304,7 +302,7 @@ Med. Per ego auspicatos regii thalami toros,
 	precor, brevem largire fugienti moram,
 	dum extrema natis mater infigo oscula,
 	fortasse moriens.
-Cr.	Fraudibus tempus petis. 
+Cr.Fraudibus tempus petis. 
 Med. Quae fraus timeri tempore exiguo potest?
 Cr. Nullum ad nocendum tempus angustum est malis.
 Med. Parumne miserae temporis lacrimis negas?
@@ -312,7 +310,7 @@ Cr. Etsi repugnat precibus infixus timor,
 	unus parando dabitur exilio dies. 
 Med. Nimis est, recidas aliquid ex isto licet:
 	et ipsa propero.
-Cr.	Capite supplicium lues,
+Cr.Capite supplicium lues,
 	clarum priusquam Phoebus attollat diem
 	nisi cedis Isthmo. sacra me thalami vocant,
 	vocat precari festus Hymenaeo dies. 
@@ -350,7 +348,7 @@ Cr.	Capite supplicium lues,
 	cum iam totos avidus nimium
 	navita flatus optat et alto
 	rubicunda tremunt sipara velo. 
-	bene dissaepti foedera mundi 
+	b«ne dissaepti foedera mundi 
 	traxit in unum Thessala pinus
 	iussitque pati verbera pontum,
 	partemque metus fieri nostri
@@ -414,7 +412,7 @@ Cr.	Capite supplicium lues,
 	se vincet: irae novimus veteris notas,
 	magnum aliquid instat, efferum immane impium: 
 	vultum furoris cerno, di fallant metum!
-Med. 	Si quaeris odio, misera, quem statuas modum :
+Med. Si quaeris odio, misera, quem statuas modum :
 	imitare amorem, regias egone ut faces
 	inulta patiar? segnis hic ibit dies,
 	tanto petitus ambitu, tanto datus? 
@@ -443,12 +441,12 @@ Med. 	Si quaeris odio, misera, quem statuas modum :
 	multum patebit. faciet hic faciet dies
 	quod nullus umquam taceat— invadam deos
 	et cuncta quatiam.
-Nvtr.	Recipe turbatum malis. 
+Nvtr.Recipe turbatum malis. 
 	era, pectus, animum mitiga.
-Med.	Sola est quies,
+Med.Sola est quies,
 	mecum ruina cuncta si video obruta:
 	mecum omnia abeant. trahere, cum pereas, libet.
-Nvtr. 	Quam multa sint timenda, si perstas, vide:
+Nvtr. Quam multa sint timenda, si perstas, vide:
 	nemo potentes aggredi tutus potest. 
 Iason Medea 	O dura fata semper et sortem asperam,
 	cum saevit et cum parcit ex aequo malam!
@@ -466,7 +464,7 @@ Iason Medea 	O dura fata semper et sortem asperam,
 	constituit animus precibus iratam aggredi.
 	atque ecce, viso memet exiluit, furit, 
 	fert odia prae se: totus in vultu est dolor.
-Med. 	Fugimus, Iason: fugimus— hoc non est novum,
+	 Med. Fugimus, Iason: fugimus— hoc non est novum,
 	mutare sedes; causa fugiendi nova est:
 	pro te solebam fugere, discedo exeo,
 	penatibus profugere quam cogis tuis: 
@@ -514,21 +512,21 @@ Med. 	Fugimus, Iason: fugimus— hoc non est novum,
 Med. Poenam putabam: munus ut video est fuga.
 Ias. Dum licet abire, profuge teque hinc eripe:
 	gravis ira regum est semper,
-Med.	Hoc suades mihi,
+Med.Hoc suades mihi,
 	praestas Creusae: paelicem invisam amoves. 
 Ias. 	Medea amores obicit?
-Med.	Et caedem et dolos.
-Ias. 	Obicere tandem quod potes crimen mihi?
+Med.Et caedem et dolos.
+Ias. Obicere tandem quod potes crimen mihi?
 Med. 	Quodcumque feci.
-Ias.	Restat hoc unum insuper,
+Ias.Restat hoc unum insuper,
 	tuis ut etiam sceleribus fiam nocens.
 Med. Tua illa, tua sunt illa: cui prodest scelus 
 	is fecit— omnes coniugem infamem arguant,
 	solus tuere, solus insontem voca:
 	tibi innocens sit quisquis est pro te nocens.
-Ias. 	Ingrata vita est cuius acceptae pudet.
-Med. 	Retineuda non est cuius acceptae pudet. 
-Ias. 	Quin potius ira concitum pectus doma,
+	 Ias. Ingrata vita est cuius acceptae pudet.
+Med. Retineuda non est cuius acceptae pudet. 
+Ias. Quin potius ira concitum pectus doma,
 	placare natis.
 Med.Abdico eiuro abnuo—
 	meis Creusa liberis fratres dabit?
@@ -538,9 +536,9 @@ Med. Ne veniat umquam tam malus miseris dies,
 	[Phoebi nepotes Sisyphi nepotibus]
 Ias. Quid, misera, meque teque in exitium trahis?
 	abscede quaeso,
-Med.	Supplicem audivit Creo.
+Med.Supplicem audivit Creo.
 Ias. 	Quid facere possim, loquere,
-Med.	Pro me? vel.
+Med.Pro me? vel.
 	scelus. 
 Ias. 	Hinc rex et illinc—
 Med.Est (et hic maior metus)
@@ -550,7 +548,7 @@ Ias.Cedo defessus malis.
 	et ipsa casus saepe iam expertos time.
 Med. Fortuna semper omnis infra me stetit. 
 Ias. 	Acastus instat,
-Med.	Propior est hostis Creo:
+Med.Propior est hostis Creo:
 	utrumque profuge. non ut in socerum manus
 	armes nec ut te caede cognata inquines
 	Medea cogit: innocens mecum fuge.
@@ -559,7 +557,7 @@ Ias. Et quis resistet, gemina si bella ingruant,
 Med. His adice Colchos, adice et Aeeten ducem,
 	Scythas Pelasgis iunge: demersos dabo.
 Ias. 	Alta extimesco sceptra,
-Med.	Ne cupias vide.
+Med.Ne cupias vide.
 Ias. Suspecta ne sint, longa colloquia amputa. 
 Med. Nunc summe toto Iuppiter caelo tona,
 	intende dextram, vindices flammas para
@@ -568,20 +566,20 @@ Med. Nunc summe toto Iuppiter caelo tona,
 	rei me vel istum: quisquis e nobis cadet 
 	nocens peribit, non potest in nos tuum
 	errare fulmen,
-Ias.	Sana meditari incipe
+Ias.Sana meditari incipe
 	et placida fare, si quod ex soceri domo
 	potest fugam levare solamen, pete.
 Med. Contemnere animus regias, ut scis, opes 
 	potest soletque; liberos tantum fugae
 	habere comites liceat in quorum' sinu
 	lacrimas profundam. te novi nati manent.
-Ias. 	Parere precibus cupere me fateor tuis;
+Ias. .Parere precibus cupere me fateor tuis;
 	pietas vetat: namque istud ut possim pati, 
 	non ipse memet cogat et rex et socer.
 	haec causa vitae est, hoc perusti pectoris
 	curis levamen. spiritu citius queam
 	carere, membris, luce.
-Med.	Sic natos amat?
+Med.Sic natos amat?
 	bene est, tenetur, vulneri patuit locus.— 
 	suprema certe liceat abeuntem loqui
 	mandata, liceat ultimum amplexum dare:
@@ -590,10 +588,10 @@ Med.	Sic natos amat?
 	maneant in animo verba: melioris tibi 
 	memoria nostri sedeat; haec irae data
 	oblitterentur.
-Ias.	Omnia ex animo expuli
+Ias.Omnia ex animo expuli
 	precorque et ipse, fervidam ut mentem regas
 	placideque tractes: miserias lenit quies.
-Med. 	Discessit, itane est? vadis oblitus mei 
+	 Med. Discessit, itane est? vadis oblitus mei 
 	et tot meorum facinorum? excidimus tibi?
 	numquam excidemus. hoc age, omnis advoca
 	vires et artes, fructus est scelerum tibi
@@ -919,20 +917,20 @@ Med. 	Discessit, itane est? vadis oblitus mei
 nuntius chorus nutrix medea iason 	Periere cuncta, concidit regni status,
 	nata atque, genitor cinere permixto iacent. 
 	 Chor. 	Qua fraude capti?
-Nvnt.	Qua solent reges capi:
+Nvnt.Qua solent reges capi:
 	donis.
-Chor.	In illis esse quis potuit dolus?
-Nvnt. 	Et ipse miror vixque iam facto malo
+Chor.In illis esse quis potuit dolus?
+Nvnt. Et ipse miror vixque iam facto malo
 	potuisse fieri credo.
-Chor.	Quis cladis modus?
-Nvnt. 	Avidus per omnem regiae partem furit . 
+Chor.Quis cladis modus?
+Nvnt. Avidus per omnem regiae partem furit . 
 	ut iussus ignis: iam domus tota occidit,
 	urbi timetur.
-Chor.	Vnda flammas opprimat.
-Nvnt. 	Et hoc in ista clade mirandum accidit:
+Chor.Vnda flammas opprimat.
+Nvnt. Et hoc in ista clade mirandum accidit:
 	alit unda flammas, quoque prohibetur magis,
 	magis ardet ignis: ipsa praesidia occupat. 
-Nvtr. 	Effer citatum sede Pelopea gradum,
+Nvtr. Effer citatum sede Pelopea gradum,
 	Medea, praeceps quaslibet terras pete.
 	 Med. Egone ut recedam? si profugissem prius,
 	ad hoc redirem, nuptias specto novas,
@@ -1023,7 +1021,7 @@ Nvtr. 	Effer citatum sede Pelopea gradum,
 	concurre, ut ipsam sceleris auctorem horridi
 	capiamus, huc, huc fortis, armiferi cohors 
 	conferte tela, vertite ex imo domum.
-Med. 	Iam iam recepi sceptra germanum patrem,
+Med. Iam iam recepi sceptra germanum patrem,
 	spoliumque Colchi pecudis auratae tenent;
 	rediere regna, rapta virginitas redit,
 	o placida tandem numina, o festum diem, 
@@ -1039,7 +1037,7 @@ Med. 	Iam iam recepi sceptra germanum patrem,
 Ias. En ipsa tecti parte praecipiti imminet. 
 	huc rapiat ignes aliquis, ut flammis cadat
 	suis perusta.
-Med.	Congere extremum tuis
+Med.Congere extremum tuis
 	' natis, Iason, funus, ac tumulum strue:
 	coniunx socerque iusta iam functis habent,
 	a me sepulti; gnatus hic fatum tulit, 
@@ -1051,7 +1049,7 @@ Ias. Per numen omne perque communes fugas
 Med. Hac qua recusas, qua doles, ferrum exigam.
 	i nunc, superbe, virginum thalamos pete,
 	relinque matres,
-Ias.	Vnus est poenae satis.
+Ias.Vnus est poenae satis.
 Med. Si posset una caede satiari haec manus,
 	nullam petisset, ut duos perimam, tamen 
 	nimium est dolori numerus angustus meo.

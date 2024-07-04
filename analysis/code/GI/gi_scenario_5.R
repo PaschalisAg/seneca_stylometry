@@ -1,8 +1,8 @@
 # Scenario 5: GI on Kestemont's corpus augmented with our main dataset
-install.packages("stylo")
-install.packages("ggplot2")
-install.packages("RColorBrewer")
-install.packages("patchwork")
+# install.packages("stylo")
+# install.packages("ggplot2")
+# install.packages("RColorBrewer")
+# install.packages("patchwork")
 
 library(stylo)
 library(ggplot2)
@@ -65,21 +65,21 @@ data <- make.table.of.frequencies(
 # print the name of the rows of the table
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
-options(max.print = 3060)
+options(max.print = 4000)
 rownames(data)
 
 # rows for Octavia
-rownames(data)[2059:2069]
+rownames(data)[2146:2156]
 # rows for Hercules Oetaeus
-rownames(data)[1954:1977]
+rownames(data)[2041:2064]
 
 # candidate author: Seneca
-candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
+candidate.set.seneca <- data[c(1806:2041, 2065:2146, 2157:2231), 1:2000]
 rownames(candidate.set.seneca)
 
 # impostors
-reference.set <- data[-c(1717:2146), 1:2000]
-rownames(reference_set)
+reference.set <- data[-c(1806:2231), 1:2000]
+rownames(reference.set)
 # ------------------------------------------
 
 
@@ -87,13 +87,13 @@ rownames(reference_set)
 # initialize empty lists for the results
 octavia_results <- list()
 # help("imposters")
-# Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 2059:2069) {
+# Octavia's chunks start from the 2146th row and go up to the 2156th row
+for (n in 2146:2156) {
   test <- data[n, 1:2000] # octavia's chunks
   # all the texts of seneca (verse & prose) excluding the two disputed plays
-  candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
+  candidate.set.seneca <- data[c(1806:2041, 2065:2146, 2157:2231), 1:2000]
   # all the texts of all the impostors
-  reference.set <- data[-c(1717:2146), 1:2000]
+  reference.set <- data[-c(1806:2231), 1:2000]
   octavia_result <- max(summary(imposters(
     test = test,
     reference.set = reference.set,
@@ -135,12 +135,12 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 1954:1977) {
+for (n in 2041:2064) {
   test <- data[n, 1:2000] # hercules oetaeus's chunks
   # all the texts of seneca (verse & prose) excluding the two disputed plays
-  candidate.set.seneca <- data[c(1717:1953, 1978:2058, 2070:2146), 1:2000]
+  candidate.set.seneca <- data[c(1806:2041, 2065:2146, 2157:2231), 1:2000]
   # all the texts of all the impostors
-  reference.set <- data[-c(1717:2146), 1:2000]
+  reference.set <- data[-c(1806:2231), 1:2000]
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -172,11 +172,5 @@ p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
   annotate("text", x = Inf, y = 0.9, label = "0.9", hjust =1, vjust = 0.5, color="black") +
   scale_y_continuous(limits = c(0,1))
 
-ho_df
 p2
-
-
-# plot the two plots next to each other sharing the same x-axis
-# jpeg(file="../imposters_results/imposters_chunks_oct_ho.jpeg")
-# combined_plot <- p1 + p2 + plot_layout(ncol = 2, heights = c(1, 1))
-# dev.off()
+ho_df

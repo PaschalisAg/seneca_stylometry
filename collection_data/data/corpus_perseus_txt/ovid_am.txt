@@ -1,3 +1,4 @@
+ Amores
 Liber primus
 EPIGRAMMA IPSIUS
 Qui modo Nasonis fueramus quinque libelli,
@@ -2460,7 +2461,7 @@ Corniger increpuit thyrso graviore Lyaeus:
 Pulsanda est magnis area maior equis.
 Inbelles elegi, genialis Musa, valete,
 Post mea mansurum fata superstes opus! 
-
+Epistulae (vel Heroides)
 Penelope Ulixi
 Haec tua Penelope lento tibi mittit, Ulixe;
 Nil mihi rescribas attinet: ipse veni!
@@ -6452,7 +6453,7 @@ Iam satis invalidos calamo lassavimus artus,
 Et manus officium longius aegra negat.
 Quid, nisi, quod cupio me iam coniungere tecum,
 Restat, ut adscribat littera nostra:  Vale? 
-
+Medicamina faciei femineae
 Discite quae faciem commendet cura, puellae,
 Et quo sit vobis forma tuenda modo.
 Cultus humum sterilem Cerealia pendere iussit
@@ -6553,7 +6554,7 @@ Tempore sint parvo molli licet illita vultu,
 Haerebit toto multus in ore color.
 Vidi quae gelida madefacta papavera lympha
 Contereret, teneris illineretque genis.
-
+Ars Amatoria
 Liber primus
 Siquis in hoc artem populo non novit amandi,
 Hoc legat et lecto carmine doctus amet.
@@ -8887,7 +8888,7 @@ Lusus habet finem: cygnis descendere tempus,
 Duxerunt collo qui iuga nostra suo.
 Ut quondam iuvenes, ita nunc, mea turba, puellae
 Inscribant spoliis "Naso magister erat."
-
+Remedia amoris
 Legerat huius Amor titulum nomenque libelli:
 'Bella mihi, video, bella parantur' ait.
 'Parce tuum vatem sceleris damnare, Cupido,

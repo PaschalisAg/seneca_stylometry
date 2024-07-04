@@ -1,3 +1,4 @@
+  Liber Primus
 PROLOGUS
 Aesopus auctor quam materiam repperit, 
 Hanc ego polivi versibus senariis. 
@@ -393,7 +394,7 @@ Illae credentes tradunt sese miluo;
 Qui regnum adeptus coepit vesci singulas 
 Et exercere imperium saevis unguibus. 
 Tunc de reliquis una: Merito plectimur. 
-
+Liber Secundus
 Auctor.
 Exemplis continetur Aesopi genus; 
 Nec aliud quicquam per fabellas quaeritur 
@@ -577,7 +578,7 @@ Sinistra quos in lucem natura extulit
 Nec quicquam possunt nisi meliores carpere, 
 Fatale exitium corde durato feram, 
 Donec fortunam criminis pudeat sui. 
-
+Liber Tertius
 Phaedrus ad Eutychum.
 Phaedri libellos legere si desideras, 
 Vaces oportet, Eutyche, a negotiis, 
@@ -1002,7 +1003,7 @@ Qui sint, requires; apparebunt tempore.
 Ego, quondam legi quam puer sententiam, 
 Palam muttire plebeio piaculum est, 
 Dum sanitas constabit, pulchre meminero. 
-
+Liber Quartus
 Poeta ad Particulonem.
 Cum destinassem operis habere terminum 
 In hoc, ut aliis esset materiae satis, 
@@ -1458,7 +1459,7 @@ Latinis dum manebit pretium litteris,
 Si non ingenium, certe brevitatem approba, 
 Quae commendari tanto debet iustius 
 Quanto poetae sunt molesti validius. 
-
+Liber Quintus
 Idem poeta.
 Aesopi nomen sicubi interposuero, 
 Cui reddidi iam pridem quicquid debui, 
@@ -1644,7 +1645,7 @@ Canem obiurgabat. Cui latrans contra senex:
 Non te destituit animus, sed vires meae. 
 Quod fuimus laudas, si iam damnas quod sumus. 
 Hoc cur, Philete, scripserim, pulchre vides. 
-
+Appendix:  Fabulae Novae
 Simius et vulpes:  Avarum etiam quod sibi superest non libenter dare.
 Vulpem rogabat partem caudae simius, 
 Contegere honeste posset ut nudas nates; 

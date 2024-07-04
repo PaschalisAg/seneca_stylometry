@@ -2,9 +2,7 @@
 I
 Oedipus  II
 Iocasta       Creo       Teiresia  III
-Manto       Senex Corinthius       Phorbas       Nuntius        Chorus Thebanorum      	  Oedipus Iocasta 	
-	
-	Iam nocte Titan dubius expulsa redit
+Manto       Senex Corinthius       Phorbas       Nuntius        Chorus Thebanorum      	  Oedipus Iocasta 	Iam nocte Titan dubius expulsa redit
 	et nube maestus squalida exoritur iubar,
 	lumenque flamma triste luctifica gerens
 	prospiciet avida peste solatas domos,
@@ -85,7 +83,7 @@ Manto       Senex Corinthius       Phorbas       Nuntius        Chorus Thebanoru
 	tabifica caeli vitia quae tecum invehis
 	infaustus hospes, profuge iamdudum ocius— 
 	vel ad parentes.
-Ioc. Quid iuvat, coniunx, mala
+	 Ioc. Quid iuvat, coniunx, mala
 	gravare questu? regium hoc ipsum reor:
 	adversa capere, quoque sit dubius magis
 	status et cadentis imperi moles labet,
@@ -208,29 +206,29 @@ Chorus Thebanorvm 	Occidis, Cadmi generosa proles,
 	tribuere dei; delubra petunt
 	haut ut voto numina placent,
 	sed iuvat ipsos satiare deos.
-Oedipus Chorus Creo 	Quisnam ille propero regiam gressu petit?
+	 	 Oedipus Chorus Creo 	Quisnam ille propero regiam gressu petit?
 	adestne clarus anguine ac factis Creo
 	an aeger animus falsa pro veris videt?
-Chor. 	Adest petitus omnibus votis Creo.
-Oed. 	Horrore quatior, fata quo vergant timens,
+	 Chor. 	Adest petitus omnibus votis Creo.
+	 Oed. 	Horrore quatior, fata quo vergant timens,
 	trepidumque gemino pectus affectu labat:
 	ubi laeta duris mixta in ambiguo iacent,
 	incertus animus scire cum cupiat timet.
 	Germane nostrae coniugis, fessis opem
 	si quam reportas, voce properata edoce.
-Cr. 	Responsa dubia sorte perplexa iacent.
-Oed. 	Dubiam salutem qui dat adflictis negat.
-Cr. 	Ambage flexa Delphico mos est deo
+	 Cr. 	Responsa dubia sorte perplexa iacent.
+	 Oed. 	Dubiam salutem qui dat adflictis negat.
+	 Cr. 	Ambage flexa Delphico mos est deo
 	arcana tegere.
-Oed.	Fare, sit dubium licet:
-	ambigua soli noscere Oedipodae datur.
-Cr. 	Caedem expiari regiam exilio 
-	et interemptum Laium ulcisci iubet:
-	non ante caelo lucidus curret dies
-	haustusque tutos aetheris puri dabit.
-Oed.	Et quis peremptor induti regis fuit?
+Oed.Fare, sit dubium licet:
+		ambigua soli noscere Oedipodae datur.
+	 	Cr. 		Caedem expiari regiam exilio deus,
+		et interemptum Laium ulcisci iubet:
+		non ante caelo lucidus curret dies
+		haustusque tutos aetheris puri dabit.
+	 	 	 Oed. Et quis peremptor induti regis fuit?
 	quem memoret ede Phoebus, ut poenas luat.
-Cr. 	Sit precor dixisse tutum visu et auditu horrida;
+Cr. Sit precor dixisse tutum visu et auditu horrida;
 	torpor insedit per artus, frigidus sanguis coit.
 	ut sacrata templa Phoebi supplici intravi pede 
 	et pias numen precatus rite summisi manus,
@@ -246,15 +244,15 @@ Cr. 	Sit precor dixisse tutum visu et auditu horrida;
 	nec tibi longa manent sceleratae gaudia caedis:
 	tecum bella geres, natis quoque bella relinquens
 	turpia, maternos iterum revolutus in ortus.
-Oed. 	Quod facere monitu caelitum iussus paro,
+Oed. Quod facere monitu caelitum iussus paro,
 	functi cineribus regis hoc decuit dari, 
 	ne sancta quisquam sceptra violaret dolo.
 	regi tuenda maxime regum est salus:
 	curat peremptum nemo quem incolumem timet.
-Cr.	Curam perempti maior excussit timor.
-Oed.	Pium prohibuit ullus officium metus? 
-Cr.	Sphinx et nefandi carminis tristes minae.
-Oed. 	Nunc expietur numinum imperio scelus.
+Cr. Curam perempti maior excussit timor.
+Oed. Pium prohibuit ullus officium metus? 
+Cr. Sphinx et nefandi carminis tristes minae.
+Oed. Nunc expietur numinum imperio scelus.
 	Quisquis deorum regna placatus vides:
 	tu, tu penes quem iura praecipitis poli
 	tuque, o sereni maximum mundi decus, 
@@ -300,7 +298,7 @@ Oed. 	Nunc expietur numinum imperio scelus.
 	comesque Manto luce viduatum trahens. 
 Oedipus Tiresias Manto Oed. Sacrate di vis, proximum Phoebo caput,
 	responsa solve; fare, quem poenae petant.
-Teir. 	Quod tarda fatu est lingua, quod quaerit moras
+Teir. Quod tarda fatu est lingua, quod quaerit moras
 	haut te quidem, magnanime, mirari addecet:
 	visu carent! magna pars veri latet. 
 	sed quo vocat me patria, quo Phoebus, sequar:
@@ -310,18 +308,18 @@ Teir. 	Quod tarda fatu est lingua, quod quaerit moras
 	curvoque numquam colla depressam iugo. 
 	tu lucis inopem, gnata, genitorem regens
 	manifesta sacri signa fatidici refer.
-Man. 	Opima sanctas victima ante aras stetit.
-Tir. 	In vota superos voce sollemni voca
+Man. Opima sanctas victima ante aras stetit.
+Tir. In vota superos voce sollemni voca
 	arasque dono turis Eoi extrue. 
-Man. 	Iam tura sacris caelitum ingessi focis.
-Tir. 	Quid flamma? largas iamne comprendit dapes?
-Man. 	Subito refulsit lumine et subito occidit.
-Tir. 	Vtrumne clarus ignis et nitidus stetit
+Man. Iam tura sacris caelitum ingessi focis.
+Tir. Quid flamma? largas iamne comprendit dapes?
+Man. Subito refulsit lumine et subito occidit.
+	 Tir. Vtrumne clarus ignis et nitidus stetit
 	rectusque purum verticem caelo tulit 
 	et summam in auras fusus explicuit comam?
 	an latera circa serpit incertus viae
 	et fluctuante turbidus fumo labat?
-Man. 	Non una facies mobilis flammae fuit:
+Man. Non una facies mobilis flammae fuit:
 	imbrifera qualis implicat varios sibi 
 	Iris colores, parte quae magna poli
 	curvata picto nuntiat nimbos sinu
@@ -336,7 +334,7 @@ Man. 	Non una facies mobilis flammae fuit:
 	ipsosque circa spissior vultus sedet
 	et nube densa sordidam lucem abdidit.
 	quid sit, parens, effare.
-Tir. 	Quid fari queam
+	 Tir. Quid fari queam
 	inter tumultus mentis attonitae vagus?
 	quidnam loquar? sunt dira, sed in alto mala; 
 	solet ira certis numinum ostendi notis:
@@ -346,23 +344,23 @@ Tir. 	Quid fari queam
 	et sparge salsa colla taurorum mola. 
 	placidone vultu sacra et admotas manus
 	patiuntur?
-Man. 	Altum taurus attollens caput
+Man. Altum taurus attollens caput
 	primos ad ortus positus expavit diem
 	trepidusque vultum obliquat et radios fugit.
-Tir. 	Vnone terram vulnere afflicti petunt? 
-Man. 	Iuvenca ferro semet imposito induit
+Tir. Vnone terram vulnere afflicti petunt? 
+Man. Iuvenca ferro semet imposito induit
 	et vulnere uno cecidit, at taurus duos
 	perpessus ictus huc et huc dubius ruit
 	animamque fessus vix reluctantem exprimit.
-TIR. 	Vtrum citatus vulnere angusto micat 
+	 TIR. Vtrum citatus vulnere angusto micat 
 	an lentus altas irrigat plagas cruor?
-Man. 	Huius per ipsam qua patet pectus viam
+Man. Huius per ipsam qua patet pectus viam
 	effusus amnis, huius exiguo graves
 	maculantur ictus imbre; sed versus retro
 	per ora multus sanguis atque oculos redit. 
-Tir. 	Infausta magnos sacra terrores cient.
+Tir. Infausta magnos sacra terrores cient.
 	sed ede certas viscerum nobis notas.
-Man. 	Genitor, quid hoc est? non levi motu, ut solent,
+Man. Genitor, quid hoc est? non levi motu, ut solent,
 	agitata trepidant exta, sed totas manus
 	quatiunt novusque prosilit venis cruor. 
 	cor marcet aegrum penitus ac mersum latet
@@ -396,10 +394,10 @@ Man. 	Genitor, quid hoc est? non levi motu, ut solent,
 	 Oed. Quid ista sacri signa terrifici ferant
 	exprome: voces aure non timida hauriam. 
 	[solent extrema facere securos mala.]
-Tir. 	His invidebis quibus opem quaeris malis.
-Oed. 	Memora quod unum scire caelicolae volunt,
+Tir. His invidebis quibus opem quaeris malis.
+Oed. Memora quod unum scire caelicolae volunt,
 	contaminarit rege quis caeso manus.
-Tir. 	Nec alta caeli quae levi pinna secant 
+Tir. Nec alta caeli quae levi pinna secant 
 	nec fibra vivis rapta pectoribus potest
 	ciere nomen; alia temptanda est via:
 	ipse evocandus noctis aeternae plagis,
@@ -409,11 +407,11 @@ Tir. 	Nec alta caeli quae levi pinna secant
 	huc extrahendus: ede cui mandes sacrum;
 	nam te, penes quem summa regnorum, nefas
 	invisere umbras.
-Oed. 	Te, Creo, hic poscit labor,
+Oed. Te, Creo, hic poscit labor,
 	ad quem secundum regna respiciunt mea. 
-Tir. 	Dum nos profundae claustra laxamus Stygis,
+Tir. Dum nos profundae claustra laxamus Stygis,
 	populare Bacchi laudibus carmen sonet.
-Chorus 	Effusam redimite comam nutante corymbo,
+	 Chorus 	Effusam redimite comam nutante corymbo,
 	mollia Nysaeis armati bracchia thyrsis!
 	Lucidum caeli decus, huc ades 
 	votis quae tibi nobiles
@@ -526,27 +524,27 @@ Chorus 	Effusam redimite comam nutante corymbo,
 	candida formonsi venerabimur ora Lyaei.
 	 Oedipus Creo 	Etsi ipse vultus flebiles praefert notas,
 	exprome cuius capite placemus deos. 
-Cr. 	Fari iubes tacere quae suadet metus.
-Oed. 	Si te luentes non satis Thebae movent,
+Cr. Fari iubes tacere quae suadet metus.
+Oed. Si te luentes non satis Thebae movent,
 	at sceptra moveant lapsa cognatae domus.
-Cr. 	Nescisse cupies nosse quae nimium expetis.
-Oed. 	Iners malorum remedium ignorantia est. 
+Cr. Nescisse cupies nosse quae nimium expetis.
+Oed. Iners malorum remedium ignorantia est. 
 	itane et salutis publicae indicium obrues?
-Cr. 	Vbi turpis est medicina, sanari piget.
-Oed. 	Audita fare, vel malo domitus gravi
+Cr. Vbi turpis est medicina, sanari piget.
+Oed. Audita fare, vel malo domitus gravi
 	quid arma possint regis irati scies.
-Cr. 	Odere reges dicta quae dici iubent. 
-Oed. 	Mittens Erebo vile pro cunctis caput,
+Cr. Odere reges dicta quae dici iubent. 
+Oed. Mittens Erebo vile pro cunctis caput,
 	arcana sacri voce ni retegis tua.
-Cr. 	Tacere liceat, ulla libertas minor
+	 Cr. Tacere liceat, ulla libertas minor
 	a rege petitur?
-Oed. 	Saepe vel lingua magis
+Oed. Saepe vel lingua magis
 	regi atque regno muta libertas obest. 
-Cr. 	Vbi non licet tacere, quid cuiquam licet?
-Oed. 	Imperia solvit qui tacet iussus loqui.
-Cr. 	Coacta verba placidus accipias precor.
-Oed. 	Vlline poena vocis expressae fuit?
-Cr. 	Est procul ab urbe lucus ilicibus niger, 
+Cr. Vbi non licet tacere, quid cuiquam licet?
+Oed. Imperia solvit qui tacet iussus loqui.
+Cr. Coacta verba placidus accipias precor.
+Oed. Vlline poena vocis expressae fuit?
+Cr. Est procul ab urbe lucus ilicibus niger, 
 	Dircaea circa vallis inriguae loca.
 	cupressus altis exerens silvis caput
 	virente semper alligat trunco nemus,
@@ -687,50 +685,50 @@ Cr. 	Est procul ab urbe lucus ilicibus niger,
 	iam iam tenemus callidi socios doli:
 	mentitur ista praeferens fraudi deos
 	vates, tibique sceptra despondet mea. 
-Cr. 	Egone ut sororem regia expelli velim?
+Cr. Egone ut sororem regia expelli velim?
 	si me fides sacrata cognati laris
 	non contineret in meo certum statu:
 	tamen ipsa me fortuna terreret nimis
 	sollicita semper, liceat hoc tuto tibi 
 	exuere pondus nec recedentem opprimat:
 	iam te minore tutior pones loco.
-Oed. 	Hortaris etiam, sponte deponam ut mea
+Oed. Hortaris etiam, sponte deponam ut mea
 	tam gravia regna?
-Cr. 	Suadeam hoc illis ego,
+Cr. Suadeam hoc illis ego,
 	in utrumque quis., est liber etiamnum status: 
 	tibi iam necesse est ferre fortunam tuam.
-Oed. 	Certissima est regnare cupienti via
+Oed. Certissima est regnare cupienti via
 	laudare modica et otium ac somnum loqui;
 	ab inquieto saepe simulatur quies.
-Cr. 	Parumne me tam longa defendit fides? 
-Oed. 	Aditum nocendi perfido praestat fides.
-Cr. 	Solutus onere regio regni bonis
+Cr. Parumne me tam longa defendit fides? 
+Oed. Aditum nocendi perfido praestat fides.
+Cr. Solutus onere regio regni bonis
 	fruor domusque civium coetu viget,
 	nec ulla vicibus surgit alternis dies
 	qua non propinqui munera ad nostros lares 
 	sceptri redundent; cultus, opulentae dapes,
 	donata multis gratia nostra salus:
 	quid tam beatae desse fortunae rear?
-Oed. 	Quod dest: secunda non habent umquam modum.
-Cr. 	Incognita igitur ut nocens causa cadam? 
-Oed. 	Num ratio vobis reddita est vitae meae?
+Oed. Quod dest: secunda non habent umquam modum.
+Cr. Incognita igitur ut nocens causa cadam? 
+Oed. Num ratio vobis reddita est vitae meae?
 	num audita causa est nostra Tiresiae? tamen
 	sontes videmur, facitis exemplum: sequor.
-Cr. 	Quid si innocens sum?
-Oed. 	Dubia pro certis solent
+Cr. Quid si innocens sum?
+Oed. Dubia pro certis solent
 	timere reges.
-Cr. 	Qui pavet vanos metus, 
+Cr. Qui pavet vanos metus, 
 	veros moretur.
-Oed. 	Quisquis in culpa fuit,
+Oed. Quisquis in culpa fuit,
 	dimissus odit: omne quod dubium est cadat.
-Cr. 	Sic odia fiunt.
-Oed. 	Odia qui nimium timet
+Cr. Sic odia fiunt.
+Oed. Odia qui nimium timet
 	regnare nescit: regna custodit metus.
-Cr. 	Qui sceptra duro saevus imperio regit, 
+Cr. Qui sceptra duro saevus imperio regit, 
 	timet timentes: metus in auctorem redit.
-Oed. 	Servate sontem saxeo. inclusum specu,
+Oed. Servate sontem saxeo. inclusum specu,
 	ipse ad penates regios referam gradum.
-Chorus 	Non tu tantis causa periclis,
+	 Chorus 	Non tu tantis causa periclis,
 	non hinc Labdacidos petunt 
 	fata, sed veteres deum
 	irae secuntur: Castalium nemus
@@ -800,108 +798,108 @@ Oedipus Iocasta 	C aras revolvit animus et repetit metus,
 	unanima coniunx, explica errores precor:
 	quae spatia moriens Laius vitae tulit?
 	primone in aevo viridis an fracto occidit? 
-Ioc. 	Inter senem iuvenemque, sed propior seni.
-Oed. 	Frequensne turba regium cinxit latus?
-Ioc. 	Plures fefellit error ancipitis viae,
+	 Ioc. Inter senem iuvenemque, sed propior seni.
+Oed. Frequensne turba regium cinxit latus?
+Ioc. Plures fefellit error ancipitis viae,
 	paucos fidelis curribus iunxit labor.
-Oed. 	Aliquisne cecidit regio fato comes? 
-ioc. 	Vnum fides virtusque consortem addidit.
-Oed. 	Teneo nocentem, convenit numerus, locus:
+Oed. Aliquisne cecidit regio fato comes? 
+	ioc. Vnum fides virtusque consortem addidit.
+Oed. Teneo nocentem, convenit numerus, locus:
 	sed tempus adde.
-Ioc. 	Decima iam metitur seges.
-Senex Corinthius Iocasta 	Corinthius te populus in regnum vocat
+Ioc. Decima iam metitur seges.
+	 Senex Corinthius Iocasta 	Corinthius te populus in regnum vocat
 	patrium: quietem Polybus aeternam obtinet. 
-Oed. 	Vt undique in me saeva Fortuna irruit!
+Oed. Vt undique in me saeva Fortuna irruit!
 	edissere agedum, quo cadat fato parens.
-Sen. 	Animam senilem mollis exsolvit sopor.
-Oed. 	Genitor sine ulla caede defunctus iacet,
+Sen. Animam senilem mollis exsolvit sopor.
+Oed. Genitor sine ulla caede defunctus iacet,
 	testor, licet iam tollere ad caelum pie 
 	puras nec ulla scelera metuentes manus,
 	sed pars magis metuenda fatorum manet.
-Sen. 	Omnem paterna regna discutient metum.
-Oed. 	Repetam paterna regna; sed matrem horreo.
-Sen. 	Metuis parentem, quae tuum reditum expetens 
+Sen. Omnem paterna regna discutient metum.
+Oed. Repetam paterna regna; sed matrem horreo.
+Sen. Metuis parentem, quae tuum reditum expetens 
 	sollicita pendet?
-Oed. 	Ipsa me pietas fugat.
-Sen. 	Viduam relinques?
-Oed. 	Tangis en ipsos metus.—
-Sen. 	Effare morsus quis premat mentem timor;
+Oed. Ipsa me pietas fugat.
+Sen. Viduam relinques?
+Oed. Tangis en ipsos metus.—
+Sen. Effare morsus quis premat mentem timor;
 	praestare tacitam regibus soleo fidem.
-Oed. 	Conubia matris Delphico admonitu tremo. 
-Sen. 	Timere vana desine et turpes metus
+Oed. Conubia matris Delphico admonitu tremo. 
+Sen. Timere vana desine et turpes metus
 	depone: Merope vera non fuerat parens.
-Oed. 	Quod subditi vi praemium gnati petit?
-Sen. 	Regum superbam liberi astringunt fidem.
-Oed. 	Secreta thalami fare quo excipias modo. 
-Sen. 	Hae te parenti parvulum tradunt manus.
-Oed. 	Tu me parenti tradis; at quis me tibi?
-Sen. 	Pastor nivoso sub Cithaeronis iugo.
-Oed. 	In illa temet nemora quis casus tulit?
-Sen. 	Illo sequebar monte cornigeros greges. 
-Oed. 	Nunc adice certas corporis nostri notas.
-Sen. 	Forata ferro gesseras vestigia,
+Oed. Quod subditi vi praemium gnati petit?
+Sen. Regum superbam liberi astringunt fidem.
+Oed. Secreta thalami fare quo excipias modo. 
+Sen. Hae te parenti parvulum tradunt manus.
+Oed. Tu me parenti tradis; at quis me tibi?
+Sen. Pastor nivoso sub Cithaeronis iugo.
+Oed. In illa temet nemora quis casus tulit?
+Sen. Illo sequebar monte cornigeros greges. 
+Oed. Nunc adice certas corporis nostri notas.
+	 Sen. Forata ferro gesseras vestigia,
 	tumore nactus nomen ac vitio pedum.
-Oed. 	Quis fuerit ille qui meum dono dedit
+Oed. Quis fuerit ille qui meum dono dedit
 	corpus requiro.
-Sen. 	Regios pavit greges; 
+Sen. Regios pavit greges; 
 	minor sub illo turba pastorum fuit.
-Oed. 	Eloquere nomen.
-Sen. 	Prima languescit senum
+Oed. Eloquere nomen.
+Sen. Prima languescit senum
 	memoria longo lassa sublabens situ.
-Oed. 	Potesne facie noscere ac vultu virum?
-Sen. 	Fortasse noscam: saepe iam spatio Obrutam 
+Oed. Potesne facie noscere ac vultu virum?
+Sen. Fortasse noscam: saepe iam spatio Obrutam 
 	levis exoletam memoriam revocat nota.
-Oed. 	Ad sacra et aras omne compulsum pecus
+Oed. Ad sacra et aras omne compulsum pecus
 	duces sequantur; ite, propere accersite,
 	famuli, penes quos summa consistit gregum.
-Sen. 	Sive ista ratio sive fortuna occulit, 
+Sen. Sive ista ratio sive fortuna occulit, 
 	latere semper patere quod latuit diu:
 	saepe eruentis veritas patuit malo.
-Oed. 	Malum timeri maius bis aliquod potest?
-Sen. 	Magnum esse magna mole quod petitur scias,
+Oed. Malum timeri maius bis aliquod potest?
+Sen. Magnum esse magna mole quod petitur scias,
 	concurrit illinc publica, hinc regis salus: 
 	utrimque paria; contine medias manus,
 	nihil lacessas, ipsa se fata explicent.
-Oed. 	Non expedit concutere felicem statum:
+Oed. Non expedit concutere felicem statum:
 	tuto movetur quicquid extremo in loco est.
-Sen. 	Nobilius aliquid genere regali appetis? 
+Sen. Nobilius aliquid genere regali appetis? 
 	ne te parentis pigeat inventi vide.
-Oed. Vel paenitendi sanguinis quaeram fidem,
+	 Oed. Vel paenitendi sanguinis quaeram fidem,
 	si nosse certum est. ecce grandaevus senex,
 	arbitria sub quo regii fuerant gregis,
 	Phorbas. refersne nomen aut vultum senis? 
-Sen. 	Adlidet animo forma; nec notus satis,
+Sen. Adlidet animo forma; nec notus satis,
 	nec rursus iste vultus ignotus mihi.
-Oed. Regnum optinente Laio famulus greges
+	 Oed. Regnum optinente Laio famulus greges
 	agitasti opimos sub Cithaeronis plaga?
 Phorbas Oedipus 	Laetus Cithaeron pabulo semper novo 
 	aestiva nostro prata summittit gregi.
 	SEN, Noscisne memet?
-Phor. 	Dubitat anceps memoria.
-Oed. 	Huic aliquis a te traditur quondam puer?
+Phor. Dubitat anceps memoria.
+Oed. Huic aliquis a te traditur quondam puer?
 	effare. dubitas? cur genas mutat color?
 	quid verba quaeris? veritas odit moras. 
-Phor. 	Obducta longo temporum tractu moves.
-Oed. 	Fatere, ne te .cogat ad verum dolor.
-Phor. 	Inutile isti munus infantis dedi:
+Phor. Obducta longo temporum tractu moves.
+Oed. Fatere, ne te .cogat ad verum dolor.
+Phor. Inutile isti munus infantis dedi:
 	non potuit ille luce, non caelo frui.
-Sen. 	Procul sit omen. vivit et vivat precor. 
-Oed. 	Superesse quare traditum infantem negas?
-Phor.	Ferrum per ambos tenue transactum pedes
+Sen. Procul sit omen. vivit et vivat precor. 
+Oed. Superesse quare traditum infantem negas?
+Phor. Ferrum per ambos tenue transactum pedes
 	ligabat artus, vulneri innatus tumor
 	puerile foeda corpus urebat lue.
-Oed. 	Quid quaeris ultra? fata iam accedunt prope. 
+Oed. Quid quaeris ultra? fata iam accedunt prope. 
 	quis fuerit infans edoce.
-Phor. 	Prohibet fides.
-Oed. 	Huc aliquis ignem! flamma iam excutiet fidem.
-Phor. 	Per tam cruentas vera quaerentur vias?
+Phor. Prohibet fides.
+Oed. Huc aliquis ignem! flamma iam excutiet fidem.
+Phor. Per tam cruentas vera quaerentur vias?
 	ignosce quaeso.
-Oed.	Si ferus videor tibi
+Oed.Si ferus videor tibi
 	et impotens, parata vindicta in manu est: 
 	dic vera: quisnam? quove generatus patre?
 	qua matre genitus?
-Phor.	coniuge est genitus tua.
-Oed. D	ehisce, tellus, tuque tenebrarum potens,
+Phor.coniuge est genitus tua.
+	 Oed. Dehisce, tellus, tuque tenebrarum potens,
 	m Tartara ima, rector umbrarum, rape
 	retro reversus generis ac stirpis vices. 
 	congerite, cives, saxa in infandum caput,
@@ -948,7 +946,7 @@ Chorus 	Fata si liceat mihi
 	maestus en famulus manu
 	regius quassat caput,
 	ede quid portes novi.
-Nuntius 	Praedicta postquam fata et infandum genus 
+	 Nuntius 	Praedicta postquam fata et infandum genus 
 	deprendit ac se scelere convictum Oedipus
 	damnavit ipse, regiam infestus petens
 	invisa propero tecta penetravit gradu
@@ -1013,7 +1011,7 @@ Nuntius 	Praedicta postquam fata et infandum genus
 	inventa thalamis digna nox tandem meis.
 	rigat ora foedus imber et lacerum caput
 	largum revulsis sanguinem venis vomit.
-Chorus 	Fatis agimur: cedite fatis; 
+	 Chorus 	Fatis agimur: cedite fatis; 
 	non sollicitae possunt curae
 	mutare rati stamina fusi.
 	quicquid patimur mortale genus,
@@ -1037,7 +1035,7 @@ Oedipus Chorus Iocasta 	Bene habet, peractum est: iusta persolvi patri,
 	quis scelera donat? conscium evasi diem.
 	nil, parricida, dexterae debes tuae:
 	lux te refugit, vultus Oedipodam hic decet.
-Chor. 	En ecce, rapido saeva prosiluit gradu
+Chor. En ecce, rapido saeva prosiluit gradu
 	Iocasta vaecors, qualis attonita et furens 
 	Cadmea mater abstulit gnato caput
 	sensitque raptum, dubitat afflictum alioqui,
@@ -1046,19 +1044,19 @@ Chor. 	En ecce, rapido saeva prosiluit gradu
 	gnatumue? dubitas? gnatus es: gnatum pudet? 
 	invite loquere gnate— quo avertis caput
 	vacuosque vultus?
-Oed. 	Quis frui tenebris vetat?
+Oed. Quis frui tenebris vetat?
 	quis reddit oculos? matris, en matris sonus!
 	perdidimus operam, congredi fas amplius
 	haut est. nefandos dividat vastum mare 
 	dirimatque tellus abdita et quisquis sub hoc
 	in alia versus sidera ac solem avium
 	dependet orbis alterum ex nobis ferat.
-Ioc. 	Fati ista culpa est: nemo fit fato nocens.
-Oed. 	Iam parce verbis, mater, et parce auribus: 
+Ioc. Fati ista culpa est: nemo fit fato nocens.
+Oed. Iam parce verbis, mater, et parce auribus: 
 	per has reliquias corporis trunci peto,
 	per inauspicatum sanguinis pignus mei,
 	per omne nostri nominis fas ac nefas.
-Ioc. 	Quid, anime, torpes? socia cur scelerum dare
+Ioc. Quid, anime, torpes? socia cur scelerum dare
 	poenas recusas? omne confusum' perit, 
 	, incesta, per te iuris humani decus:
 	morere et nefastum spiritum ferro exige.
@@ -1074,9 +1072,9 @@ Ioc. 	Quid, anime, torpes? socia cur scelerum dare
 	telum an patenti conditum iugulo inprimam?
 	eligere nescis vulnus: hunc, dextra, hunc pete
 	.uterum capacem, qui virum et gnatos tulit.
-Chor. 	Iacet perempta. vulneri immoritur manus 
+Chor. Iacet perempta. vulneri immoritur manus 
 	ferrumque secum nimius eiecit cruor.
-Oed. 	Fatidice te, te praesidem et veri deum
+Oed. Fatidice te, te praesidem et veri deum
 	compello: solum debui fatis patrem;
 	bis parricida plusque quam timui nocens
 	matrem peremi: scelere confecta est meo. 

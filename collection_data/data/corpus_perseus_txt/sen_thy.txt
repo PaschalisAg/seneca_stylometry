@@ -2,9 +2,7 @@
 I
 Thyestes  II
 Atreus       Tantali Umbra  III
-Furia       Satelles       Tantalus       Nuntius        Chorus      	 	  Tantali Umbra Furia Tantali Umbra 	
-	
-	Quis inferorum sede ab infausta extrahit
+Furia       Satelles       Tantalus       Nuntius        Chorus      	 	  Tantali Umbra Furia Tantali Umbra 	Quis inferorum sede ab infausta extrahit
 	avido fugaces ore captantem cibos,
 	quis male deorum Tantalo visas domos
 	ostendit iterum? peius inventum est siti

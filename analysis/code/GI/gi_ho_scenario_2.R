@@ -1,4 +1,8 @@
+# Scenario 2: GI applied on the main corpus but HO is split into two chunks
+# ----------------------------------------------------------------------
+
 # load necessary library
+# install.packages("stylo")
 library(stylo)
 
 # change the working directory to where the analysis data is located
@@ -49,32 +53,32 @@ data <- make.table.of.frequencies(
 )
 
 # print the row names of the table to identify the specific rows for the disputed texts
-options(max.print = 100)
+options(max.print = 150)
 rownames(data)
 
 
-# Herc. O chunk 1 = 40th row
+# Herc. O chunk 1 = 54th row
 # double-check
-rownames(data)[40]
-# Herc. O chunk 2 = 41th row
-rownames(data)[41]
+rownames(data)[54]
+# Herc. O chunk 2 = 55th row
+rownames(data)[55]
 
 # imposters method
 # help("imposters") 
 # after the comma the range of the columns to be selected is being given
 # the same applies for the code snippets below
-hero_chunk1 <- data[40, 1:2000]
-hero_chunk2 <- data[41, 1:2000]
+hero_chunk1 <- data[54, 1:2000]
+hero_chunk2 <- data[55, 1:2000]
 
 # indicating the text that belongs to the possible candidate (i.e., Seneca)
 # use c for non-contiguous rows in order to concatenate them
 # exclude Octavia too
-candidate.author.seneca <- data[c(38:39, 42, 44:48),1:2000] # the 10 plays by Seneca exlcuding the disputed plays
+candidate.author.seneca <- data[c(52:53, 56:61),1:2000] # the 10 plays by Seneca exlcuding the disputed plays
 rownames(candidate.author.seneca)
 
 
 # building the reference set that includes the imposters by excluding the texts by Seneca and the disputed play
-imposters.set <- data[-c(38:48),1:2000]
+imposters.set <- data[-c(52:61),1:2000]
 rownames(imposters.set)
 
 imposters.hero.chunk1 <- imposters(

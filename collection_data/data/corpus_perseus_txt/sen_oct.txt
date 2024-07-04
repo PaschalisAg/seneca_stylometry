@@ -3,9 +3,7 @@ I
 Octavia       Poppaea  II
 Nero       Praefectus  III
 Nutrix Octaviae       Nutrix Poppaeae       Seneca  IV
-Mater Neronis      Nuntius        Chorus Romanorum      	 	  Octavia 	
-	
-	Iam vaga caelo sidera fulgens
+Mater Neronis      Nuntius        Chorus Romanorum      	 	  Octavia 	Iam vaga caelo sidera fulgens
 	Aurora fugat.
 	surgit Titan radiante coma
 	mundoque diem reddit clarum,
@@ -191,14 +189,14 @@ Oct. Expectat aliam principis subolem domus;
 Nvtr. Confirmet animum civium tantus favor.
 Oct. Solatur iste nostra, non relevat mala.
 Nvtr. 	Vis magna populi est.
-Oct.	Principis maior
+Oct.Principis maior
 	tamen. 
 Nvtr. 	Respiciet ipse coniugem,
-Oct.	Paelex vetat.
+Oct.Paelex vetat.
 Nvtr. 	Invisa cunctis nempe.
-Oct.	Sed cara est viro.
+Oct.Sed cara est viro.
 Nvtr. 	Nondum uxor est.
-Oct.	Iam fiet, et genetrix
+Oct.Iam fiet, et genetrix
 	simul.
 Nvtr. Iuvenilis ardor impetu primo furit,
 	languescit idem facile nec durat diu 
@@ -207,7 +205,7 @@ Nvtr. Iuvenilis ardor impetu primo furit,
 	violare prima quae toros ausa est tuos
 	animumque domini famula possedit diu,
 	iam metuit eadem—
-Oct.	Nempe praelatum sibi. 
+Oct.Nempe praelatum sibi. 
 	 Nvtr. Subiecta et humilis, atque monumenta extruit
 	quibus timorem fassa testatur suum.
 	et hanc levis fallaxque destituet deus
@@ -473,21 +471,21 @@ Sen. Crede obsequenti parcius: levis est dea.
 Ner. Inertis est nescire quid liceat sibi.
 Sen. Id facere laus est quod decet, non quod licet.
 Ner. 	Calcat iacentem vulgus.
-Sen.	Invisum opprimit. 
+Sen.Invisum opprimit. 
 Ner. 	Ferrum tuetur principem.
-Sen.	Melius fides.
+Sen.Melius fides.
 Ner. 	Decet timeri Caesarem.
-Sen.	At plus diligi.
+Sen.At plus diligi.
 Ner. 	Metuant necesse est—
-Sen.	Quicquid exprimitur
+Sen.Quicquid exprimitur
 	grave est.
 Ner. 	Iussisque nostris pareant.
-Sen.	Iusta impera.
+Sen.Iusta impera.
 Ner. 	Statuam ipse.
-Sen.	Quae consensus efficiat rata. 
+Sen.Quae consensus efficiat rata. 
 Ner. 	Respectus ensis faciet.
-Sen.	HOC absit nefas.
-Ner. 	An patiar ultra sanguinem nostrum peti,
+Sen.HOC absit nefas.
+Ner. An patiar ultra sanguinem nostrum peti,
 	inultus et contemptus ut subito opprimar?
 	exilia non fregere summotos procul
 	Plautum atque Sullam, pertinax quorum furor 
@@ -608,13 +606,13 @@ Ner. Male imperatur, cum regit vulgus duces.
 Sen. Nihil impetrare cum valet, iuste dolet. 
 Ner. Exprimere ius est, ferre quod nequeunt preces?
 Sen. 	Negare durum est.
-Ner.	Principem cogi nefas.
+Ner.Principem cogi nefas.
 Sen. 	Remittat ipse.
-Ner.	Fama sed victum feret.
+Ner.Fama sed victum feret.
 Sen. 	Levis atque vana.
-Ner.	Sit licet, multos notat.
+Ner.Sit licet, multos notat.
 Sen. 	Excelsa metuit.
-Ner.	Non minus carpit tamen. 
+Ner.Non minus carpit tamen. 
 Sen. Facile opprimetur. merita te divi patris
 	aetasque frangat coniugis, probitas pudor.,
 Ner. Desiste tandem, iam gravis nimium mihi,
@@ -742,7 +740,7 @@ Chor. En illuxit suspecta diu,
 	pelagique numen omne consensu pari.
 	quae subita vultus causa mutavit tuos?
 	quid pallor iste, quid ferant lacrimae doce.
-Pop. 	Confusa tristi proximae noctis metu
+	 	 	 	 Pop. 	Confusa tristi proximae noctis metu
 	visuque, nutrix, mente turbata feror,
 	defecta sensu. laeta nam postquam dies
 	'sideribus atris cessit et nocti polus, 
@@ -896,13 +894,13 @@ Praef. Quam poscat ede, nostra ne parcat manus.
 Ner. Caedem sororis poscit et dirum caput.
 Praef. Horrore vinctum trepidus astrinxit rigor.
 Ner. 	Parere dubitas?
-Praef.	Cur meam damnas fidem?
+Praef.Cur meam damnas fidem?
 Ner. 	Quod parcis hosti.
-Praef.	Femina hoc nomen capit?
+Praef.Femina hoc nomen capit?
 Ner. 	Si scelera cepit.
-Praef.	Estne qui sontem arguat? 
+Praef.Estne qui sontem arguat? 
 Ner. 	Populi furor.
-Praef.	Quis regere dementes valet?
+Praef.Quis regere dementes valet?
 Ner. 	Qui concitare potuit.
 Praef.Haud quemquam reor.
 Ner. Mulier, dedit natura cui pronum malo

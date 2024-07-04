@@ -1,4 +1,4 @@
-Bella per Emathios plus quam civilia campos
+    Praefatur poeta argumentum.  1 Conqueritur de bello ipso.  7 Alloquitur Neronem.  32 De causis belli internis.  66 Aemulatio inter Pompeium et Caesarem, mortuo Crasso.  97 Luxuries Romana.  157 Caesar Rubiconem transit, Ariminumque invadit.  182 Queruntur incolae eius regionis, sese primos cuiusque belli sentire damna.  230 Accedit Curio, Roma expulsus, ad Caesarem, eumque ad bellum hortatur.  260 Caesar milites alloquitur. 291 Dubiis militibus, Laelius item ad bellum hortatur.  351 Adsentiunt milites.  385 Ergo Caesar Romam petit.  Enumerantur copiae.  391 Fama maior vero Romae de eius adventu.  Metus populi.  Fugiunt senatores et cives, et ipse Pompeius.  465 Prodigia visa enarrantur.  522 Ea propter consulitur Tuscus vates Aruns.  Lustratur urbs.  Sacrificium fit infaustum.  Mala praesagit Aruns.  583 Item Figulus.  638 Item matrona quaedam. 672    Bella per Emathios plus quam civilia campos
 Iusque datum  sceleri canimus, populumque potentem
 In sua victrici conversum viscera dextra,
 Cognatasque acies, et rupto foedere regni,
@@ -692,10 +692,8 @@ Impiaque in medio peraguntur bella senatu.
 Consurgunt partes iterum, totumque per orbem
 Rursus eo. Nova da mihi cernere litora Ponti,
 Telluremque novam: vidi iam, Phoebe, Philippos.
-Haec ait, et lasso iacuit defecta furore.
-
-
-Iamque irae patuere deum, manifestaque belli
+Haec ait, et lasso iacuit defecta furore. 
+Prooemium  de prodigiis.  Melius esse, nulla fieri.  1 Describitur turbatus Romae status.    Queruntur matronae.  15 Queruntur viri, 42 quorum  aliquis senior prolixa oratione de superiori bello civili inter Marium Syllamque gesto disserit.  66 Interritus tamen his omnibus, Brutus noctu ad Catonem adit, eumque alloquitur, et quaerit, quod sit consilium suum. 233 Respondet Cato:  se Pompeium secuturum, et ad idem faciendum  Brutum incitat.  285 Dum ii colloquuntur inter se, intrat Marcia, quam Cato sibi nuptam, olim  Hortensio cesserat; ea, mortuo Hortensio, iterum  Catonis matrimonium petit, in bellum  eum secutura.  325 Ergo iunguntur statim, praesente Bruto.  349 Interea Pompeius in Campaniam cesserat;   describitur Apenninus mons cum fluminibus suis.  391 Caesar omnem  Italiam  occupat; fugiunt Libo, Thermus, Sylla, Varus, Lentulus, Scipio ex oppidis suis, quae tenuerunt.  438 Domitius Corfinii, ponte rupto fluvioque supra ripam emisso, morari Caesarem conatur;  ille tamen transit flumen; dumque obsidere parat Corfinium, cives Domitium ei tradunt, quem Caesar libertate invitum etiam donat.  477 Interim Pompeius suas cohortes alloquitur, proeliumque promittit in posterum diem.  525 Non acclamantibus tamen militibus, cedit usque ad Brundusium.  595 Describitur eius oppidi situs.  609 Dimittit filium Pompeius in Asiam, ad sollicitandos reges.  Ipse in Epirum transire parat. 627 Persequitur Pompeium Caesar, mareque praecludere vallo molitur.  649 Pompeius Italiam relinquit.  679 Caesar Brundusium intrat. 703    Iamque irae patuere deum, manifestaque belli
 Signa dedit mundus:  legesque et foedera rerum
 Praescia monstrifero vertit natura tumultu,
 Indixitque nefas. Cur hanc tibi, rector Olympi,
@@ -1430,10 +1428,8 @@ Non, quia te superi patrio privare sepulchro
 Maluerint, Phariae busto damnantur arenae:
 Parcitur Hesperiae; procul hoc ut in orbe remoto
 Abscondat Fortuna nefas, Romanaque tellus
-Immaculata sui servetur sanguine Magni.
-
-
-Propulit ut classem velis cedentibus Auster
+Immaculata sui servetur sanguine Magni. 
+Pompeio naviganti in somnio apparet Iulia, uxor quondam eius, cruentumque fore bellum praedicit.  1 Appellit ad  Epirum Pompeius.  35 Caesar Curio mandat, ut ex Sicilia annonam procuret.  45 Deinde Romam tendit.  70 Romae timor.   Senatus Caesari obnoxius.   Unus Metellus tribunus se opponit aerarium  spoliaturis.  97 Minatur ei Caesar.  133 Cotta Metellum  ad cedendum hortatur.  140 Aperitur templum, aerariumque inde profertur.  152 Interim Pompeius copias ex Graecia Asiaque cogit; quae recensentur.  168 Caesar in Hispaniam iturus ad Massiliam tendit,  quae fida manserat Pompeio.  297 Mittunt Massilienses legatos ad eum, civile bellum deprecantes.  303 Caesar tamen Massiliam obsidet.  357 Describuntur munitiones.  374 Lucum iubet Caesar exscindi sacrum, cogitque ipse renuentes milites.  398 Caesar in Hispaniam proficiscens, Trebonio mandat oppugnationem.   Agger iacitur;  pugnatur;  acceditur ad muros;  vinea agitur.  452 Erumpunt noctu Massilienses, hostesque profligant terra.  496 Igitur mari res tentatur.  Brutus adest cum  classe.  508 Navalis fit pugna.  Ea uberius  per singuli facinora describitur.  537 Vincuntur Massilienses, Brutusque victor evadit. 751    Propulit ut classem velis cedentibus Auster
 Incumbens, mediumque rates movere profundum,
 Omnis in Ionios spectabat navita fluctus:
 Solus ab Hesperia non flexit lumina terra
@@ -2194,10 +2190,8 @@ Coniunx saepe sui, confusis vultibus unda,
 Credidit ora viri, Romanum amplexa cadaver:
 Accensisque rogis miseri de corpore trunco
 Certavere patres. -  At Brutus, in aequore victor,
-Primus Caesareis pelagi decus addidit armis.
-
-	
-At procul extremis terrarum    Caesar in oris
+Primus Caesareis pelagi decus addidit armis. 
+Interea Caesar in Hispaniam venit, ubi Afranius et Petreius legati praeerant copiis Pompeianis vel potius Romanis Iberisque cum illis coniunctis.  1 Ad Ilerdam res geritur.  10 Fit proelium.  28 Vere adveniente aquarum fiunt fluctus, et inundantur castra.  47 Fames oritur et annonae caritas.  90 Diluvium.  97 Denique aquae recedunt;  Petreius Ilerda abit.  120 Caesar eum persequens pugnam facit.  147 Fugientem hostem Caesar a tergo iubet excipi.  156 Castra locantur utrimque et a Pompeianis et Caesarianis.  Agnoscunt se invicem cives, et manus copulant, et pocula iungunt.  At Petreius suos abigit, eosque alloquitur.166 Bellum recipitur.  235 Fuga fit Pompeianorum  Ilerdam versus.  253 Caesar eos aqua intercludit.  263 Describitur Pompeianorum aquae inopia.  266 Afranius pacem petit a Caesare.  336 Fit pax.  Recreantur adversarii et milites et incolae.  362 Interim Antonius, Caesaris legatus, in ora Dalmatica Salonis obsidetur a Pompeianis.  Conantur Caesariani effugere noctu ratibus iunctis.  Quarum duae feliciter elabuntur.   At intercepti a Pompeianis qui tertia vehuntur, semet ipsos invicem ad unum omnes interficiunt.  401 Curio interim, ex Sicilia ad Bagradam fluvium in Africa appellit prope Uticam, edoceturque ab incola quodam de ea regione, deque Herculis ibi contra Antaeum rebus gestis, et de Scipione.  581 Curio Varum pellit.  660 Contra Iubam pugnat; sed circumventus eius insidiis, ipse cum copiis perit.  714 Apostrophe ad Curionem. 798    At procul extremis terrarum    Caesar in oris
 Martem  saevus agit, non multa caede nocentem,
 Maxima sed fati ducibus momenta daturum.
 Iure pari rector castris Afranius illis
@@ -3021,9 +3015,7 @@ Ius licet in iugulos nostros sibi fecerit ense
 Sulla potens, Mariusque ferox, et Cinna cruentus,
 Caesareaeque domus series: cui tanta potestas
 Concessa est? Emere omnes, hic vendidit urbem. 
-
-
-Sic alterna duces bellorum vulnera passos
+Sub initio anni consules in Epiro in exercitu Pompeii comitia habent.  1 Lentulus patres alloquitur hortaturque ut Pompeium iubeant esse ducem.    Id quod fit.  14 Dein reges,   qui auxilia miserant, laudati.  49 Appius Pompeianus consulit oraculum Delphicum, quod diu siluerat.  70 Describitur oraculum.  70 Aperitur templum.    Pythia dehortatur.  123 Adigitur tamen ut tripoda conscendat.  140 Furor eam invadit.  Eloquitur oraculum de Appio ipso ante Pharsalicam pugnam in Euboea insula morituro.  162 Apostrophe ad  oraculum.  197 Exit Pythia templo, animumque humanum recipit.  208 Apostrophe ad Appium.  224 Interim redux ex Hispania Caesar, deprehendit milites ad pacem inclinantes, bellumque pertaesos, et tumultuantes idcirco.  236 Caesar interritus 296 eos alloquitur, minaturque.  318 Mutatur militum animus.  364 Caesar Brundusium eos mittit ibique classem parare iubet.  373 Ipse Romam it, resque ibi ordinat.  380 Inde Brundusium, media hieme.  402 Confirmat milites.  409 Traiicit fretum, adque Palaesten appellit in Epiro.  423 Dein ad Dyrrhachium castra fiunt.  460 Caesarem moratur, ne pugna statim fiat, Antonius, Brundusii relictus, hiemeque ne eum sequeretur impeditus.  475 Caesar decernit solus Brundusium navigare, Antoniumque accersere.  Ergo ad litus it.   Ibi cymbam deprehendit, eiusque dominum Amyclam quendam ex somno excitat, promissisque magnis adigit, ut secum fretum transiiciat.   Tempestas fit.  Timet nauta.  Confirmat eum Caesar.  503 Describitur tempestas.  Ad Italiam  appellit Caesar.  593 Redeuntem deinde sui carpunt milites, quod sese reliquerit.  677 Transiiciunt Brundusio reliquae copiae.  700 Pompeius uxorem Corneliam Lesbum dimittit, quo tuta sit a bello.   Alloquitur eam.  721 Illa respondet.  759 Cornelia conscendit navem.  759 Lesbum navigat.  801    Sic alterna duces bellorum vulnera passos
 In Macetum terras, miscens adversa secundis,
 Servavit fortuna pares. Iam sparserat Aemo
 Bruma nives, gelidoque cadens Atlantis Olympo:
@@ -3839,9 +3831,7 @@ Non iuvat in toto corpus iactare cubili:
 Servatur pars illa tori. Caruisse timebat
 Pompeio: sed non superi tam laeta parabant.
 Instabat, miserae Magnum quae redderet hora. 
-
-
-Postquam castra duces, pugnae iam mente propinqui,
+Caesar, frustra provocato ad pugnam Pompeio, ad Dyrrhachium tendit.  1 Pompeius iter ei praecludit.  14 Describitur oppidi situs.  18 Caesar obsidionem molitur, castellaque exstruit.  28 Qua re animadversa, Pompeius facit eruptiones, ut distrahat Caesaris copias.  63 Fames oritur et lues in Pompeii exercitu.  79 Item fames in Caesaris.  105 Pompeius castellum aliquod oppugnat, ac paene expugnasset, nisi defensum esset a Scaeva, forti viro, cuius egregie factum enarratur.  117 Repulsus hac parte Pompeius alia castella aggreditur, capitque unum eorum.  262 Caesar recipere illud conatur, sed frustra.  289 Ergo in Thessaliam it, eoque eum sequitur Pompeius.  313 Describitur Thessaliae situs.  332 Uterque castra locant, copiis trepide rerum exitum spectantibus.  412 Inter Pompeianos erat Sextus, Magni filius.  Is, magicorum arcanorum studiosus, futura scire avens, spretis verioribus oraculis, veneficas Thessaliae adit.  419 Quarum artes describuntur.  434 Earum una Erichtho, reliquarum more spreto, urbes fugit, desertaque incolit, cadavera inquirens laceransque et ad suas artes adhibens.  505 Ergo eam Sextus cum comitibus noctu investigat, invenitque sedentem et multam carmine caedem Thessaliae precantem.  569 Alloquitur eam, rogatque, ut, quid futurum sit, ex mortuo aliquo se scientem faciat.  588 Respondet illa, se facturam quod rogaverit.  603 Ergo eligit sibi unum ex cadaveribus.  Id unco pertrahitur ad caveam veneficae.  623 Describitur locus, et ornatus Erichthus.  Pavet Sextus.  641 Confirmat eum Erichtho.  658 Efficit illa, arte et carminibus, ut reviviscat cadaver.  666 Iubet illud Erichtho fata eloqui.  761 Ergo eloquitur, et infausta quidem et omnino Romanis et imprimis Pompeiis.  774 Quo facto demum Erichtho, rogo incenso, cadaver mori patitur, Sextumque, ad castra redeuntem, comitatur.  820    Postquam castra duces, pugnae iam mente propinqui,
 Imposuere iugis, admotaque cominus arma,
 Parque suum videri dei, capere omnia Caesar
 Moenia Graiorum spernit, Martemque secundum
@@ -4670,10 +4660,8 @@ Accensa iuvenem positum strue liquit Erichtho,
 Tandem  passa mori: Sextoque ad castra parentis
 It comes: et coelo lucis ducente colorem,
 Dum ferrent tutos intra tentoria gressus,
-Iussa tenere diem densas nox praestitit umbras.
-
-
-Segnior Oceano, quam lex aeterna vocabat,
+Iussa tenere diem densas nox praestitit umbras. 
+Nocte ante pugnam Pompeius inani somnii specie luditur.  1 Orto sole, cupidis pugnae militibus, 44 ipsoque Cicerone hortante, 61 Magnus, quamquam invitus, signum pugnae dat.  85 Milites se parant.  125 Prodigia narrantur.  150 Populi metuunt.  184 Vates quidam in Italia superiore praedicat pugnam ea ipsa die inter Pompeium et Caesarem pugnari.  191 Describitur Pompeii acies.  213 Laetus eam conspicit Caesar.  234 Caesar militesque suos alloquitur.  249 Arripiunt arma.  330 Pompeius alloquitur suos.  336 Conqueritur poeta de funesto Romae bello, deque amissa per pugnam  Pharsalicam  libertate Romana.  382 Primus pugnam inchoat Crastinus Caesarianus.  459 Describitur furor pugnantium.  473 Caesar Pompeianos ab latere adoritur.  Pelluntur Pompeii equites, e barbaris populis collecti.  505 Centrum tamen resistit, ubi Romani.  544 Abhorret poeta ab descriptione pugnae.  550 Caesar suos hortatur.  556 Brutus in exercitu Pompeii.  585 Cadunt patricii; cadit Domitius.  596 Horret queriturque pugnam poeta.  616 Fugit Pompeius equo.  646 Apostrophe ad eum.  680 Pompeius Larissam venit;  dein pergit in fuga.  711 Caesar castra Pompeii occupat.  727 Inhumata iacent cadavera.  782 Ferae ad dapes veniunt.  824 Apostrophe.  846    Segnior Oceano, quam lex aeterna vocabat,
 Luctificus Titan numquam magis aethera contra
 Egit equos, currumque, polo rapiente, retorsit:
 Defectusque pati voluit, raptaeque labores
@@ -5544,10 +5532,8 @@ Si non prima nefas belli, sed sola, tulisses.
 O superi, liceat terras odisse nocentes.
 Quid totum premitis, quid totum solvitis orbem?
 Hesperiae clades, et flebilis unda Pachyni,
-Et Mutina, et Leucas puros fecere Philippos.
-
-
-Iam super Herculeas fauces nemorosaque Tempe,
+Et Mutina, et Leucas puros fecere Philippos. 
+Pompeius in fuga ad litus maris devenit.  1 Conscendit cymbam, eamque Lesbum dirigi iubet, ubi Cornelia uxor; cuius animi status describitur.  34 Appellit ad Lesbum Pompeius.  49 Solatur uxorem.  71 Respondet Cornelia.  85 Mitylenaei Pompeium ad se invitant.  105 Ille eos laudat.  127 Abit tamen Lesbo cum  Cornelia, lugentibus incolis.  146 Pompeius nocte in navi sedens loquitur cum gubernatore, quem iubet vitare Thessaliam Italiamque, ceterum navis cursum Fortunae committere.  158 Sole orto eum assequuntur et Sextus filius, et alii proceres amicique.  201 Ex his legat Deiotarum ad Orientis populos, auxilia conquisitum.  209 Ille igitur, servili habitu indutus, escendit e navi in litus Asiae.  239 Pompeius praeternavigat Ephesum, Samum, Rhodum, Pamphyliam, Taurum.  243 In Cilicia alloquitur comites suos, solatur, suadetque, ut secum ad Parthos Eoasque gentes proficiscantur.   Nam Aegyptiorum fidem aut Maurorum esse suspectam.  255 Illi renuunt, respondetque Lentulus, hortans ut  Aegyptum eat.  327 Ergo Cyprum tendit.  Inde traiecto mari, Pharon praenavigat, et ad Pelusium appellit.  455 Ibi audit, regem in propinquo adesse; ergo flectit iter.  Rex autem de Pompeii adventu comperit; ergo concilium convocat.  466 In eo concilio Pothinus suadet regi, ut interimat Pompeium.  475 Ergo Ptolemaeus Achillam ablegat.  535 Apostrophe poetae.  538 Achillas parva rate ad Pompeii navem accedens, invitat eum nomine regis, suadetque, ut ratem suam conscendat.  Solus ergo conscendit.  560 Ibi eum confodiunt Septimius et Achillas.  595 Postrema Pompeius facit verba.  620 Conqueritur, facinore viso, Cornelia fugiente navi sua.  636 Septimius Pompeii caput abscidit, Achillaeque tradit.  662 Apostrophe.  675 Reliquum cadaver in mare proiectum servat Cordus, qui ex insula Cypra Pompeium secutus erat, in litusque affert, ibique comburit, deinde sepelit ossa, lapidemque imponit cum inscriptione.  711 Apostrophe de Pompeii fato, deque Aegypto, illiusque tumulo.  793    Iam super Herculeas fauces nemorosaque Tempe,
 Haemoniae deserta petens dispendia silvae,
 Cornipedem exhaustum cursu stimulisque negantem
 Magnus agens, incerta fugae vestigia turbat,
@@ -6418,10 +6404,8 @@ Congeriem, bustumque cadet, mortisque peribunt
 Argumenta tuae. Veniet felicior aetas,
 Qua sit nulla fides saxum monstrantibus istud:
 Atque erit Aegyptus populis fortasse nepotum
-Tam mendax Magni tumulo, quam Creta Tonantis.
-
-
-At non in Pharia manes iacuere favilla,
+Tam mendax Magni tumulo, quam Creta Tonantis. 
+At anima Pompeii, busto relicto, evolat ad piorum  sedes, indeque terram despicit, et implet pectora suorum, Bruti et Catonis.  1 Cato, iam totus Pompeianus, cum copiarum reliquiis Corcyram petit.  23 Inde Cretam, ac denique  Africam, ubi classem Pompeii deprehendunt, in qua Cornelia.  35 Illa enim viso Pompeii sepulcro lamentata erat, nolueratque Aegypto abire, hortata Sextum, ut ipse in bellum proficisceretur; deinde in imam navis partem sese abdiderat.  50 Ea ad Cyprum appulerat; dein ad Africam denuo, ad Catonis alteriusque Pompeii filii castra.  Ibi Sextus edocet fratrem de nece patris.  116 Ille Aegyptum petere vult.  At Cato retinet.  145 Cornelia in litus egressa ibi comburit Magni vestes et arma et insignia quae gesserat, loco ut essent cineris sibi; funusque instituit.  166 Laudat Pompeium egregia oratione Cato.  185 Milites interea Catonis fremunt, belloque abscedere postulant.  Et primus Cilix Tarchondimotus; quem carpit Cato.  At respondet ei alius ex illis, se Pompeium secutos esse, non civile bellum; velle abire domum.  214 Indignatur Cato, et oratione eos retinet.  254 Exercentur armis milites; expugnantur Cyrenaeorum oppida.  293 Regnum deinde Iubae petitur navibus.   Syrtes describuntur.  299 Tempestas oritur.  Ibi aliae naves alio deferuntur.  Pars ad Tritonis paludem.  318 Depingitur ea regio fabulosa.   Sylva ibi olim aurea Hesperidum, fluviusque Letho.  347 Hinc classis, syrtibus liberata, in Libyae ora stationem capit.  367 At Cato, morae impatiens, suadet egredi in continentem, terraque per arenas iter facere.  370 Describitur Libya, et mala iter ibi facientibus perpetienda.  Arena conflictantur milites,410 sitim patiuntur.  497 Ad Iovis Hammonis sedem perveniunt.  Describitur eius situs.  511 Labienus hortatur, ut consulant oraculum.  543 At Cato non opus esse ait ei, qui sciat fortiter moriendum esse forti viro.  Ita abeunt templo.  563 Pergunt, praeeunte Catone; deveniunt ad fontem serpentibus plenum, e quo bibunt, hortante duce, illaesi.  586 Quaerit poeta, unde tanta in Africa serpentum copia?  Ergo facit digressionem de Phorcyadibus Medusaque, quae describitur.  618 Narratur Perseus Gorgoni caput abscidisse, 658 deinde per aera super Libyam volasse, ubi ex cruore Gorgonis destillante serpentes enati sint; qui describuntur.  684 Per ea loca dum Cato iter facit, multi a serpentibus interimuntur, quorum mortes enarrantur.  733 Queruntur milites. 838 Catonis fortitudo constans. 880 Lenitur malum a Psyllis, venenum exsugentibus. 889 Denique Leptin perveniunt.  941 Caesar interim, Pompeium quaerens, Hellespontum adit, Troiamque, 949 cuius regio describitur; 965 deinde Aegyptum.   Ibi satelles regius ei obviam venit, Pompeii caput offerens. 999 Lacrimatur Caesar, quamvis laetus, increpatque satellitem regemque. Pompeii manes placare eos iubet. 1033    At non in Pharia manes iacuere favilla,
 Nec cinis exiguus tantam compescuit umbram:
 Prosiluit busto, semustaque membra relinquens
 Degeneremque rogum, sequitur convexa Tonantis,
@@ -7528,10 +7512,8 @@ Fecisses, ut Roma mihi. Nec, talia fatus,
 Invenit fletus comitem, nec turba querenti
 Credidit: abscondunt gemitus, et pectora laeta
 Fronte tegunt, hilaresque nefas spectare cruentum
-(O bona libertas!) cum Caesar lugeat, audeat.
-
-
-Ut primum terras, Pompeii colla secutus,
+(O bona libertas!) cum Caesar lugeat, audeat. 
+Caesar, inter dubiae fidei Aegyptios intrepide versans, Alexandriam venit, locumque adit, quo Alexandri magni ossa dicebantur esse condita. 1 De Alexandro Eoisque populis declamatio poetae.  20 Interim rex puer, Ptolemaeus, sedato populo suo, apud Caesarem est; ad quem et astu advehitur Cleopatra.  52 Declamatio de illa.  60 Cleopatra Caesarem alloquitur supplex, rogatque ut se fratremque contra Pothini satellitis impotentiam tutetur.  81 Adnuit Caesar.   Luxuries Aegyptiorum  describitur.  103 Accumbunt epulis.  Depingitur ornatus et forma  Cleopatrae, luxusque in convivio.  135 Caesar in convivio alloquitur Achoreum sacerdotem summum, ab eoque cupit se edoceri de diis Aegyptiorum, deque Nili fontibus.  171 Ille ergo primum de Sole planetisque et Zodiaco, deinde de Nilo disserit, cuius incrementi caussas latere adhuc ait, pariter atque fontes.  Cursum  enarrat.  192 Interim Pothinus Achillam excitat ad Caesaris necem.  331 Is igitur, collectis militibus, ad regiam accedit.  398 Caesar portas claudi iubet, regemque obsidem  apud se retinet.  443 Adversarii oppugnant aedes.  467 Caesar ubique adest.  Etiam navibus res geritur.  Caesar, rate conscensa, cum navibus Pharon occupat.  484 Dein Pothinum punit, abscisso eius capite.  509 Interea minor regis filia Arsinoe, regia relicta, ad exeritum venit, Achillaque interemto, Ganymedi copias mandat;  qui deinde contra Caesarem bellum facit.  519 Caesar in summis periculus meminit Scaevae illius fortissimi (VI.141 sqq.), pariter quondam in castello, atque ipse, obsessi. 533 Atque ibi carmen imperfectum desinit.  546    Ut primum terras, Pompeii colla secutus,
 Adtigit, et  diras calcavit Caesar arenas:
 Pugnavit Fortuna ducis fatumque nocentis
 Aegypti, regnum Lagi Romana sub arma

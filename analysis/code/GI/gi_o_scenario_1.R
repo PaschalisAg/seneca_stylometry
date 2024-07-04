@@ -1,4 +1,8 @@
+# Scenario 1: GI applied on the main corpus without any pre-processing
+# ----------------------------------------------------------------------
+
 # load necessary library
+# install.packages("stylo")
 library(stylo)
 
 # change the working directory to where the analysis data is located
@@ -48,31 +52,31 @@ data <- make.table.of.frequencies(
 )
 
 # print the row names of the table to identify the specific rows for the disputed texts
-options(max.print = 100)
+options(max.print = 150)
 rownames(data)
 
 # identify and confirm the rows for the disputed texts
-# Octavia = 42nd row
-# Hercules Oetaeus = 40th row
-rownames(data)[42]  # confirm row for Octavia
-rownames(data)[40]  # confirm row for Hercules Oetaeus
+# Octavia = 56th row
+# Hercules Oetaeus = 54th row
+rownames(data)[56]  # confirm row for Octavia
+rownames(data)[54]  # confirm row for Hercules Oetaeus
 
 # use the imposters method for authorship attribution
 
-# octavia text (42nd row)
-oct <- data[42, 1:2000]
+# octavia text (56th row)
+oct <- data[56, 1:2000]
 
-# Hercules Oetaeus text (40th row)
-hero <- data[40, 1:2000]
+# Hercules Oetaeus text (54th row)
+hero <- data[54, 1:2000]
 
 # texts by Seneca (excluding disputed plays) for candidate set
 # all Senecan plays should be there except for Octavia and Hercules Oetaeus
-candidate.author.seneca <- data[c(38:39, 41, 43:47), 1:2000]  # rows of Seneca's known works
+candidate.author.seneca <- data[c(52:53, 55, 57:61), 1:2000]  # rows of Seneca's known works
 rownames(candidate.author.seneca)  # confirm the candidate author set
 
 # build the reference set including imposters (excluding Seneca's works and disputed plays)
 # Senecan original plays and plays under examination should be out of this
-imposters.set <- data[-c(38:47), 1:2000]  # exclude rows corresponding to Seneca and disputed plays
+imposters.set <- data[-c(52:61), 1:2000]  # exclude rows corresponding to Seneca and disputed plays
 rownames(imposters.set)  # confirm the imposters set
 
 # apply imposters method for Octavia

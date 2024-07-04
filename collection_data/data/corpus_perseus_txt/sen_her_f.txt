@@ -2,9 +2,7 @@
 I
 Hercules       Lycus  II
 Amphitryon       Iuno  III
-Theseus       Megara        Chorus Thebanorum      	  Iuno 	
-	
-	Soror Tonantis (hoc enim solum mihi
+Theseus       Megara        Chorus Thebanorum      	  Iuno 	Soror Tonantis (hoc enim solum mihi
 	nomen relictum est) semper alienum Iovem
 	ac templa summi vidua deserui aetheris
 	locumque caelo pulsa paelicibus dedi;
@@ -321,9 +319,9 @@ Amph. 	O socia nostri sanguinis, casta fide
 	meliora mente concipe atque animum excita.
 	aderit profecto, qualis ex omni solet
 	labore, maior.
-Meg.	Quod nimis miseri volunt
+Meg.Quod nimis miseri volunt
 	hoc facile credunt,
-Amph.	Immo quod metuunt nimis
+Amph.Immo quod metuunt nimis
 	numquam moveri posse nec tolli putant: 
 	prona est timori semper in peius fides.
 Meg. 	Demersus ac defossus et toto insuper
@@ -341,7 +339,7 @@ Meg. 	Iniqua raro maximis virtutibus
 	Sed ecce saevus ac minas vultu gerens
 	et qualis animo est, talis incessu venit 
 	aliena dextra sceptra concutiens Lycus.
-Lyc. 	Vrbis regens opulenta Thebanae loca
+	 Lyc. 	Vrbis regens opulenta Thebanae loca
 	et omne quicquid uberi cingit solo
 	obliqua Phocis, quicquid Ismenos rigat,
 	quicquid Cithaeron vertice excelso videt, 
@@ -369,7 +367,7 @@ Lyc. 	Vrbis regens opulenta Thebanae loca
 	laterique adhaeret verus Alcidae sator.
 Meg. 	Quidnam iste, nostri generis exitium ac lues,
 	novi parat? quid temptat?
-Lyc.	O clarum trahens
+Lyc.O clarum trahens
 	a stirpe nomen regia, facilis mea 
 	parumper aure verba patienti excipe.
 	si aeterna semper odia mortales gerant
@@ -407,7 +405,7 @@ Meg. 	Egone ut parentis sanguine aspersam manum
 	longas reliquit corporis tracti notas.
 	haec te manent exempla: dominare ut libet, 
 	dum solita regni fata te nostri vocent
-Lyc. 	Agedum efferatas rabida voces amove
+	 	 	 Lyc. 	Agedum efferatas rabida voces amove
 	et disce regum imperia ab Alcide pati
 	ego rapta quamvis sceptra victrici geram
 	dextra regamque cuncta sine legum metu 
@@ -437,13 +435,13 @@ Meg. 	Inferna tetigit, posset ut supera assequi.
 Lyc. 	Telluris illum pondus immensae premit.
 Meg. 	Nullo premetur onere, qui caelum tulit. 
 Lyc. 	Cogere.
-Meg.	Cogi qui potest nescit mori.
+Meg.Cogi qui potest nescit mori.
 Lyc. 	Effare potius, quod novis thalamis parem
 	Regale munus.
-Meg.	Aut tuam mortem aut meam.
+Meg.Aut tuam mortem aut meam.
 Lyc. 	Moriere demens,
-Meg.	Coniugi occurram meo.
-Lyc. 	Sceptrone nostro famulus est potior tibi? 
+Meg.Coniugi occurram meo.
+	 Lyc. 	Sceptrone nostro famulus est potior tibi? 
 Meg. 	Quot iste famulus tradidit reges neci.
 Lyc. 	Cur ergo regi servit et patitur iugum?
 Meg. 	Imperia dura tolle: quid virtus erit?
@@ -461,7 +459,7 @@ Amph. 	Miseranda coniunx Herculis magni, sile:
 	sparsam cruore postque defensos deos 
 	nondum liquet de patre? mentimur Iovem:
 	Iunonis odio crede.
-Lyc.	Quid violas Iovem?
+Lyc.Quid violas Iovem?
 	mortale caelo non potest iungi genus.
 Amph. 	Communis ista pluribus causa est deis.
 Lyc. 	Famuline fuerant ante quam fierent dei? 
@@ -471,7 +469,7 @@ Amph. 	Quem profuga terra mater errante edidit?
 Lyc. 	Num monstra saeva Phoebus aut timuit feras?
 Amph. 	Primus sagittas imbuit Phoebi draco. 
 Lyc. 	Quam gravia parvus tulerit ignoras mala?
-Amph. 	E matris utero fulmine eiectus puer
+	 Amph. 	E matris utero fulmine eiectus puer
 	mox fulminanti proximus patri stetit.
 	quid? qui gubernat astra, qui nubes quatit,
 	non latuit infans rupis Idaeae specu? 
@@ -495,7 +493,7 @@ Lyc. 	Hoc Euryti fatetur eversi domus
 	pecorumque ritu virginum oppressi greges:
 	hoc nulla Iuno, nullus Eurystheus iubet:
 	ipsius haec sunt opera.
-Amph.	Non nosti omnia: 
+Amph.Non nosti omnia: 
 	ipsius opus est caestibus fractus suis
 	Eryx et Eryci iunctus Antaeus Libys,
 	et qui hospitali caede manantes foci
@@ -505,7 +503,7 @@ Amph.	Non nosti omnia:
 	nec unus una Geryon victus manu.
 	eris inter istos— qui tamen nullo stupro
 	laesere thalamos,
-Lyc.	Quod Iovi hoc regi licet:
+Lyc.Quod Iovi hoc regi licet:
 	Iovi dedisti coniugem, regi dabis; 
 	et te magistro non novum hoc discet nurus,
 	etiam viro probante meliorem sequi.
@@ -540,7 +538,7 @@ Lyc. 	Qui morte cunctos luere supplicium iubet
 	agitata motu templa? cur mugit solum?
 	[infernus imo sonuit e fundo fragor]
 	audimur! est est sonitus Herculei gradus.
-Chorus 	O Fortuna viris invida fortibus,
+	 Chorus 	O Fortuna viris invida fortibus,
 	quam non aequa bonis praemia dividis. 
 	Eurystheus facili regnet in otio:
 	Alcmena genitus bella per omnia
@@ -608,7 +606,7 @@ Chorus 	O Fortuna viris invida fortibus,
 	munus dum properat cernere, perdidit.
 	Quae vinci potuit regia carmine. 
 	haec vinci poterit regia viribus.
-Hercules 	O lucis almae rector et caeli decus,
+	 Hercules 	O lucis almae rector et caeli decus,
 	qui alterna curru spatia flammifero ambiens
 	inlustre latis exeris terris caput,
 	da, Phoebe, veniam, si quid inlicitum tui 
@@ -634,7 +632,7 @@ Hercules 	O lucis almae rector et caeli decus,
 	cessare nostras, Iuno; quae vinci iubes? 
 	Sed templa quare miles infestus tenet
 	limenque, sacrum terror armorum obsidet?
-Amphitryon Hercules Theseus 	Vtrumne visus vota decipiunt meos.
+	 Amphitryon Hercules Theseus 	Vtrumne visus vota decipiunt meos.
 	an ille domitor orbis et Graium decus
 	tristi silentem nubilo liquit domum? 
 	estne ille natus? membra laetitia stupent.
@@ -662,7 +660,7 @@ Thes. 	Flebilem ex oculis fuga,
 	lacrimas cadentes reprime: si novi Herculem,
 	Lycus Creonti debitas poenas dabit,
 	lentum est dabit: dat; hoc quoque est lentum: dedit.
-Amph. 	Votum secundet qui potest nostrum deus 
+	 Amph. 	Votum secundet qui potest nostrum deus 
 	rebusque lassis adsit. O magni comes
 	magnanime nati. pande virtutum ordinem,
 	quam longa maestos ducat ad manes via,
@@ -671,7 +669,7 @@ Thes. 	Memorare cogis acta securae quoque
 	horrenda menti. vix adhuc certa est fides
 	vitalis aurae, torpet acies luminum
 	hebetesque visus vix diem insuetum ferunt.
-Amph. 	Pervince, Theseu, quicquid alto in pectore
+	 Amph. 	Pervince, Theseu, quicquid alto in pectore
 	remanet pavoris neve te fructu optimo 
 	frauda laborum: quae fuit durum pati,
 	meminisse dulce est fare casus horridos.
@@ -726,7 +724,7 @@ Thes. 	Non prata viridi laeta facie germinant
 	ipsaque morte peior est mortis locus.
 Amph. 	Quid ille opaca qui regit sceptro loca,
 	qua sede positus temperat populos leves?
-Thes. 	Est in recessu Tartari obscuro locus,
+	 Thes. 	Est in recessu Tartari obscuro locus,
 	quem gravibus umbris spissa caligo alligat. 
 	a fonte discors manat hinc uno latex,
 	alter quieto similis (hunc iurant dei)
@@ -734,7 +732,7 @@ Thes. 	Est in recessu Tartari obscuro locus,
 	at hic tumultu rapitur ingenti ferox
 	et saxa fluctu volvit Acheron invius 
 	renavigari. cingitur duplici vado
-	adversa Ditis regia, atque ingens domus
+	* adversa Ditis regia, atque ingens domus
 	umbrante luco tegitur, hic vasto specu
 	pendent tyranni limina, hoc umbris iter,
 	haec porta regni, campus hanc circa iacet, 
@@ -745,7 +743,7 @@ Thes. 	Est in recessu Tartari obscuro locus,
 	sed fulminantis: magna pars regni trucis 
 	est ipse dominus, cuius aspectus timet
 	' quicquid timetur.
-Amph.	Verane est fama inferis
+Amph.Verane est fama inferis
 	tam sera reddi iura et oblitos sui
 	sceleris nocentes debitas poenas dare?
 	quis iste veri rector atque aequi arbiter? 
@@ -766,7 +764,7 @@ Thes. 	Non unus alta sede quaesitor sedens
 	iudex futurus, sanguine humano abstine 
 	quicumque regnas: scelera taxantur modo
 	maiore vestra,
-Amph.	Certus inclusos tenet
+Amph.Certus inclusos tenet
 	locus nocentes? utque fert fama. impios
 	supplicia vinclis saeva perpetuis domant?
 Thes. 	Rapitur volucri tortus Ixion rota; 
@@ -781,7 +779,7 @@ Thes. 	Rapitur volucri tortus Ixion rota;
 	terretque mensas avida Phineas avis.
 Amph. 	Nunc ede nati nobilem pugnam mei. 
 	patrui volentis munus an spolium refert?
-Thes. 	Ferale tardis imminet saxum vadis.
+	 Thes. 	Ferale tardis imminet saxum vadis.
 	stupent ubi undae, segne torpescit fretum.
 	hunc servat amnem cultu et aspectu horridus
 	pavidosque manes squalidus vectat senex. 
@@ -914,7 +912,7 @@ Thes. 	Ferale tardis imminet saxum vadis.
 	nil ultra iacet inferos,
 	stantes sacrificus comas
 	dilecta tege populo.
-Hercvles Theseus Amphitryon Megara 	Victrice dextra fusus adverso Lycus 
+	 Hercvles Theseus Amphitryon Megara 	Victrice dextra fusus adverso Lycus 
 	terram cecidit ore; tum quisquis comes
 	fuerat tyranni iacuit et poenae comes,
 	nunc sacra patri victor et superis feram
@@ -938,17 +936,17 @@ Hercvles Theseus Amphitryon Megara 	Victrice dextra fusus adverso Lycus
 	trucis antra Zethi. nobilis Dircen aquae
 	laremque regis advenae Tyrium coles.
 	date tura flammis,
-Amph.	Nate, manantes prius
+Amph.Nate, manantes prius
 	manus cruenta caede et hostili expia.
 Herc. 	Vtinam cruore capitis invisi deis 
 	libare possem: gratior nullus liquor
 	tinxisset aras; victima haut ulla amplior
 	potest magisque opima mactari Iovi,
 	quam rex iniquus,
-Amph.	Finiat genitor tuos
+Amph.Finiat genitor tuos
 	opta labores, detur aliquando otium 
 	quiesque fessis,
-Herc.	Ipse concipiam preces
+Herc.Ipse concipiam preces
 	Iove meque dignas, stet suo caelum loco
 	tellusque et aequor; astra inoffensos agant
 	aeterna cursus, alta pax gentes alat:
@@ -975,7 +973,7 @@ Herc.	Ipse concipiam preces
 	hiemsque gelido frigida spatio refert 
 	uno impetu transiliet et verni petet
 	frangetque tauri colla.
-Amph.	Quod subitum hoc malum est?
+Amph.Quod subitum hoc malum est?
 	quo, nate, vultus huc et huc acres refers
 	acieque falsum turbida caelum vides?
 	 Herc. 	Perdomita tellus, tumida cesserunt freta, 
@@ -997,7 +995,7 @@ Amph.	Quod subitum hoc malum est?
 	videat sub Ossa Pelion Chiron suum,
 	in caelum Olympus tertio positus gradu
 	perveniet aut mittetur,
-Amph.	Infandos procul
+Amph.Infandos procul
 	averte sensus; pectoris sani parum
 	magni tamen compesce dementem impetum. 
 Herc. 	Quid hoc? Gigantes arma pestiferi movent.
@@ -1016,12 +1014,12 @@ Herc. 	Quid hoc? Gigantes arma pestiferi movent.
 	haec dextra iam vos reddet, excutiat levis
 	nervus sagittas, tela sic mitti decet 
 	Herculea,
-Amph.	Quo se caecus impegit furor?
+Amph.Quo se caecus impegit furor?
 	vastum coactis flexit arcum cornibus
 	pharetramque solvit, stridet emissa impetu
 	harundo— medio spiculum collo fugit
 	vulnere relicto,
-Herc.	Ceteram prolem emam 
+Herc.Ceteram prolem emam 
 	omnisque latebras, quid moror? maius mihi
 	bellum Mycenis restat, ut Cyclopia
 	eversa manibus saxa nostris concidant.
@@ -1029,7 +1027,7 @@ Herc.	Ceteram prolem emam
 	rumpatque postes; culmen impulsum labet. 
 	perlucet omnis regia: hic video abditum
 	gnatum scelesti patris,
-Amph.	En blandas manus
+Amph.En blandas manus
 	ad genua tendens voce miseranda rogat:
 	scelus nefandum, triste et aspectu horridum!
 	dextra precantem rapuit et circa furens 
@@ -1043,7 +1041,7 @@ Amph. 	Quo misera pergis? quam fugam aut latebram petis?
 	nullus salutis Hercule infesto est locus.
 	amplectere ipsum potius et blanda prece
 	lenire tempta,
-Meg.	Parce iam, coniunx, precor, 
+Meg.Parce iam, coniunx, precor, 
 	agnosce Megaram. gnatus hic vultus tuos
 	habitusque reddit; cernis, ut tendat manus?
 	 Herc. 	Teneo novercam. sequere, da poenas mihi
@@ -1082,7 +1080,7 @@ Amph. 	Nondum litasti, nate: consumma sacrum.
 	detur quieti tempus, ut somno gravi
 	vis victa morbi pectus oppressum levet.
 	removete, famuli, tela, ne repetat furens.
-Chorus 	Lugeat aether magnusque parens
+	 Chorus 	Lugeat aether magnusque parens
 	aetheris alti tellusque ferax 
 	et vaga ponti mobilis unda,
 	tuque ante omnis qui per terras
@@ -1171,7 +1169,7 @@ Chorus 	Lugeat aether magnusque parens
 	quas in primo limine vitae
 	scelus oppressit patriusque furor, 
 	ite, iratos visite reges. 
-Hercules Amphitryon Theseus 	Quis hic locus, quae regio, quae mundi plaga?
+	 Hercules Amphitryon Theseus 	Quis hic locus, quae regio, quae mundi plaga?
 	ubi sum? sub ortu solis, an sub cardine
 	glacialis ursae? numquid Hesperii maris 
 	extrema tellus hunc dat Oceano modum?
@@ -1220,12 +1218,12 @@ Hercules Amphitryon Theseus 	Quis hic locus, quae regio, quae mundi plaga?
 	genitor, tuique nominis semper mihi
 	numen secundum, fare, quis fudit domum? 
 	cui praeda iacui?
-Amph.	Tacita sic abeant mala.
+Amph.Tacita sic abeant mala.
 Herc. 	Vt inultus ego sim?
-Amph.	Saepe vindicta obfuit.
+Amph.Saepe vindicta obfuit.
 Herc. 	Quisquamne segnis tanta toleravit mala?
 Amph. 	Maiora quisquis timuit.
-Herc.	His etiam, pater,
+Herc.His etiam, pater,
 	quicquam timeri maius aut gravius potest? 
 Amph. 	Cladis tuae pars ista quam nosti quota est?
 Herc. 	Miserere, genitor, supplices tendo manus.
@@ -1237,9 +1235,9 @@ Herc. 	Miserere, genitor, supplices tendo manus.
 	sinuare nervum rite cedentem mihi?
 	ad vos revertor; genitor, hoc nostrum est scelus?
 	tacuere? nostrum est.
-Amph.	Luctus est istic tuus,
+Amph.Luctus est istic tuus,
 	crimen novercae: casus hic culpa caret.
-Herc. 	Nunc parte ab omni, genitor, iratus tona,
+	 Herc. 	Nunc parte ab omni, genitor, iratus tona,
 	oblite nostri vindica sera manu
 	saltem nepotes. stelliger mundus sonet
 	flammasque et hic et ille iaculetur polus: 
@@ -1259,7 +1257,7 @@ Herc. 	Nunc parte ab omni, genitor, iratus tona,
 Amph. 	Nondum tumultu pectus attonito carens
 	mutavit iras quodque habet proprium furor, 
 	in se ipse saevit,
-Herc.	Dira Furiarum loca
+Herc.Dira Furiarum loca
 	et inferorum carcer et sonti plaga
 	decreta turbae— si quod exilium latet
 	ulterius Erebo, Cerbero ignotum et mihi:
@@ -1302,10 +1300,10 @@ Herc. 	Cur animam in ista luce detineam amplius
 	etiam furorem, nemo polluto queat
 	animo mederi: morte sanandum est scelus.
 Amph. 	Perimes parentem,
-Herc.	Facere ne possim,
+Herc.Facere ne possim,
 	occidam.
 Amph. 	Genitore coram?
-Herc.	Cernere hunc docui
+Herc.Cernere hunc docui
 	nefas.
 	 Amph. 	Memoranda potius omnibus facta intuens 
 	unius a te criminis veniam pete.
@@ -1315,7 +1313,7 @@ Herc. 	Veniam dabit sibi ipse, qui nulli dedit?
 	seu triste fatum sive violatum decus
 	virtutis: effer arma; vincatur mea
 	fortuna dextra,
-Thes.	Sunt quidem patriae preces
+Thes.Sunt quidem patriae preces
 	satis efficaces, sed tamen nostro quoque
 	movere fletu, surge et adversa impetu
 	perfringe solito, nunc tuum nulli imparem 
@@ -1339,18 +1337,18 @@ Herc. 	Si vivo, feci scelera; si morior, tuli.
 	onus omne media parte quod mundi sedet
 	dirimitque superos, in meum vertam caput.
 Amph. 	Reddo arma.
-Herc.	Vox est digna genitore
+Herc.Vox est digna genitore
 	Herculis. 
 	hoc en peremptus spiculo cecidit puer—
 Amph. 	Hoc Iuno telum manibus immisit tuis.
 Herc. 	Hoc nunc ego utar.
-Amph.	Ecce quam miserum
+Amph.Ecce quam miserum
 	cor palpitat pectusque sollicitum ferit. [metu
 Herc. 	Aptata harundo est.
-Amph.	Ecce iam facies
+Amph.Ecce iam facies
 	scelus 
 	volens sciensque.
-Herc.	Pande, quid fieri iubes?
+Herc.Pande, quid fieri iubes?
 Amph. 	Nihil rogamus: noster in tuto est dolor.
 	natum potes servare tu solus mihi,
 	eripere nec tu; maximum evasi metum:
@@ -1363,16 +1361,16 @@ Amph. 	Nihil rogamus: noster in tuto est dolor.
 	vitam dat aliquis? non feram ulterius moram,
 	laetare! ferro pectus impresso induam:
 	hic, hic iacebit Herculis sani scelus.
-Herc. 	Iam parce, genitor, parce, iam revoca manum.
+	 Herc. 	Iam parce, genitor, parce, iam revoca manum.
 	succumbe, virtus, perfer imperium patris. 
 	eat ad labores hic quoque Herculeos labor:
 	vivamus, artus alleva afflictos solo,
 	Theseu, parentis, dextra contactus pios
 	scelerata refugit,
-Amph.	Hanc manum amplector libens,
+Amph.Hanc manum amplector libens,
 	hac nisus »ibo, pectori hanc aegro admovens 
 	pellam dolores,
-Herc.	Quem locum profugus petam?
+Herc.Quem locum profugus petam?
 	ubi me recondam quave tellure obruar?
 	quis Tanais aut quis Nilus aut quis Persica
 	violentus unda Tigris aut Rhenus ferox

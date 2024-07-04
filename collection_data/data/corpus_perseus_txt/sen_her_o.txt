@@ -4,9 +4,7 @@ Hercules  II
 Iole       Deianira  III
 Nutrix       alcmena  IV
 Hyllus       Nuntius  Taciti
-Lichas      Philoctetes        Chorus Virginum       Chorus Aetolarum Mulierum      	  Hercules 	
-
-	Sator deorum, cuius excussum manu
+Lichas      Philoctetes        Chorus Virginum       Chorus Aetolarum Mulierum      	  Hercules 	Sator deorum, cuius excussum manu
 	utraeque Phoebi sentiunt fulmen domus,
 	secure regna— protuli pacem tibi,
 	quacumque Nereus porrigi terras vetat,
@@ -109,7 +107,7 @@ Lichas      Philoctetes        Chorus Virginum       Chorus Aetolarum Mulierum  
 	stratumque regnum, vos pecus rapite ocius
 	qua templa tollens acta Cenaei Iovis
 	austro timendum spectat Euboicum mare.
-Chorus 	Par ille est superis cui pariter dies
+	 Chorus 	Par ille est superis cui pariter dies
 	et fortuna fuit, mortis habet vices 
 	lente cum trahitur vita gementibus.
 	quisquis sub pedibus fata rapacia
@@ -178,7 +176,7 @@ Chorus 	Par ille est superis cui pariter dies
 	hoc vultu riguit? commoda cladibus 
 	magnis magna patent; nil superest mali:
 	iratum miserae vidimus Herculem.
-Iole 	At ego infelix non templa suis
+	 Iole 	At ego infelix non templa suis
 	conlapsa deis sparsosve focos,
 	natis mixtos arsisse patres 
 	hominique deos, templa sepulchris,
@@ -239,7 +237,7 @@ Chor. 	Quid regna tui clara parentis
 	vultusque suos variare potest. 
 	rapuit vires pondusque malis
 	casus animo qui tulit aequo.
-Nutrix Deianira Lichas Tacitus 	O quam cruentus feminas stimulat furor,
+	 Nutrix Deianira Lichas Tacitus 	O quam cruentus feminas stimulat furor,
 	cum patuit una paelici et nuptae domus!
 	Scylla et Charybdis Sicula contorquens freta 
 	minus est timenda, nulla non melior fera est.
@@ -282,10 +280,10 @@ Dei. 	Quamcumque partem sedis aetheriae premis,
 	utere furente! quod iubes fieri nefas?
 	reperi, quid haeres? ipsa" iam cesses licet,
 	haec ira satis est.
-Nvt.	Pectoris sani parum 
+Nvt.Pectoris sani parum 
 	aestus, alumna, comprime et flammas doma;
 	frena dolorem, coniugem ostende Herculis.
-Dei. 	Iole meis captiva germanos dabit
+	 Dei. 	Iole meis captiva germanos dabit
 	natis Iovisque net ex famula nurus?
 	num flamma cursus pariter et torrens ferent 
 	et ursa pontum sicca caeruleum bibet?
@@ -322,7 +320,7 @@ Dei. 	Iole meis captiva germanos dabit
 	pares eamus, non erit votis opus:
 	aderit noverca quae manus nostras regat
 	vel invocata.
-Nvt.	Quod paras demens scelus?
+Nvt.Quod paras demens scelus?
 	perimes maritum, cuius extremus dies 
 	primusque laudes novit et caelo tenus
 	erecta terras fama suppositas habet?
@@ -339,10 +337,10 @@ Nvt.	Quod paras demens scelus?
 	dominatur illic patruus Alcidae tui.
 	quocumque perges, misera, cognatos deos
 	illic videbis,
-Dei.	Maximum fieri scelus 
+Dei.Maximum fieri scelus 
 	et ipsa fateor, sed dolor fieri iubet.
 	 Nvt. 	Moriere,
-Dei.	Moriar Herculis nempe induti
+Dei.Moriar Herculis nempe induti
 	coniunx nec ullus nocte discussa dies
 	viduam notabit nec meos paelex toros
 	captiva capiet, ante ab occasu dies 
@@ -417,7 +415,7 @@ Dei. 	Vt alta silvas forma vernantes habet,
 	facibus suis me iungat Eurystheus licet,
 	minus est; toris caruisse regnantis leve est: 
 	alte illa cecidit quae viro caret Hercule.
-Nvt. 	Conciliat animos coniugum partus fere.
+	 Nvt. 	Conciliat animos coniugum partus fere.
 Dei. 	Hic ipse forsan dividet partus toros.
 Nvt. 	Famula illa trahitur interim donum tibi.
 Dei. 	Hic quem per nrbes ire praeclarum vides 
@@ -447,22 +445,22 @@ Dei. 	Hic quem per nrbes ire praeclarum vides
 	fecit novercam. quid stupes, segnis furor?
 	scelus occupandum est: perage dum fervet manus. 
 Nvt. 	Perimes maritum?
-Dei.	Paelicis certe meae.
+Dei.Paelicis certe meae.
 Nvt. 	At Iove creatum,
-Dei.	Nempe et Alcmena satum.
+Dei.Nempe et Alcmena satum.
 Nvt. 	Ferrone? DEI. Ferro. NVT. Si nequis?
-Dei.	Per-
+Dei.Per-
 	imam dolo.
 Nvt. 	Quis iste furor est?
-Dei.	Quem meus coniunx
+Dei.Quem meus coniunx
 	docet.
 Nvt. 	Quem nec noverca potuit, hunc perimes virum? 
 Dei. 	Caelestis ira quos premit, miseros facit:
 	humana nullos,
-Nvt.	Parce, miseranda, et time.
+Nvt.Parce, miseranda, et time.
 Dei. 	Contempsit omnes ille qui mortem prius;
 	libet ire in enses.
-Nvt.	Maior admisso tuus,
+Nvt.Maior admisso tuus,
 	alumna, dolor est; culpa par odium exigat. 
 	cur saeva modicis statuis? ut laesa es, dole.
 Dei. 	Leve esse credis paelicem nuptae malum?
@@ -471,7 +469,7 @@ Nvt. 	Amorne clari fugit Alcidae tibi?
 Dei. 	Non fugit, altrix, remanet et penitus sedet 
 	fixus medullis, crede; sed magnus dolor
 	iratus amor est.
-Nvt.	Artibus magicis fere
+Nvt.Artibus magicis fere
 	coniugia nuptae precibus admixtis ligant.
 	vernare iussi frigore in medio nemus
 	missumque fulmen stare; concussi fretum
@@ -484,7 +482,7 @@ Nvt.	Artibus magicis fere
 	mare terra caelum et Tartarus servit mihi 
 	nihilque leges ad meos cantus tenet:
 	flectemus illum, carmina invenient iter.
-Dei. 	Quas Pontus herbas generat aut quas Thessala 
+	 Dei. 	Quas Pontus herbas generat aut quas Thessala 
 	sub rupe Pindus alit: ubi inveniam malum
 	cui cedat ille? carmine in terras mago
 	descendat astris Luna desertis licet
@@ -492,13 +490,13 @@ Dei. 	Quas Pontus herbas generat aut quas Thessala
 	stet deprehensum fulmen et versa vice 
 	medius coactis ferveat stellis dies:
 	non flectet illum.
-Nvt.	Vicit et superos Amor.
+Nvt.Vicit et superos Amor.
 Dei. 	Vincetur uni forsan et spolium dabit
 	Amorque summus fiet Alcidae labor.—
 	sed te per omne caelitum numen precor, 
 	per hunc timorem: quicquid arcani apparo
 	penitus recondas et fide tacita premas.
-Nvt. 	Quid istud est quod esse secretum petis?
+	 Nvt. 	Quid istud est quod esse secretum petis?
 Dei. 	Non tela sunt, non arma, non ignis minax.
 Nvt. 	Praestare fateor posse me tacitam fidem, 
 	si scelere careat: interim scelus est fides.
@@ -559,7 +557,7 @@ Dei. 	Est in remoto regiae sedis loco
 	perge' ut nitentem virus in vestem datura
 	mentem per artus adeat et tacitum means
 	intret medullas,
-Nvt.	Ocius iussa exequar,
+Nvt.Ocius iussa exequar,
 	alumna, precibus tu deum invictum advoca,
 	qui certa tenera tela dimittit manu. 
 	 Dei. 	Te deprecor, quem mundus et superi timent
@@ -727,7 +725,7 @@ Dei. 	O quod superbae non habent umquam domus,
 	quae te rursus fortuna rotat?
 	miseranda, refer: licet ipsa neges,
 	vultus loquitur quodcumque tegis. 
-Deianira Nutrix 	Vagus per artus errat excussos tremor,
+	 Deianira Nutrix 	Vagus per artus errat excussos tremor,
 	erectus horret crinis, impulsis adhuc
 	stat terror animis et cor attonitum salit
 	pavidumque trepidis palpitat venis iecur,
@@ -779,7 +777,7 @@ Hyl. 	Decus illud orbis atque praesidium unicum,
 	urit lues nescio qua; qui domuit feras,
 	ille ille victor vincitur maeret dolet.
 	quid quaeris ultra?
-Dei.	Miserias properant suas
+Dei.Miserias properant suas
 	audire miseri; fare, quo posita in statu 
 	iam nostra domus est? o lares, miseri lares!
 	nunc vidua, nunc expulsa, nunc ferar obruta.
@@ -790,7 +788,7 @@ Hyl. 	Non sola maeres. Herculem, toto iacet
 	commune terris omnibus pateris malum.
 	luctum occupasti: prima, non sola Herculem,
 	miseranda, maeres.
-Dei.	Quam prope a leto tamen
+Dei.Quam prope a leto tamen
 	ede, ede quaeso iaceat Alcides mens. 
 	 Hyl. 	Mors refugit illum victa quae in regno suo
 	semel est nec audent fata tam vastum nefas
@@ -911,7 +909,7 @@ Hyl. 	Euboica tellus vertice immenso tumens
 	meque ipsa perdis? laus tibi erepta incluta est,
 	ingens triumphus: aemuli, Iuno, tui
 	mortem occupari,
-Hyl.	Quid domum impulsam trahis?
+Hyl.Quid domum impulsam trahis?
 	erroris est hic omne quodcumque est nefas. 
 	haut est nocens quicumque non sponte est nocens.
 Dei. 	Quicumque fato ignoscit et parcit sibi,
@@ -919,18 +917,18 @@ Dei. 	Quicumque fato ignoscit et parcit sibi,
 Hyl. 	Nocens videri, qui mori quaerit, cupit.
 Dei. 	Mors innocentes sola deceptos facit. 
 Hyl. 	Titana fugiens—
-Dei.	Ipse me Titan fugit.
+Dei.Ipse me Titan fugit.
 Hyl. 	Vitam relinques?
-Dei.	Miseram, ut Alciden sequar.
+Dei.Miseram, ut Alciden sequar.
 Hyl. 	Superest et auras ille caelestes trahit.
 Dei. 	Vinci Hercules cum potuit, hinc coepit mori.
 Hyl. 	Virum sequeris.
-Dei.	Praegredi castae solent. 
+Dei.Praegredi castae solent. 
 Hyl. 	Natum relinques fataque abrumpes tua? 
 Dei. 	Quamcumque natus sepelit haec vixit diu.
 Hyl. 	Si te ipsa damnas, scelere te misera arguis. 
 Dei. 	Nemo nocens sibi ipse poenas inrogat.
-Hyl. 	Multis remissa est vita quorum error nocens, 
+	 Hyl. 	Multis remissa est vita quorum error nocens, 
 	non dextra fuerat, fata quis damnat sua?
 Dei. 	Quicumque fata" iniqua sortitus fuit.
 Hyl. 	Hic ipse Megaram nempe confixam suis
@@ -942,7 +940,7 @@ Hyl. 	Hic ipse Megaram nempe confixam suis
 	quo. misera, pergis? cur tuas damnas manus?
 Dei. 	Damnat meas devictus Alcides manus: 
 	placet scelus punire.
-Hyl.	Si novi Herculem.
+Hyl.Si novi Herculem.
 	aderit cruenti forsitan victor mali
 	dolorque fractus cedet Alcidae tuo.
 Dei. 	Exedit artus virus ut fama est hydrae;
@@ -953,7 +951,7 @@ Hyl. 	Serpentis illi virus enectae autumas
 	media palude victor, effuso obrutus
 	artus veneno, sanguis hunc Nessi opprimet, 
 	qui vicit ipsas horridi Nessi manus?
-Dei. 	Frustra tenetur ille qui statuit mori.
+	 Dei. 	Frustra tenetur ille qui statuit mori.
 	vixit satis quicumque cum Alcide occidit: 
 	proinde lucem fugere decretum est mihi. 
 Nvt. 	Per has aniles ecce te supplex comas 
@@ -1014,9 +1012,9 @@ Dei. 	Defendar illic: inferi absolvent ream,
 	inmitte in orbem: perde ut Arcadiae nefas 
 	et quicquid aliud restitit: ab illis tamen,
 	coniunx, redisti.
-Hyl.	Parce iam, mater, precor,
+Hyl.Parce iam, mater, precor,
 	ignosce fatis; error a culpa vacat.
-Dei. 	Si vera pietas, Hylle, quaerenda est tibi,
+	 Dei. 	Si vera pietas, Hylle, quaerenda est tibi,
 	iam perime matrem— trepida quid tremuit manus? 
 	quid ora Sectis? hoc erit pietas scelus.
 	ignave dubitas? Herculem eripuit tibi
@@ -1057,14 +1055,14 @@ Dei. 	Si vera pietas, Hylle, quaerenda est tibi,
 	testor nitentis flammeam Phoebi rotam
 	superosque testor: Herculem in terris adhuc
 	moritura linquo.
-Hyl.	Fugit attonita, ei mihi.
+Hyl.Fugit attonita, ei mihi.
 	peracta iam pars matris est: statuit mori; 
 	nunc nostra superest, mortis auferre impetum.
 	o misera pietas: si mori matrem vetas,
 	patri es scelestus; si mori pateris, tamen
 	in matre peccas— urget hinc illinc scelus.
 	inhibenda tamen est, verum ut eripiam scelus. 
-Chorus 	Verum est quod cecinit sacer
+	 	 Chorus 	Verum est quod cecinit sacer
 	Thressae sub Rhodopes iugis
 	aptans Pieriam chelyn
 	Orpheus Calliopae genus,
@@ -1164,7 +1162,7 @@ Chorus 	Verum est quod cecinit sacer
 	Sed quis non modicus fragor
 	aures attonitas movet?
 	est est Herculeus sonus. 
-Hercules Chorus 	Converte, Titan clare, anhelantes equos,
+	 Hercules Chorus 	Converte, Titan clare, anhelantes equos,
 	emitte noctem: pereat hic mundo dies
 	quo morior, atra nube inhorrescat polus;
 	obsta novercae, nunc, pater, caecum chaos
@@ -1240,7 +1238,7 @@ Herc. 	Ego qui relicta morte, contempta Styge
 	Hibera vicit turba pastoris feri,
 	non gemina serpens, perdidi mortem, ei mihi, 
 	totiens honestam: titulus extremus quis est?
-Chor. 	Viden ut laudis conscia virtus
+	 Chor. 	Viden ut laudis conscia virtus
 	non Lethaeos horreat amnes?
 	pudet auctoris, non morte dolet:
 	cupit extremum finire diem 
@@ -1251,7 +1249,7 @@ Chor. 	Viden ut laudis conscia virtus
 	quod nulla fera est nullusque gigas: 
 	nam quis dignus necis Herculeae
 	superest auctor nisi dextra tui?
-Herc. 	Heu qualis intus scorpios. quis fervida
+	 Herc. 	Heu qualis intus scorpios. quis fervida
 	plaga revulsus cancer infixus meas
 	urit medullas? sanguinis quondam capax 
 	tumidi igne cor pulmonis arentes fibras
@@ -1313,7 +1311,7 @@ Herc. 	Heu qualis intus scorpios. quis fervida
 	me terra vidit, quodque me torquet magis,
 	noverca vidit, urit ecce iterum fibras,
 	incaluit ardor— unde nunc fulmen mihi?
-Chor. 	Quid non possit superare
+	 Chor. 	Quid non possit superare
 	quondam Getico durior Haemo 
 	nec Parrhasio lenior axe
 	saevo cessit membra dolori
@@ -1380,12 +1378,12 @@ Hercules Alcmena 	Converte voltus ad meas clades, pater:
 	ubi membra sunt? ubi illa quae mundum tulit
 	stelligera cervix? quis tibi exiguam tui
 	partem reliquit?
-Herc.	Herculem spectas quidem, 
+Herc.Herculem spectas quidem, 
 	mater, sed umbram et vile nescio quid mei.
 	agnosce, mater— ora quid Sectis retro
 	voltumque mergis? Herculem dici tuum
 	partum erubescis?
-Alcm.	Quis feram mundus novam,
+Alcm.Quis feram mundus novam,
 	quae terra genuit? quodve tam dirum nefas 
 	de te triumphat? victor Herculeus quis est?
 Herc. 	Nuptae iacentem cernis Alciden dolis.
@@ -1395,7 +1393,7 @@ Alcm. 	Et unde in artus pestis aut ossa incidit?
 Herc. 	Aditum venenis palla femineis dedit.
 Alcm. 	Vbinam ista palla est? membra nudata intuor.
 Herc. 	Consumpta mecum est.
-Alcm.	Tantane inventa
+Alcm.Tantane inventa
 	est lues?
 	HERC Errare mediis crede visceribus meis,
 	o mater, hydram et mille cum Lerna feras. 
@@ -1437,12 +1435,12 @@ Alcm. 	Compesce lacrimas saltem et aerumnas doma
 Alcm. 	Non virus artus, nate, femineum coquit,
 	sed dura series operis et longus tibi
 	pavit cruentos forsitan morbos labor.
-Herc. 	Vbi morbus, ubinam est? estne adhuc aliquid
+	 Herc. 	Vbi morbus, ubinam est? estne adhuc aliquid
 	mali
 	in orbe mecum? veniat, huc aliquis mihi 
 	intendat arcus: nuda sufficiet manus.
 	procedat agedum huc.
-Alcm.	Ei mihi. sensum quoque
+Alcm.Ei mihi. sensum quoque
 	excussit illi nimius impulsu dolor.
 	removete quaeso tela et infestas precor
 	rapite hinc sagittas: igne suffuso genae 
@@ -1504,7 +1502,7 @@ Herc. 	Cecidit dolose: manibus irati Herculis
 	saevire in ipsum corpus exanime impetus
 	atque ira cogit, cur minis nostris caret
 	ipsum cadaver? pabulum accipiant ferae.
-Hyl. 	Plus misera laeso doluit: hinc aliquid quoque
+	 Hyl. 	Plus misera laeso doluit: hinc aliquid quoque
 	detrahere velles? occidit dextra sua, 
 	tuo dolore: plura quam poscis tulit.
 	sed non cruentae sceleribus nuptae iaces
@@ -1558,7 +1556,7 @@ Herc. 	Habet, peractum est, fata se nostra explicant;
 	hanc tamen ad imos perferam laudem inclutam. 
 	quod nulla pestis fudit Alciden palam '
 	omnemque pestem vicit Alcides palam.
-Chorus 	O decus mundi, radiate Titan,
+	 Chorus 	O decus mundi, radiate Titan,
 	cuius ad primos Hecate vapores
 	lassa nocturnae levat ora bigae. 
 	.dic sub Aurora positis Sabaeis,
@@ -1648,12 +1646,12 @@ Chorus 	O decus mundi, radiate Titan,
 	quem tulit Poeans umerisque tela
 	gestat et notas populis pharetras, 
 	Herculis heres.
-Nuntius Chorus 	Effare casus, iuvenis, Herculeos precor
+	 Nuntius Chorus 	Effare casus, iuvenis, Herculeos precor
 	voltuque quonam tulerit Alcides necem.
 Nunt. 	Quo nemo vitam.
-Chor.	Laetus adeone ultimos
+Chor.Laetus adeone ultimos
 	invasit ignes?
-Nvnt.	Esse iam flammas nihil 
+Nvnt.Esse iam flammas nihil 
 	ostendit ille. quid sub hoc mundo Hercules
 	immune vinci liquit? en domita omnia.
 Chor. 	Inter vapores quis fuit forti locus?
@@ -1734,7 +1732,7 @@ Nvnt. 	Vt omnis Oeten maesta corripuit manus,
 	iam flere pudor est; ipsa quam sexus iubet
 	maerere,, siccis haesit Alcmene genis
 	stetitque nato paene iam similis parens. 
-Chor. 	Nullasne in astra misit ad superos preces
+	 Chor. 	Nullasne in astra misit ad superos preces
 	arsurus aut in vota respexit Iovem?
 Nvnt. 	Iacuit sui securus et caelum intuens
 	quaesivit oculis, parte an ex aliqua pater

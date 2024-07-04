@@ -3,9 +3,7 @@ I
 Andromacha       Pyrrhus  II
 Hecuba       Agamemno       Ulixes  III
 Talthybius       Calchas       Senex       Helena       Nuntius  Taciti
-Astyanax      Polyxena        Chorus Thebanorum      	 	  Hecvba 	
-	
-	Quicumque regno fidit et magna potens
+Astyanax      Polyxena        Chorus Thebanorum      	 	  Hecvba 	Quicumque regno fidit et magna potens
 	dominatur aula nec leves metuit deos
 	animumque rebus credulum laetis dedit,
 	me videat et' te, Troia: non umquam tulit

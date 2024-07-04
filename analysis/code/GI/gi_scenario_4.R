@@ -1,7 +1,10 @@
 # Scenario 4: GI applied on the main corpus split into 500-tokens chunks
 # ----------------------------------------------------------------------
-# devtools::install_github("thomasp85/patchwork")
 
+# devtools::install_github("thomasp85/patchwork")
+# install.packages("stylo")
+# install.packages("ggplot2")
+# install.packages("RColorBrewer" )
 library(stylo)
 library(ggplot2)
 library(RColorBrewer)
@@ -59,22 +62,25 @@ data <- make.table.of.frequencies(
 # print the name of the rows of the table
 # we do that in order to find the exact row where the features
 # of the disputed text(s) is/are.
-options(max.print = 1300)
+options(max.print = 1350)
 rownames(data)
 
 # -------------
 # simply to double-check whether we are focusing on the correct texts
 # rows for Octavia
-rownames(data)[705:715]
+oct_chunks <- rownames(data)[832:842]
+oct_chunks
+
 # rows for Hercules Oetaeus
-rownames(data)[669:692]
+hero_chunks <- rownames(data)[797:819]
+hero_chunks
 
 # Senecan plays excluding the disputed ones
-candidate.set.seneca <- data[c(641:668, 693:704, 715:779), 1:2000]
+candidate.set.seneca <- data[c(770:796, 820:831, 843:905), 1:2000]
 rownames(candidate.set.seneca)
 
 
-reference.set <- data[-c(641:779), 1:2000]
+reference.set <- data[-c(770:905), 1:2000]
 rownames(reference.set)
 # -------------
 
@@ -83,10 +89,10 @@ rownames(reference.set)
 octavia_results <- list()
 
 # Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 705:715) {
+for (n in 832:842) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(641:779), 1:2000]
-  candidate.set.seneca <- data[c(641:668, 692:703, 715:779), 1:2000]
+  reference.set <- reference.set
+  candidate.set.seneca <- candidate.set.seneca
   octavia_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -127,10 +133,10 @@ octavia_df
 ho_results <- list()
 
 # apply GI to each chunk of HO
-for (n in 669:692) {
+for (n in 797:819) {
   test <- data[n, 1:2000]
-  reference.set <- data[-c(641:779), 1:2000]
-  candidate.set.seneca <- data[c(641:668, 692:703, 715:779), 1:2000]
+  reference.set <- reference.set
+  candidate.set.seneca <- candidate.set.seneca
   ho_result <- max(summary(imposters(
     reference.set = reference.set,
     test = test,
@@ -144,7 +150,7 @@ for (n in 669:692) {
 
 # create a data frame of the results
 ho_df <- data.frame(
-  chunk = 1:24,
+  chunk = 1:23,
   score = unlist(ho_results)
 )
 

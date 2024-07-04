@@ -52,6 +52,9 @@ The validation dataset for the GI method includes the following authors and text
 * Valerius Flaccus:
   + *Argonautica* (each book splitted into a separate txt file (8 in total))
 
+* Martial:
+  + *Epigrammata* (each book is split into a separate txt file (14 in total))
+
 
 The same pre-processing step will be applied to every text that is used here and the results will be generated using Most Frequent Characters (henceforward MFCs) 4grams and pentagrams; these number of n-grams will be applied to each one of the aforementioned methods and their variations.
 
@@ -62,6 +65,9 @@ set.seed(100) # random seed for reproducibility
 # Importing the libraries
 
 ```{r}
+# in case they are not installed or need to be update, uncomment and run
+# install.packages("stylo")
+# install.packages("writexl")
 library(stylo)
 library(writexl)
 ```
@@ -90,7 +96,7 @@ The "preparation of the dataset" step consists of six steps.
 # step 1
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "../../validation_corpora/validation_imp_corpus/",
+  corpus.dir = "../../validation/validation_corpora/validation_imp_corpus/",
   encoding = "UTF-8"
 )
 ```
@@ -126,7 +132,7 @@ corpus.char.tetragrams <- txt.to.features(
 # step 5
 features_char_tetragrams <- make.frequency.list(
   corpus.char.tetragrams,
-  head = 5000
+  head = 2000
 )
 ```
 
@@ -144,7 +150,7 @@ In order to implement `imposters` to the data that we have prepared in the previ
 Since are our dataset contains more than 999 rows we need to set the option for printing more than 999 rows. We have 1814 text samples, so if we set `max.option = 2000` it will output all the rows.
 
 ```{r}
-options(max.print=100)
+options(max.print=105)
 rownames(data)
 ```
 # Optimize
@@ -212,5 +218,5 @@ if (nrow(results.imposters) == 0) {
 }
 
 # write the data frame into an excel spreadsheet
-write_xlsx(results.imposters, "../results/results_imposters_valid_cosine.xlsx")
+write_xlsx(results.imposters, "../validation_imposters/results/results_imposters_valid_cosine.xlsx")
 ```

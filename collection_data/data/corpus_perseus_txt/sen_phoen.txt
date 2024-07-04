@@ -2,9 +2,7 @@
 I
 Oedipus       Iocasta  II
 Antigona       Polynices  III
-Eteocles       satelles       Nuntius       	 	 Oedipus Antigona 	
-	
-	Caeci parentis regimen et fessi unicum
+Eteocles       satelles       Nuntius       	 	 Oedipus Antigona 	Caeci parentis regimen et fessi unicum
 	lateris levamen, gnata, quam tanti est mihi
 	genuisse vel sic, desere infaustum patrem,
 	in recta quid deflectis errantem gradum?
