@@ -40,7 +40,7 @@ corpus.char.tetragrams <- txt.to.features(
 # create a frequency list of the 4-grams, keeping the top 5000 most frequent features
 features.char.tetragrams <- make.frequency.list(
   corpus.char.tetragrams,
-  head = 5000,  # number of features to include
+  head = 2000,  # number of features to include
   relative = TRUE  # compute relative frequencies
 )
 
@@ -100,8 +100,6 @@ imposters.hero <- imposters(
 # optimize imposters method parameters
 # using a grid search approach, it tries to define a grey area 
 # where the attribution scores are not reliable
-# up until now I haven't found a way to sed a random seed (neither globally nor locally) 
+# up until now I haven't found a way to set a random seed (neither globally nor locally) 
 # to make the results reproducible
 imposters.optimize(data)
-
-help("imposters.optimize")
