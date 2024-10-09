@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 .virtual_documents/validation_imposters/code
 analysis/corpora/latin_corpus_verse_df
+/verse_corpus
