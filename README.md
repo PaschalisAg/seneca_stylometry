@@ -1,15 +1,16 @@
 # A Stylometric Analysis of Seneca’s disputed plays: Authorship Verification of Octavia and Hercules Oetaeus
 
 ## Description
-This project delves into the authorship verification of Lucius Annaeus Seneca Minor's disputed plays, specifically *Octavia* and *Hercules Oetaeus*.
-To address this, we employ computational methods like Principal Component Analysis, Bootstrap Consensus Network, and the Imposters method (o2 verification system) as outlined in:
+### Purpose
+This project delves into the authorship verification of Lucius Annaeus Seneca Minor's disputed plays, specifically *Octavia* and *Hercules Oetaeus*. To address this, we employ computational stylometric methods like Principal Component Analysis, Bootstrap Consensus Tree, and the Imposters method (o2 verification system) as outlined in:
 
 ```
 Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by the same author’, Journal of the Association for Information Science and Technology, 65(1), pp. 178–187. Available at: https://doi.org/10.1002/asi.22954 (accessed 31 October 2022).
 ```
-Throughout the study we use several datasets to test different scenarios. Most of the variations are centered around the dataset [`verse_corpus`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/verse_corpus). However, in one of the scenarios we also augment the aforementioned corpus with the corpus used by Kestemont *et al.* (2016), *Authenticating the writings of Julius Caesar*, Expert Systems with Applications, 63, pp. 86-96.
-
-
+### Structure
+There are three main folders involved in the results presented in the paper:
+* [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis): it is the file used to perform the main analysis phase.
+    - [`code`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/code): contains the code used in the main analysis phase split into subdirectories for each experiment performed.
 ## Datasets
 The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
