@@ -5,14 +5,23 @@
 This project delves into the authorship verification of Lucius Annaeus Seneca Minor's disputed plays, specifically *Octavia* and *Hercules Oetaeus*. To address this, we employ computational stylometric methods like Principal Component Analysis, Bootstrap Consensus Tree, and the Imposters method (o2 verification system) as outlined in:
 
 ```
-Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by the same author’, Journal of the Association for Information Science and Technology, 65(1), pp. 178–187. Available at: https://doi.org/10.1002/asi.22954 (accessed 31 October 2022).
+Koppel, M. and Winter, Y. (2014), ‘Determining if two documents are written by the same author’, Journal of the Association for Information Science and Technology, 65(1), pp. 178–187. Available at: https://doi.org/10.1002/asi.22954 (accessed 31 October 2022).
 ```
 ### Structure
-There are three main folders involved in the results presented in the paper:
+There are three main folders involved in the results presented in the paper (they will be presented in the same order as they appear on Github's repository):
 * [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis): it is the file used to perform the main analysis phase.
     - [`code`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/code): contains the code used in the main analysis phase split into subdirectories for each experiment performed.
     - [`corpora`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/corpora): contains subdirectories of all the corpora used in the various experiments ran during the main analysis phase.
     - [`results`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/results): contains in subdirectories the results generated during the various experiments grouped by the experiment and the method used.
+* [`collection_data`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data): contains the code and the generated data that are used-with some variations- in the [validation](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation) and the main [analysis](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis) phase:
+    - [`code`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data/code): contains two code files. One to convert TEI into raw text (`conv_tei_write_txt.py`)[https://github.com/PaschalisAg/seneca_stylometry/blob/main/collection_data/code/conv_tei_write_txt.py] and [`preparation_txt_files.ipynb`](https://github.com/PaschalisAg/seneca_stylometry/blob/main/collection_data/code/preparation_txt_files.ipynb) that processes the texts in order to prepare them for the validation and the main analysis phase.
+    - [`data`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data/data): contais two different versions of the same data. One split into sub-books (i.e., [`corpus_perseus_txt`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data/data/corpus_perseus_txt)) and one by maintaining the raw conversion from TEI to txt (i.e., [`verse_corpus`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data/data/verse_corpus)).
+    - [`dataset_perseus_xml](https://github.com/PaschalisAg/seneca_stylometry/tree/main/collection_data/dataset_perseus_xml): contains the texts extracted from Perseus in the raw TEI format. This version of the texts from Perseus is being preprocessed and converted to txt.
+* [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation): contains the code, the data, and the results needed to replicate the results of the validation phase:
+    - [`validation_PCA_BCT`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_PCA_BCT): contains the code and the results of the validation phase using both PCA and BCT.
+    - [`validation_corpora`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_corpora): contains all the different variations of the corpora used to validate the methods of PCA, BCE, and GI. Each method was validated using each own corpus, thus each method has its own validation corpora that can be found in the filename.
+    - [`validation_imposters`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_imposters): contains the code to replicate the results for the GI method in the validation phase and its generated results for transparency.
+
 ## Datasets
 The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
