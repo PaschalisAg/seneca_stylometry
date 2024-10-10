@@ -11,6 +11,8 @@ Koppel, M. and Winter, Y. (2014) ‘Determining if two documents are written by 
 There are three main folders involved in the results presented in the paper:
 * [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis): it is the file used to perform the main analysis phase.
     - [`code`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/code): contains the code used in the main analysis phase split into subdirectories for each experiment performed.
+    - [`corpora`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/corpora): contains subdirectories of all the corpora used in the various experiments ran during the main analysis phase.
+    - [`results`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis/results): contains in subdirectories the results generated during the various experiments grouped by the experiment and the method used.
 ## Datasets
 The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
