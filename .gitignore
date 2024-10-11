@@ -3,3 +3,4 @@
 .virtual_documents/validation_imposters/code
 analysis/corpora/latin_corpus_verse_df
 /verse_corpus
+analysis/code/PCA_BCT/scree_plot_pca.ipynb

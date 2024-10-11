@@ -24,11 +24,13 @@ HNOTEPATTERN = re.compile(r'<note>.*?<\/note>')  # match the hypernotes pattern
 
 
 def striptei(tei):
-    """Convert a string with (a fragment of) TEI to plain text.
+    """
+    Convert a string with (a fragment of) TEI to plain text.
     Avoids lxml overhead. Use at your own risk; may summon the ancient ones:
     https://stackoverflow.com/a/1732454/338811
     Hyphenated words at end of page are dehyphenated.
-    Linebreaks are removed, except for paragraph ends and <lb/> elements."""
+    Linebreaks are removed, except for paragraph ends and <lb/> elements.
+    """
     unescaped = html.unescape(tei)
     ignore_hnotes = HNOTEPATTERN.sub(' ', unescaped)
     # Ensure that an em-dash ("gedachtenstreepje) at the end of a page
@@ -87,5 +89,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

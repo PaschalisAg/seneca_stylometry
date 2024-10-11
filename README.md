@@ -23,7 +23,9 @@ There are three main folders involved in the results presented in the paper (the
     - [`validation_imposters`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation/validation_imposters): contains the code to replicate the results for the GI method in the validation phase and its generated results for transparency.
 
 ## Datasets
-The section below will present which datasets were used in which cases. The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
+The section below will present which datasets were used in which cases. Main purpose of this section is to navigate the user in order to replicate the experiment of their choise, if not the entire study. 
+
+The study is split into two phases: the validation phase (see [`validation`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/validation)), where we test the performance of the methods and the main analysis part (see [`analysis`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/analysis)) where—using PCA, BCT, and GI- we proceed to the main analysis phase.
 
 For the validation:
 

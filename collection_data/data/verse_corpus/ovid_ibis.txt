@@ -244,7 +244,8 @@ Dixerat . at Clotho iussit promissa valere ,
  Nevit et infesta stamina pulla manu ;
 
 Et ne longa suo praesagia diceret ore ,
-Fata canet vales qui tua, dixit erit.
+Fata canet vales qui tua
+, dixit erit.
 Ille ego sum vates . ex me tua vulnera disces,
 Dent modo di vires in mea verba suas,
 Carminibusque meis accedant pondera rerum ,
