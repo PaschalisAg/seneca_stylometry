@@ -1,5 +1,5 @@
 ---
-title: 'Validation: PCA and BCT'
+title: 'Validation: PCA'
 author: "Paschalis Agapitos"
 ---
 
@@ -8,38 +8,10 @@ author: "Paschalis Agapitos"
 # install.packages("stylo")
 # install.packages("here")
 ```
-Aim of this notebook is to validate the methods used in the paper A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus.
-
-A different version of the main analysis dataset will be used now. The dataset is contained in a folder called validation_corpus. It contains 28 texts in verse written by three authors (in total 287138 tokens). The authors used in this corpus are:
-
-    Publius Ovidius Naso (henceforward: Ovid)
-        Ars Amatoria
-        Epistulae
-        Fasti
-        Ibis
-        Medicamina Faciei femineae
-        Metamorphoses
-        Ex Ponto
-        Remedia Amoris
-        Tristia
-    Aulus Persius Flaccus (henceforward: Persius)
-        The six books of Satires
-    Publius Papinius Statius (henceforward: Statius)
-        The 12 books of Thebaid
-
-To validate the methods, we selected one text from each author (i.e., in total three texts) and renamed them with the following format: unknown{n}.txt. The authors to validate the methods are the following ones:
-
-    Amores by Ovid (i.e., unknown0.txt)
-    Thebaid book 1 by Statius (i.e., unknown1.txt)
-    Satire 4 by Persius (i.e., unknown2.txt)
-
-The first two texts were randomly chosen to be tested. However, the last one is the trickiest one because it consists of only 342 tokens.
-
-In this notebook, we will apply Principal Component Analysis (PCA) and Bootstrap Consensus Tree (BCT). The same preprocessing step will be applied to every text used here, and the results will be generated using Most Frequent Characters (MFCs) 4-grams; these n-grams will be applied to each one of the aforementioned methods and their variations.
+Aim of this notebook is to validate the Principal Component method used in the paper *A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus*.
 
 ```{r}
 library(stylo)
-library(here)
 ```
 
 ## Setting the working directory
@@ -47,13 +19,11 @@ library(here)
 Set the working directory to `validation_PCA_BCT/`. This directory holds the data and the code to validate the PCA and BCT methods.
 
 ```{r}
-# knitr::opts_knit$set(root.dir = '../../validation_PCA_BCT/') # preferable for R notebook chunks
-# setwd(here(file.path("2_validation"))) # run only in case of error of the previous line
-
-# to set the working directory and ensure compatibility across all of the operating systems:
-# Session > Set Working Directory > Choose Directory... > set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/PCA/MFCs-4grams/PCA-corr/`
+# to set the working directory and ensure compatibility across all of the operating systems (IF THE CODE BELOW DOES NOT RAISE ANY ERROR):
+# Session > Restart R > Set Working Directory > Choose Directory... > set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/PCA/MFCs-4grams/PCA-corr/`
 # we choose this file in order to write the resulting plots automatically there
-getwd() # verify
+setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", "2_validation", "validation_PCA_BCT", "results", "PCA", "MFCs-4grams", "PCA-corr"))
+getwd() # verify directory
 ```
 
 ## Importing the corpus and tokenization
@@ -98,9 +68,7 @@ freqs_4grams <- make.table.of.frequencies(corpus_char_4grams,
                                           relative = TRUE)
 ```
 
-## Method Validation - Character 4-grams
-
-### Principal Component Analysis - Correlation matrix (MFCs 4grams)
+## Principal Component Analysis - Correlation matrix (MFCs 4grams)
 
 Apply PCA using a correlation matrix to visualize the results with MFCs 4-grams. We will look at the top 100 to 2000 MFCs 4-grams with an increment of 100 in each iteration.
 

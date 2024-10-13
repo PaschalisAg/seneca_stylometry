@@ -21,10 +21,9 @@ Set the working directory to `validation_PCA_BCT/`. This directory holds the dat
 
 ```{r}
 # to set the working directory and ensure compatibility across all of the operating systems (IF THE CODE BELOW DOES NOT RAISE ANY ERROR):
-# Knit > Knit Directory > Current Working Directory > use the absolute path and set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/BCT/MFCs-4grams/`
+# Session > Restart R > Set Working Directory > Choose Directory... > set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/BCT/MFCs-4grams/`
 # we choose this file in order to write the resulting plots automatically there
-require("knitr")
-opts_knit$set(root.dir = file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", "2_validation", "validation_PCA_BCT", "results", "BCT", "MFCs-4grams"))
+setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", "2_validation", "validation_PCA_BCT", "results", "BCT", "MFCs-4grams"))
 getwd() # verify directory
 ```
 
