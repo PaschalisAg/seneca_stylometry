@@ -1,6 +1,6 @@
 .virtual_documents
 .ipynb_checkpoints
 .virtual_documents/validation_imposters/code
-analysis/corpora/latin_corpus_verse_df
+3_analysis/corpora/latin_corpus_verse_df
 /verse_corpus
-analysis/code/PCA_BCT/scree_plot_pca.ipynb
+3_analysis/code/PCA_BCT/scree_plot_pca.ipynb
