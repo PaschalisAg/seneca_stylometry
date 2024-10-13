@@ -4,8 +4,9 @@ author: "Paschalis Agapitos"
 ---
 
 ```{r, echo=FALSE}
-# if not installed
-install.packages("stylo")
+# if not installed, uncomment and run
+# install.packages("stylo")
+# install.packages("here")
 ```
 Aim of this notebook is to validate the methods used in the paper A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus.
 
@@ -38,29 +39,36 @@ In this notebook, we will apply Principal Component Analysis (PCA) and Bootstrap
 
 ```{r}
 library(stylo)
+library(here)
 ```
 
-# Setting the working directory
+## Setting the working directory
 
 Set the working directory to `validation_PCA_BCT/`. This directory holds the data and the code to validate the PCA and BCT methods.
 
 ```{r}
-knitr::opts_knit$set(root.dir = '../../validation_PCA_BCT/') # preferable for R notebook chunks
-setwd('../../validation_PCA_BCT/') # run only in case of error of the previous line
-getwd()
+# knitr::opts_knit$set(root.dir = '../../validation_PCA_BCT/') # preferable for R notebook chunks
+# setwd(here(file.path("2_validation"))) # run only in case of error of the previous line
+
+# to set the working directory and ensure compatibility across all of the operating systems:
+# Session > Set Working Directory > Choose Directory... > set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/PCA/MFCs-4grams/PCA-corr/`
+# we choose this file in order to write the resulting plots automatically there
+getwd() # verify
 ```
 
-# Importing the corpus and tokenization
+## Importing the corpus and tokenization
 Import and tokenize the corpus. The tokenization follows the rules of the parameter `stylo.Latin.corr` to handle the variation between "u/v". Uppercase letters are converted to lowercase to minimize variations in orthography.
 ```{r}
 # load the corpus for the validation of PCA
-raw_corpus <- load.corpus(files = "all", corpus.dir = "../../validation_corpora/validation_corpus_PCA/", encoding = "UTF-8")
+raw_corpus <- load.corpus(files = "all", 
+                          corpus.dir = file.path("..", "..", "..", "..", "..", "validation_corpora", "validation_corpus_PCA"), 
+                          encoding = "UTF-8")
 
 # tokenize the corpus
 tokenized_corpus <- txt.to.words.ext(raw_corpus, corpus.lang = "Latin.corr", preserve.case = FALSE)
 ```
 
-# Remove the pronouns
+## Remove the pronouns
 Remove pronouns from the corpus as they may be connected to the genre of the text.
 ```{r}
 # remove pronouns from the tokenized corpus
@@ -70,28 +78,34 @@ corpus_no_pronouns <- delete.stop.words(tokenized_corpus, stop.words = stylo.pro
 stylo.pronouns(corpus.lang = "Latin.corr")
 ```
 
-# Character 4-grams
+## Character 4-grams
 
-## Extracting the features (character 4-grams)
+### Extracting the features (character 4-grams)
 Extract character 4-grams and add them to a frequency table.
 ```{r}
 # extract character 4-grams
-corpus_char_4grams <- txt.to.features(corpus_no_pronouns, features = "c", ngram.size = 4)
+corpus_char_4grams <- txt.to.features(corpus_no_pronouns, 
+                                      features = "c", 
+                                      ngram.size = 4)
 
 # create a frequency list of the 4-grams
-frequent_features_4grams <- make.frequency.list(corpus_char_4grams, head = 2000)
+frequent_features_4grams <- make.frequency.list(corpus_char_4grams, 
+                                                head = 2000)
 
 # create a table of frequencies for the 4-grams
-freqs_4grams <- make.table.of.frequencies(corpus_char_4grams, features = frequent_features_4grams, relative = TRUE)
+freqs_4grams <- make.table.of.frequencies(corpus_char_4grams, 
+                                          features = frequent_features_4grams, 
+                                          relative = TRUE)
 ```
 
-# Method Validation - Character 4-grams
+## Method Validation - Character 4-grams
 
-## Principal Component Analysis - Correlation matrix (MFCs 4grams)
+### Principal Component Analysis - Correlation matrix (MFCs 4grams)
 
 Apply PCA using a correlation matrix to visualize the results with MFCs 4-grams. We will look at the top 100 to 2000 MFCs 4-grams with an increment of 100 in each iteration.
 
 Cosine Delta will be used as a distance metric.
+
 ```{r}
 # PCA correlation - top 100-2000-100 incr.100 MFCs 4-grams
 results_pca_4grams_cor <- stylo(frequencies = freqs_4grams, 
@@ -103,59 +117,27 @@ results_pca_4grams_cor <- stylo(frequencies = freqs_4grams,
                                 write.pdf.file = TRUE, 
                                 gui = TRUE) #GUI is set to TRUE to double check the parameters. In principle no additional change should be implemented. Hit "OK" and the results will be displayed after the PCA is done.
 ```
-## Apply Bootstrap Consensus Tree - MFC 4-grams
+## REPLICATION STEPS ON STYLO'S GUI (PCA-Correlation validation)
 
-### Load and prepare corpus for the validation of BCT
-Load and prepare the correct corpus for the validation of BCT, following the same preprocessing steps.
+Note: `stylo_config.txt` provides a detailed version of the parameters used throughout this experiment. It can be found in `seneca_stylometry/2_validation/validation_PCA_BCT/results/PCA/MFCs-4grams/PCA-corr/`.
 
-```{r}
-# load the corpus for the validation of BCT
-raw_corpus_bct <- load.corpus(files = "all", corpus.dir = "../../../validation/validation_corpora/validation_corpus_BCT/", encoding = "UTF-8")
+-----------------------------------
+1) Run the script in the cell below, which will opent the Graphic User Interface (GUI) of *Stylo*
+2) On the GUI select the following, if they are not already selected:
 
-# tokenize the corpus
-tokenized_corpus_bct <- txt.to.words.ext(raw_corpus_bct, corpus.lang = "Latin.corr", preserve.case = FALSE)
-```
-
-### Remove the pronouns
-Remove pronouns from the corpus.
-
-```{r}
-# remove pronouns from the tokenized corpus
-corpus_no_pronouns_bct <- delete.stop.words(tokenized_corpus_bct, stop.words = stylo.pronouns(corpus.lang = "Latin.corr"))
-
-# list of pronouns removed
-stylo.pronouns(corpus.lang = "Latin.corr")
-```
-### Extracting the features (character 4-grams)
-Extract character 4-grams and add them to a frequency table.
-
-```{r}
-# Extract character 4-grams
-corpus_char_4grams_bct <- txt.to.features(corpus_no_pronouns_bct, features = "c", ngram.size = 4)
-
-# Create a frequency list of the 4-grams
-frequent_features_4grams_bct <- make.frequency.list(corpus_char_4grams_bct, head = 5000)
-
-# Create a table of frequencies for the 4-grams
-freqs_4grams_bct <- make.table.of.frequencies(corpus_char_4grams_bct, features = frequent_features_4grams_bct, relative = TRUE)
-```
-
-```{r}
-# BCT 4grams - top 100-2000-100 MFC 4 grams - consensus strength 0.5
-bct_results_4grams <- stylo(frequencies = freqs_4grams_bct, 
-                            distance.measure = "wurzburg", #cosine delta
-                            analysis.type = "BCT", 
-                            mfw.min = 100, mfw.max = 2000, increment = 100, 
-                            custom.graph.title = "Who is the author?", 
-                            write.pdf.file = TRUE, 
-                            gui = TRUE) # GUI only to doublecheck. In principle no change should be implemented
-```
-
-# Conclusions
-From the methods and their variations run above, we can observe that all of the "unknown" texts have been successfully attributed to the "correct" author.
-
-    unknown0.txt (i.e., Amores) to Ovid
-    unknown1.txt (i.e., Thebaid book 1) to Statius
-    unknown2.txt (i.e., Satire 4) to Persius
-
-Especially the last case, Satire 4 by Persius is interesting. The length of the text is minuscule compared to the other texts in the corpus; it consists of only 342 tokens, thus the distance from the other texts. The other "not-so-tricky" case is the Medicamina Faciei Femineae by Ovid which has only 613 tokens (i.e., the second shortest text in our validation dataset).
+* INPUT & LANGUAGE
+  - INPUT: `plain text` 
+  - LANGUAGE: `Latin (u/v > u)`
+* FEATURES
+  - FEATURES: `chars`, `ngram size: 4`
+  - MFW SETTING: `Minimum: 100`, `Maximum: 2000`, `Increment: 100`, `Start at freq. rank: 1`
+  - CULLING: `Delete pronouns: YES`
+* STATISTICS
+  - STATISTICS: `PCA (corr.)`
+  - DELTA DISTANCE: `Cosine Delta`
+* SAMPLING
+  - `No sampling`
+* OUTPUT
+  - GRAPHS: `Onscreen`, `PDF`
+  
+-----------------------------------

@@ -1,0 +1,112 @@
+---
+title: 'Validation: BCT'
+author: "Paschalis Agapitos"
+---
+
+```{r, echo=FALSE}
+# if not installed, uncomment and run
+# install.packages("stylo")
+# install.packages("here")
+```
+Aim of this notebook is to validate the Bootstrap Consensus Tree method used in the paper *A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus*.
+
+```{r}
+library(stylo)
+library(here)
+```
+
+## Setting the working directory
+
+Set the working directory to `validation_PCA_BCT/`. This directory holds the data and the code to validate the PCA and BCT methods.
+
+```{r}
+# to set the working directory and ensure compatibility across all of the operating systems (IF THE CODE BELOW DOES NOT RAISE ANY ERROR):
+# Knit > Knit Directory > Current Working Directory > use the absolute path and set to `seneca_stylometry/2_validation/validation_PCA_BCT/results/BCT/MFCs-4grams/`
+# we choose this file in order to write the resulting plots automatically there
+require("knitr")
+opts_knit$set(root.dir = file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", "2_validation", "validation_PCA_BCT", "results", "BCT", "MFCs-4grams"))
+getwd() # verify directory
+```
+
+## Bootstrap Consensus Tree - MFC 4-grams
+
+### Load and prepare corpus for the validation of BCT
+Load and prepare the correct corpus for the validation of BCT, following the same preprocessing steps.
+
+```{r}
+# load the corpus for the validation of BCT
+raw_corpus_bct <- load.corpus(files = "all", 
+                              corpus.dir = file.path("..", "..", "..", "..", "validation_corpora", "validation_corpus_BCT", 
+                              encoding = "UTF-8")
+
+# tokenize the corpus
+tokenized_corpus_bct <- txt.to.words.ext(raw_corpus_bct, 
+                                         corpus.lang = "Latin.corr", 
+                                         preserve.case = FALSE)
+```
+
+#### Remove the pronouns
+Remove pronouns from the corpus.
+
+```{r}
+# remove pronouns from the tokenized corpus
+corpus_no_pronouns_bct <- delete.stop.words(tokenized_corpus_bct, 
+                                            stop.words = stylo.pronouns(corpus.lang = "Latin.corr"))
+
+# list of pronouns removed
+stylo.pronouns(corpus.lang = "Latin.corr")
+```
+#### Extracting the features (character 4-grams)
+Extract character 4-grams and add them to a frequency table.
+
+```{r}
+# Extract character 4-grams
+corpus_char_4grams_bct <- txt.to.features(corpus_no_pronouns_bct, 
+                                          features = "c", 
+                                          ngram.size = 4)
+
+# Create a frequency list of the 4-grams
+frequent_features_4grams_bct <- make.frequency.list(corpus_char_4grams_bct, 
+                                                    head = 5000)
+
+# Create a table of frequencies for the 4-grams
+freqs_4grams_bct <- make.table.of.frequencies(corpus_char_4grams_bct, 
+                                              features = frequent_features_4grams_bct, 
+                                              relative = TRUE)
+```
+
+```{r}
+# BCT 4grams - top 100-2000-100 MFC 4 grams - consensus strength 0.5
+bct_results_4grams <- stylo(frequencies = freqs_4grams_bct, 
+                            distance.measure = "wurzburg", #cosine delta
+                            analysis.type = "BCT", 
+                            mfw.min = 100, mfw.max = 2000, increment = 100, 
+                            custom.graph.title = "Who is the author?", 
+                            write.pdf.file = TRUE, 
+                            gui = TRUE) # GUI only to doublecheck. In principle no change should be implemented
+```
+
+## REPLICATION STEPS ON STYLO'S GUI (BCT validation)
+
+Note: `stylo_config.txt` provides a detailed version of the parameters used throughout this experiment. It can be found in `seneca_stylometry/2_validation/validation_PCA_BCT/results/BCT/MFCs-4grams/`.
+
+-----------------------------------
+1) Run the script in the cell below, which will opent the Graphic User Interface (GUI) of *Stylo*
+2) On the GUI select the following, if they are not already selected:
+
+* INPUT & LANGUAGE
+  - INPUT: `plain text` 
+  - LANGUAGE: `Latin (u/v > u)`
+* FEATURES
+  - FEATURES: `chars`, `ngram size: 4`
+  - MFW SETTING: `Minimum: 100`, `Maximum: 2000`, `Increment: 100`, `Start at freq. rank: 1`
+  - CULLING: `Delete pronouns: YES`
+* STATISTICS
+  - STATISTICS: `Consensus Tree`, `Consensus strength : 0.5`
+  - DELTA DISTANCE: `Cosine Delta`
+* SAMPLING
+  - `No sampling`
+* OUTPUT
+  - GRAPHS: `Onscreen`, `PDF`
+  
+-----------------------------------
