@@ -3,15 +3,12 @@ title: 'Validation: PCA'
 author: "Paschalis Agapitos"
 ---
 
+Aim of this notebook is to validate the Principal Component method used in the paper *A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus*.
+
 ```{r, echo=FALSE}
 # if not installed, uncomment and run
 # install.packages("stylo")
 # install.packages("here")
-```
-Aim of this notebook is to validate the Principal Component method used in the paper *A Stylometric Analysis of Seneca's Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus*.
-
-```{r}
-library(stylo)
 ```
 
 ## Setting the working directory
@@ -25,6 +22,12 @@ Set the working directory to `validation_PCA_BCT/`. This directory holds the dat
 setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", "2_validation", "validation_PCA_BCT", "results", "PCA", "MFCs-4grams", "PCA-corr"))
 getwd() # verify directory
 ```
+
+```{r}
+library(stylo)
+```
+
+
 
 ## Importing the corpus and tokenization
 Import and tokenize the corpus. The tokenization follows the rules of the parameter `stylo.Latin.corr` to handle the variation between "u/v". Uppercase letters are converted to lowercase to minimize variations in orthography.
