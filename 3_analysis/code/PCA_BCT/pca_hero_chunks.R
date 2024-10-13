@@ -1,7 +1,7 @@
+# install.packages("stylo")
 library(stylo)
-# library(pheatmap)
 
-setwd("../../../analysis/")
+setwd(file.path("3_analysis"))
 getwd()
 
 # load the corpus for the validation of PCA
@@ -34,3 +34,24 @@ results_pca_4grams_cor = stylo(frequencies = freqs.4grams,
                                pca.visual.flavour="classic", # flavour of the PCA plot
                                write.pdf.file=T, # write the results into png files
                                gui = T) # gui = True to double-check the parameters
+
+# REPLICATION STEPS ON STYLO'S GUI
+# -----------------------------------
+# 1) Run the script in the cell below, which will opent the Graphic User Interface (GUI) of *Stylo*
+# 2) On the GUI select the following, if they are not already selected:
+
+# * INPUT & LANGUAGE
+# - INPUT: `plain text` 
+# - LANGUAGE: `Latin (u/v > u)`
+# * FEATURES
+# - FEATURES: `chars`, `ngram size: 4`
+# - MFW SETTING: `Minimum: 100`, `Maximum: 2000`, `Increment: 100`, `Start at freq. rank: 1`
+# - CULLING: `Delete pronouns: YES`
+# * STATISTICS
+# - STATISTICS: `PCA (corr.)`
+# - DELTA DISTANCE: `Cosine Delta`
+# * SAMPLING
+# - `No sampling`
+# * OUTPUT
+# - GRAPHS: `Onscreen`, `PDF`
+# -----------------------------------
