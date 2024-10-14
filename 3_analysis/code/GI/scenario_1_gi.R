@@ -1,8 +1,19 @@
 # Scenario 1: GI applied on the main corpus without any pre-processing
 # ----------------------------------------------------------------------
 
-# load necessary library
 # install.packages("stylo")
+
+# set the working directory for GI scenario 1
+# with file.path there is no need to worry about the different operating systems, it'll handle them automatically
+setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", 
+                "3_analysis", "results", "GI_results"))
+# if there is an error in the previous command, then "Session" > "Set Working Directory", "Choose Directory...", 
+# "seneca_stylometry/3_analysis/pca_bct_results/bct_sen_luc_stat"
+
+# verify directory
+getwd()
+
+# load necessary library
 library(stylo)
 
 # change the working directory to where the analysis data is located
