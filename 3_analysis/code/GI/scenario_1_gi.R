@@ -5,8 +5,8 @@
 
 # set the working directory for GI scenario 1
 # with file.path there is no need to worry about the different operating systems, it'll handle them automatically
-setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", 
-                "3_analysis", "results", "GI_results"))
+# setwd(file.path("~", "Documents", "projects", "seneca_paper", "seneca_stylometry", 
+                # "3_analysis", "results", "GI_results"))
 # if there is an error in the previous command, then "Session" > "Set Working Directory", "Choose Directory...", 
 # "seneca_stylometry/3_analysis/pca_bct_results/bct_sen_luc_stat"
 
@@ -16,15 +16,10 @@ getwd()
 # load necessary library
 library(stylo)
 
-# change the working directory to where the analysis data is located
-# if error then: Session > Choose Directory > set to "../../../analysis"
-setwd("../../../analysis/")
-getwd()  # confirm the current working directory
-
 # load the corpus from the specified directory
 raw.corpus <- load.corpus(
   files = "all",  # load all files in the directory
-  corpus.dir = "../analysis/corpora/corpus_imposters/",  # directory containing the corpus
+  corpus.dir = file.path("3_analysis", "corpora", "gi_scen_1_corpus"),  # directory containing the corpus
   encoding = "UTF-8"  # ensure correct text encoding
 )
 
