@@ -12,16 +12,14 @@ library(RColorBrewer)
 
 
 # uncomment and run for the colorblind-friendle palettes of colours
-display.brewer.all(colorblindFriendly=TRUE)
+# display.brewer.all(colorblindFriendly=TRUE)
 
 # change the working directory
-setwd("../../../analysis/")
-getwd()
 
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "corpora/corpus_chunks/",
+  corpus.dir = "3_analysis/corpora/corpus_chunks/",
   encoding = "UTF-8"
 )
 
@@ -84,89 +82,124 @@ reference.set <- data[-c(770:905), 1:2000]
 rownames(reference.set)
 # -------------
 
-# Octavia
-# initialize empty lists for the results
-octavia_results <- list()
+# Perform multiple runs and calculate average and standard deviation for each chunk
 
-# Octavia's chunks start from the 740th row and go up to the 750th row
-for (n in 832:842) {
-  test <- data[n, 1:2000]
-  reference.set <- reference.set
-  candidate.set.seneca <- candidate.set.seneca
-  octavia_result <- max(summary(imposters(
-    reference.set = reference.set,
-    test = test,
-    candidate.set = candidate.set.seneca,
-    iterations = 100,
-    distance = "wurzburg"
-  )))
-  octavia_results[[n]] <- octavia_result
-  print(paste("Octavia rowname", n , ": ", octavia_result))
+# Number of runs
+num_runs <- 10
+
+# Octavia
+# Initialize empty lists for storing results from each run
+octavia_results_all <- vector("list", num_runs)
+
+# Loop over the number of runs
+for (run in 1:num_runs) {
+  octavia_results <- list()
+  for (n in 832:842) {
+    test <- data[n, 1:2000]
+    octavia_result <- max(summary(imposters(
+      reference.set = reference.set,
+      test = test,
+      candidate.set = candidate.set.seneca,
+      iterations = 100,
+      distance = "wurzburg"
+    )))
+    octavia_results[[n]] <- octavia_result
+  }
+  octavia_results_all[[run]] <- unlist(octavia_results)
 }
 
-# create a data frame of the results
+# Convert the results into a data frame where each column represents a run
+octavia_matrix <- do.call(cbind, octavia_results_all)
+
+# Calculate the mean and standard deviation for each chunk across runs
+octavia_mean <- apply(octavia_matrix, 1, mean)
+octavia_sd <- apply(octavia_matrix, 1, sd)
+
+# Create a data frame with the mean and standard deviation
 octavia_df <- data.frame(
   chunk = 1:11,
-  score = unlist(octavia_results)
+  average_score = octavia_mean,
+  score_sd = octavia_sd
 )
 
-
-# create a dot plot
-p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = score)) +
-  geom_point(aes(color = score <= 0.9), size = 2.5) +
-  scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"),
-                     labels = c("Above threshold", "Below threshold")) +
+# Plot the average score with error bars representing the standard deviation
+p1 <- ggplot(octavia_df, aes(x = factor(chunk), y = average_score)) +
+  # Conditional coloring based on whether score_mean is below 0.9
+  geom_point(aes(color = average_score < 0.9), size = 2.5, shape = 21, stroke = .7) +
+  geom_errorbar(aes(ymin = average_score - score_sd, ymax = average_score + score_sd), width = 0.2) +
   geom_hline(yintercept = 0.9, linetype="dashed", color="blue") + 
   theme_minimal() + 
-  labs(x = "Chunk", y = "GI method score") +
-  ggtitle("Octavia Imposter Scores for each chunk") +
-  guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = 0.9, label = "0.9", hjust =1, vjust = 0.5, color="black") +  
+  labs(x = "Chunk", y = "Average GI method score") +
+  ggtitle("Scenario 4 - Octavia Imposter Scores (10 runs)") +
+  scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"), guide = "legend") + 
   scale_y_continuous(limits = c(0, 1))
-
-
 p1
-octavia_df
+
+
+# Similarly, you can modify the code for Hercules Oetaeus
+
 # Hercules Oetaeus
+ho_results_all <- vector("list", num_runs)
 
-# create an empty list to save the results from the GI
-ho_results <- list()
-
-# apply GI to each chunk of HO
-for (n in 797:819) {
-  test <- data[n, 1:2000]
-  reference.set <- reference.set
-  candidate.set.seneca <- candidate.set.seneca
-  ho_result <- max(summary(imposters(
-    reference.set = reference.set,
-    test = test,
-    candidate.set = candidate.set.seneca,
-    iterations = 100,
-    distance = "wurzburg"
-  )))
-  ho_results[[n]] <- ho_result
-  print(paste("Hercules Oetaeus rowname", n , ": ", ho_result))
+for (run in 1:num_runs) {
+  ho_results <- list()
+  for (n in 797:819) {
+    test <- data[n, 1:2000]
+    ho_result <- max(summary(imposters(
+      reference.set = reference.set,
+      test = test,
+      candidate.set = candidate.set.seneca,
+      iterations = 100,
+      distance = "wurzburg"
+    )))
+    ho_results[[n]] <- ho_result
+  }
+  ho_results_all[[run]] <- unlist(ho_results)
 }
 
-# create a data frame of the results
+# Convert results into a data frame for Hercules Oetaeus
+ho_matrix <- do.call(cbind, ho_results_all)
+
+# Calculate the mean and standard deviation
+ho_mean <- apply(ho_matrix, 1, mean)
+ho_sd <- apply(ho_matrix, 1, sd)
+
+# Create a data frame with the mean and standard deviation
 ho_df <- data.frame(
   chunk = 1:23,
-  score = unlist(ho_results)
+  average_score = ho_mean,
+  score_sd = ho_sd
 )
 
-# create a dot plot
-p2 <- ggplot(ho_df, aes(x = factor(chunk), y = score)) +
-  geom_point(aes(color = score < 0.9), size = 2.5) +
-  scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"),
-                     labels = c("Above threshold", "Below threshold")) +
-  geom_hline(yintercept = 0.9, linetype="dashed", color="blue") +
+# Plot the average score with error bars for Hercules Oetaeus
+p2 <- ggplot(ho_df, aes(x = factor(chunk), y = average_score)) +
+  geom_point(aes(color = average_score < 0.9), size = 2.5, shape = 21, stroke = .7) +
+  geom_errorbar(aes(ymin = average_score - score_sd, ymax = average_score + score_sd), width = 0.2) +
+  geom_hline(yintercept = 0.9, linetype="dashed", color="blue") + 
   theme_minimal() + 
-  labs(x = "Chunk", y = "GI method score") +  
-  ggtitle("Hercules Oetaeus Imposter Scores for each chunk") +
-  guides(color = guide_legend(title = "Legend", override.aes = list(shape = 16, size = 3))) +
-  annotate("text", x = Inf, y = 0.9, label = "0.9", hjust =1, vjust = 0.5, color="black") +
+  labs(x = "Chunk", y = "Average GI method score") +  
+  ggtitle("Scenario 4 - Hercules Oetaeus Imposter Scores (10 runs)") +
+  scale_color_manual(values = c("TRUE" = "red", "FALSE" = "black"), guide = "legend") + 
   scale_y_continuous(limits = c(0, 1))
 
 p2
-ho_df
- 
+
+# save Octavia plot - GI scenario 4
+ggsave(p1, 
+       filename = file.path("3_analysis", "results", "GI_results", "scenario_4", "scen_4_o_chunks_gi_m_std_10runs.pdf"),
+       device = "pdf",
+       dpi = 500)
+# save Octavia results - GI scenario 4
+write.csv(octavia_df, 
+          file.path("3_analysis", "results", "GI_results", "scenario_4", "scen_4_o_chunks_gi_m_std_10runs_results.csv"), 
+          row.names = FALSE)
+
+# save Hercules Oetaeus plot - GI scenario 4
+ggsave(p2, 
+       filename = file.path("3_analysis", "results", "GI_results", "scenario_4", "scen_4_ho_chunks_gi_m_std_10_runs.pdf"),
+       device = "pdf",
+       dpi = 500)
+# save Hercules Oetaeus results - GI scenario 4
+write.csv(ho_df, 
+          file.path("3_analysis", "results", "GI_results", "scenario_4", "scen_4_ho_chunks_gi_m_std_10runs_results.csv"),
+          row.names = FALSE)
