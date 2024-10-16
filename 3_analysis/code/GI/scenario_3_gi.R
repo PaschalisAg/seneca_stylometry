@@ -5,13 +5,13 @@
 library(stylo)
 
 # change the working directory
-setwd("../../../analysis/")
-getwd()
+# setwd("../../../analysis/")
+# getwd()
 
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "corpora/corpus_imposters_cento/",
+  corpus.dir = file.path("3_analysis/corpora/gi_scen_3_corpus/"),
   encoding = "UTF-8"
 )
 
