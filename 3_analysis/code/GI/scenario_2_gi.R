@@ -5,16 +5,11 @@
 # install.packages("stylo")
 library(stylo)
 
-# change the working directory to where the analysis data is located
-# if error then: Session > Choose Directory > set to "../../../analysis"
-setwd("../../../analysis/")
-getwd()  # confirm the current working directory
-
 # load the corpus from the specified directory
 # HO is split into two chunks
 raw.corpus <- load.corpus(
   files = "all",  # load all files in the directory
-  corpus.dir = "corpora/corpus_imp_hero_chunks/",  # directory containing the corpus
+  corpus.dir = file.path("3_analysis/corpora/gi_scen_2_corpus/"),  # directory containing the corpus
   encoding = "UTF-8"  # ensure correct text encoding
 )
 
