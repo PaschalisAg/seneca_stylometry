@@ -19,7 +19,7 @@ library(RColorBrewer)
 # load the corpus
 raw.corpus <- load.corpus(
   files = "all",
-  corpus.dir = "3_analysis/corpora/corpus_chunks/",
+  corpus.dir = "3_analysis/corpora/gi_scen_4_corpus/",
   encoding = "UTF-8"
 )
 
