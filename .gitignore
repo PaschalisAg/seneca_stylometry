@@ -5,3 +5,4 @@
 /verse_corpus
 3_analysis/code/PCA_BCT/scree_plot_pca.ipynb
 .Rproj.user
+.Rprofile
