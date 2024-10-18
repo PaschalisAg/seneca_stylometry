@@ -18,20 +18,25 @@ Paschalis Agapitos and Andreas van Cranenburgh (2024). “A Stylometric Analysis
 ```
 📦 project-root/
 ├── 📁 1_collecting_preprocessing
-│   ├── code/preprocessing           # code to preprocess and prepare the data
-│   ├── data                         # preprocessed data
-│   ├── dataset_perseus_xml          # raw data
+│   ├──📁 code/preprocessing           # code to preprocess and prepare the data
+│   ├──📁 data                         # preprocessed data
+│   ├──📁 dataset_perseus_xml          # raw data
 ├── 📁 2_validation/              
-│   ├── validation_PCA_BCT           # code & results for and of the validation of PCA & BCT
-│   ├── validation_corpora           # data to perform the validation
-│   └── validation_imposters         # code & results for and of the validation of GI
+│   ├──📁 validation_PCA_BCT           # code & results for and of the validation of PCA & BCT
+│   ├──📁 validation_corpora           # data to perform the validation
+│   └──📁 validation_imposters         # code & results for and of the validation of GI
 ├── 📁 3_analysis/                   
-│   ├── code/                        # code to perform the analysis using PCA, BCT and GI
-│   └── corpora/                     # data needed to perform the analysis
-│   └── results/                     # results of the analysis
+│   ├──📁 code                        # code to perform the analysis using PCA, BCT and GI
+│   └──📁 corpora                     # data needed to perform the analysis
+│   └──📁 results                     # results of the analysis
 ├── 📁 docs/                         # Documentation and additional resources
-│   └── paper.pdf                    # Preprint of the paper and requirements
-
+│   └──📄 paper.pdf                    # Preprint of the paper and requirements
+│   └──📄 requirements,txt             # libraries and software that need to be installed to prepare the running environment
+├── 📄 .gitignore                    # Git ignore file for unnecessary files
+├── 📄 LICENSE                       # Project license
+├── 📄 LICENSE.md                    # Markdown version of the license
+├── 📄 README.md                     # Main documentation file for the project
+├── 📄 seneca_stylometry.Rproj       # R project file for Seneca Stylometry
 ```
 
 ## Code & Datasets
