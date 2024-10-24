@@ -20,22 +20,22 @@ Paschalis Agapitos and Andreas van Cranenburgh (2024). “A Stylometric Analysis
 This repository is organized into the following directories:
 
 ```
-📦 project-root/
+📦 project-root/                     # seneca_stylometry
 ├── 📁 1_collecting_preprocessing
-│   ├──📁 code/preprocessing           # code to preprocess and prepare the data
-│   ├──📁 data                         # preprocessed data
-│   ├──📁 dataset_perseus_xml          # raw data
+│   ├──📁 code/preprocessing         # code to preprocess and prepare the data
+│   ├──📁 data                       # preprocessed data
+│   ├──📁 dataset_perseus_xml        # raw data
 ├── 📁 2_validation/              
-│   ├──📁 validation_PCA_BCT           # code & results for and of the validation of PCA & BCT
-│   ├──📁 validation_corpora           # data to perform the validation
-│   └──📁 validation_imposters         # code & results for and of the validation of GI
+│   ├──📁 validation_PCA_BCT         # code & results for and of the validation of PCA & BCT
+│   ├──📁 validation_corpora         # data to perform the validation
+│   └──📁 validation_imposters       # code & results for and of the validation of GI
 ├── 📁 3_analysis/                   
-│   ├──📁 code                        # code to perform the analysis using PCA, BCT and GI
-│   └──📁 corpora                     # data needed to perform the analysis
-│   └──📁 results                     # results of the analysis
+│   ├──📁 code                       # code to perform the analysis using PCA, BCT and GI
+│   └──📁 corpora                    # data needed to perform the analysis
+│   └──📁 results                    # results of the analysis
 ├── 📁 docs/                         # Documentation and additional resources
-│   └──📄 paper.pdf                    # Preprint of the paper and requirements
-│   └──📄 requirements,txt             # libraries and software that need to be installed to prepare the running environment
+│   └──📄 paper.pdf                  # Preprint of the paper and requirements
+│   └──📄 requirements,txt           # libraries and software that need to be installed to prepare the running environment
 ├── 📄 .gitignore                    # Git ignore file for unnecessary files
 ├── 📄 LICENSE                       # Project license
 ├── 📄 LICENSE.md                    # Markdown version of the license
@@ -52,7 +52,8 @@ Follow the sections below to understand how to use each script and dataset.
 This section provides an overview of the scripts, datasets, and results for replicating our study. The process is divided into two key phases: **Validation** and **Main Analysis**.
 
 ### Validation Phase:
-In this phase, we evaluate the effectiveness of the stylometric methods we employ—Principal Component Analysis (PCA), Bootstrap Consensus Tree (BCT), and the Imposters method (GI). We use various corpora of ancient authors to assess the accuracy of these techniques before applying them to Seneca's disputed works.
+In this phase, we evaluate the effectiveness of the stylometric methods we employ—Principal Component Analysis (PCA), Bootstrap Consensus Tree (BCT), and the Imposters method (GI). 
+We use various corpora of ancient authors to assess the accuracy of these techniques before applying them to Seneca's disputed works.
 
 Here are the scripts, datasets, and results related to the validation phase:
 
