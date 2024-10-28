@@ -22,6 +22,7 @@ Paschalis Agapitos and Andreas van Cranenburgh (2024). “A Stylometric Analysis
 This repository is organized into the following directories:
 
 ```
+
 📦 project-root/                     # seneca_stylometry
 ├── 📁 1_collecting_preprocessing
 │   ├──📁 code/preprocessing         # code to preprocess and prepare the data
@@ -54,6 +55,7 @@ Follow the sections below to understand how to use each script and dataset.
 This section provides an overview of the scripts, datasets, and results for replicating our study. The process is divided into two key phases: **Validation** and **Main Analysis**.
 
 ### Validation Phase:
+
 In this phase, we evaluate the effectiveness of the stylometric methods we employ—Principal Component Analysis (PCA), Bootstrap Consensus Tree (BCT), and the Imposters method (GI). 
 We use various corpora of ancient authors to assess the accuracy of these techniques before applying them to Seneca's disputed works.
 
@@ -67,6 +69,7 @@ Here are the scripts, datasets, and results related to the validation phase:
 | [`valid_imposters_4grams_char.R`](https://github.com/PaschalisAg/seneca_stylometry/blob/main/2_validation/validation_imposters/code/valid_imposters_4grams_char.R). | [`validation_imp_corpus`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/2_validation/validation_corpora/validation_imp_corpus) | The corpus used to validate the GI method. It contains all the texts of impostors plus Seneca (excluding the two disputed plays under investigation). Each text becomes the test set and is compared against the others. | 9| 88| Lucan, Manilius, Martial, Ovid, Persius, Phaedrus, Seneca the Younger, Silius Italicus, Statius, Valerius Flaccus| *Pharsalia*, *Astronomica*, *Epigrammata*, *Ars Amatoria*, *Heroides*, *Fasti*, *Ibis*. *Medicamina Faciei Femineae*, *Metamorphoses*, *Epistulae ex Ponto*, *Remedia Amoris*, *Tristia*, *Satires*, *Fabulae*, *Agamemnon*, *Hercules Furens*, *Medea*, *Oedipus*, *Phaedra*, *Phoenissae*, *Thyestes*, *Troades*, *Punica*, *Achilleid*, *Silvae*, *Thebaid*, *Argonautica*| [`validation_imposters/results`](https://github.com/PaschalisAg/seneca_stylometry/tree/main/2_validation/validation_imposters/results). In paper: Figures [6](https://github.com/PaschalisAg/seneca_stylometry/blob/main/2_validation/validation_imposters/results/heatm_eval_gi.pdf) |
 
 ### Main Analysis Phase:
+
 Once the methods are validated, we apply them to the corpus of Senecan plays, with a particular focus on the disputed plays *Octavia* and *Hercules Oetaeus*. Here are the details for each analysis scenario:
 
 | **Script** | **Directory name** | **Description** | **Number of distinct authors** | **Number of texts** | **Name of distinct authors**| **Name of distinct work**| **Results** |
