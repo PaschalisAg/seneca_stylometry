@@ -1,7 +1,7 @@
 # A Stylometric Analysis of Seneca’s Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus
 
 <a href="https://doi.org/10.5281/zenodo.14002368"><img src="https://zenodo.org/badge/570688636.svg" alt="DOI"></a>
-![v1.0](https://zenodo.org/badge/570688636.svg)
+
 ## Description
 ### Purpose
 
