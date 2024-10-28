@@ -1,5 +1,7 @@
 # A Stylometric Analysis of Seneca’s Disputed Plays: Authorship Verification of Octavia and Hercules Oetaeus
 
+<a href="https://doi.org/10.5281/zenodo.14002368"><img src="https://zenodo.org/badge/570688636.svg" alt="DOI"></a>
+![v1.0](https://zenodo.org/badge/570688636.svg)
 ## Description
 ### Purpose
 
@@ -14,8 +16,6 @@ Our aim is to make the study fully reproducible, so this README will guide you s
 ```
 Paschalis Agapitos and Andreas van Cranenburgh (2024). “A Stylometric Analysis of Seneca’s Disputed Plays. Authorship Verification of Octavia and Hercules Oetaeus”. In: CCLS2024 Conference Preprints 3 (1). 10.2 6083/tuprints-00027394
 ```
-
-<a href="https://doi.org/10.5281/zenodo.14002368"><img src="https://zenodo.org/badge/570688636.svg" alt="DOI"></a>
 
 ### Structure
 
